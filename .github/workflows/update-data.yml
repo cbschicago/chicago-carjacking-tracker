@@ -20,7 +20,7 @@ jobs:
           python-version: "3.8"
       - name: install python dependencies
         run: |
-          pip install setup.py
+          pip install .
       - name: set env vars
         run: |
           echo "DATE=$(python -c 'import datetime as dt; print(dt.datetime.now().date())')" >> $GITHUB_ENV
