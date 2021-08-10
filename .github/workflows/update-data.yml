@@ -12,6 +12,9 @@ jobs:
     steps:
       - name: checkout repo
         uses: actions/checkout@v2
+      - name: create output directories
+        run: |
+          mkdir -p output/dw-tables
       - name: set up python
         uses: actions/setup-python@v2.0.0
         with:
