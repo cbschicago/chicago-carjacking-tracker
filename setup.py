@@ -1,7 +1,7 @@
 from setuptools import setup
 
 setup(
-    name="crime-tracker",
+    name="gh_workflow",
     package_dir={"": "src"},
     install_requires=[
         "csvkit==1.0.6",
