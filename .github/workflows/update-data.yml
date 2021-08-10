@@ -7,7 +7,7 @@ on:
 env:
   ACTIONS_ALLOW_UNSECURE_COMMANDS: true
 jobs:
-  scrape-latest:
+  update-data:
     runs-on: ubuntu-latest
     steps:
       - name: checkout repo
@@ -19,11 +19,6 @@ jobs:
       - name: install python dependencies
         run: |
           pip install setup.py
-        # uses: py-actions/py-dependency-install@v2
-        # with:
-        #   update-pip: "false"
-        #   update-setuptools: "false"
-        #   update-wheel: "false"
       - name: set env vars
         run: |
           echo "DATE=$(python -c 'import datetime as dt; print(dt.datetime.now().date())')" >> $GITHUB_ENV
@@ -51,8 +46,3 @@ jobs:
           files: |
             output/*
             output/dw-tables/*
-      # - name: force datawrapper refresh
-      #   run: |
-      #     python src/update_graphics.py
-      #   env:
-      #     DATAWRAPPER_API_TOKEN: ${{ secrets.DATAWRAPPER_API_TOKEN }}
