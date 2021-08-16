@@ -15,3 +15,4 @@ with open(sys.argv[2], "r") as f:
 for chart_id in chart_descriptions.keys():
     chart_description = chart_descriptions[chart_id].replace("[MAX DATE]", max_date)
     dw.update_metadata(chart_id, {"describe": {"intro": chart_description}})
+    dw.publish_chart(chart_id)
