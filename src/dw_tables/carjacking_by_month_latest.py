@@ -8,6 +8,7 @@ gb = (
     .case_number.nunique()
     .to_frame("total_carjackings")
 )
+gb["rollavg"] = gb.total_carjackings.rolling(6).mean()
 max_date = df.date.max()
 gb.index = gb.index.map(
     lambda t: t.strftime("%B %Y")
