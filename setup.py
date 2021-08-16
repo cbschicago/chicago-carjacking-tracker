@@ -8,5 +8,6 @@ setup(
         "pandas==1.3.1",
         "geopandas==0.9.0",
         "Rtree==0.9.7",
+        "datawrapper==0.4.6",
     ],
 )
