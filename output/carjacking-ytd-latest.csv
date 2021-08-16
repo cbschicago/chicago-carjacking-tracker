@@ -1,4 +1,4 @@
-id,case_number,date,block,iucr,primary_type,description,location_description,arrest,domestic,beat,district,ward,community_area,fbi_code,x_coordinate,y_coordinate,year,updated_on,latitude,longitude,location,geometry,index_right,pri_neigh,sec_neigh,shape_area,shape_len
+id,case_number,date,block,iucr,primary_type,description,location_description,arrest,domestic,beat,district,ward,community_area,fbi_code,x_coordinate,y_coordinate,year,updated_on,lat,lon,location,geometry,index_right,pri_neigh,sec_neigh,shape_area,shape_len
 10000182,HY190084,2015-03-18 23:35:00,023XX W 47TH ST,326,ROBBERY,AGGRAVATED VEHICULAR HIJACKING,STREET,False,False,924,9,12,61,3,1161542.0,1873450.0,2015,2018-02-10T15:50:01.000,41.808421621,-87.683023997,"
 ,  
 (41.808421621, -87.683023997)",POINT (-87.68302399700001 41.808421621),18.0,New City,BACK OF THE YARDS,134636963.254,48133.595961

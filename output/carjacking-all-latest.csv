@@ -1,4 +1,4 @@
-id,case_number,date,block,iucr,primary_type,description,location_description,arrest,domestic,beat,district,ward,community_area,fbi_code,x_coordinate,y_coordinate,year,updated_on,latitude,longitude,location,geometry,index_right,pri_neigh,sec_neigh,shape_area,shape_len
+id,case_number,date,block,iucr,primary_type,description,location_description,arrest,domestic,beat,district,ward,community_area,fbi_code,x_coordinate,y_coordinate,year,updated_on,lat,lon,location,geometry,index_right,pri_neigh,sec_neigh,shape_area,shape_len
 10226027,HY413424,2015-09-07T00:30:00.000,056XX S PRINCETON AVE,326,ROBBERY,AGGRAVATED VEHICULAR HIJACKING,STREET,False,False,711,7,3,68,3,1175249.0,1867534.0,2015,2018-02-10T15:50:01.000,41.79189192,-87.632926845,"
 ,  
 (41.79189192, -87.632926845)",POINT (-87.632926845 41.79189192),19.0,Englewood,ENGLEWOOD,173600015.009,56144.046048
