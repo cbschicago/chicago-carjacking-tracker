@@ -6,6 +6,7 @@ LATEST: \
 	output/carjacking-ytd-latest.csv \
 	output/dw-tables/carjacking-last-30-days.csv \
 	output/dw-tables/carjacking-by-month-latest.csv \
+	output/excel/carjacking-by-month-yoy-latest.xlsx \
 	output/dw-tables/carjacking-by-month-yoy-latest.csv \
 	output/dw-tables/carjacking-by-neighborhood-yoy-latest.csv
 
@@ -25,6 +26,11 @@ output/dw-tables/carjacking-by-month-yoy-latest.csv: \
 		src/dw_tables/carjacking_by_month_yoy.py \
 		output/carjacking-ytd-latest.csv
 	python $^ > $@
+
+output/excel/carjacking-by-month-yoy-latest.xlsx: \
+		src/excel/carjacking_by_month_yoy.py \
+		output/carjacking-ytd-latest.csv
+	python $^ $@
 
 output/dw-tables/carjacking-by-month-latest.csv: \
 		src/dw_tables/carjacking_by_month_latest.py \
