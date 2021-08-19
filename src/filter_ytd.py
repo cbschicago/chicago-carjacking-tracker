@@ -16,6 +16,6 @@ def filter_ytd(df):
 
 
 if __name__ == "__main__":
-    df = util.read_parse_date(sys.argv)
+    df = util.read_parse_date(sys.argv[1])
     df = filter_ytd(df)
     util.print_df(df)

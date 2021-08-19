@@ -2,7 +2,7 @@ import sys
 import pandas as pd
 from util import print_df, read_parse_date
 
-df = read_parse_date(sys.argv)
+df = read_parse_date(sys.argv[1])
 df["month"] = df.date.dt.month
 df["year"] = df.date.dt.year
 xt = pd.crosstab(
