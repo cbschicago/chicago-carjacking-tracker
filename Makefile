@@ -9,6 +9,8 @@ LATEST: \
 	output/excel/carjacking-by-month-yoy-latest.xlsx \
 	output/dw-tables/carjacking-by-month-yoy-latest.csv \
 	output/dw-tables/carjacking-by-neighborhood-yoy-latest.csv \
+	output/img/carjacking-by-month-yoy-latest.svg \
+	output/img/carjacking-by-month-yoy-latest.png \
 	README.md
 
 .PHONY: \
@@ -21,13 +23,24 @@ LATEST: \
 README.md: \
 		src/update_readme.py \
 		output/max_date.txt \
-		output/excel/carjacking-by-month-yoy-latest.xlsx
+		output/excel/carjacking-by-month-yoy-latest.xlsx \
+		output/img/carjacking-by-month-yoy-latest.png
 	python $^ $@
 
 output/dw-tables/carjacking-by-neighborhood-yoy-latest.csv: \
 		src/dw_tables/carjacking_by_neighborhood_yoy.py \
 		output/carjacking-ytd-latest.csv
 	python $^ > $@
+
+output/img/carjacking-by-month-yoy-latest.png: \
+		src/img/carjacking_by_month_yoy.py \
+		output/dw-tables/carjacking-by-month-yoy-latest.csv
+	python $^ $@
+
+output/img/carjacking-by-month-yoy-latest.svg: \
+		src/img/carjacking_by_month_yoy.py \
+		output/dw-tables/carjacking-by-month-yoy-latest.csv
+	python $^ $@
 
 output/dw-tables/carjacking-by-month-yoy-latest.csv: \
 		src/dw_tables/carjacking_by_month_yoy.py \

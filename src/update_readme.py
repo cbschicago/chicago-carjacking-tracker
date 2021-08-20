@@ -13,21 +13,19 @@ with open(sys.argv[1], "r") as f:
 
 readme += f"\n\n## Data current through {max_date.strftime('%B %d, %Y')}\n\n"
 
-for filename in sys.argv[2:-1]:
+fileargs = sys.argv[2:-1]
+for i, filename in enumerate(fileargs):
     ext = filename.split(".")[1]
-    if ext == "xlsx":
-        df = pd.read_excel(filename)
-    elif ext == "csv":
-        df = pd.read_csv(filename)
-
-    title = (
-        filename.replace("carjacking-", "")
-        .replace("-", " ")
-        .title()
-        .replace("Yoy", "YOY")
-        .replace("." + ext.title(), "")
-    )
-    readme += df.to_markdown(index=False)
+    if ext in ["xlsx", "csv"]:
+        if ext == "xlsx":
+            df = pd.read_excel(filename)
+        elif ext == "csv":
+            df = pd.read_csv(filename)
+        readme += df.to_markdown(index=False)
+    elif ext in ["png", "svg"]:
+        readme += f"![{filename}]({filename})"
+    if i + 1 < len(fileargs):
+        readme += "\n\n"
 
 with open(sys.argv[-1], "w") as f:
     f.write(readme)
