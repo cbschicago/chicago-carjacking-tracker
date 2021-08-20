@@ -15,4 +15,5 @@ xt.index = xt.index.map(
     else pd.Timestamp(2021, m, 1).strftime("%B")
     + f" (through {max_date.strftime('%m-%d')})"
 )
+xt = xt.append(pd.Series(xt.sum(), name="Total"))
 xt.to_excel(sys.argv[2], index=True)
