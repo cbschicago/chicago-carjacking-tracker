@@ -8,7 +8,8 @@ LATEST: \
 	output/dw-tables/carjacking-by-month-latest.csv \
 	output/excel/carjacking-by-month-yoy-latest.xlsx \
 	output/dw-tables/carjacking-by-month-yoy-latest.csv \
-	output/dw-tables/carjacking-by-neighborhood-yoy-latest.csv
+	output/dw-tables/carjacking-by-neighborhood-yoy-latest.csv \
+	README.md
 
 .PHONY: \
 	output/carjacking-all-latest-raw.csv \
@@ -16,6 +17,12 @@ LATEST: \
 
 .INTERMEDIATE: \
 	output/carjacking-all-latest-raw.csv
+
+README.md: \
+		src/update_readme.py \
+		output/max_date.txt \
+		output/excel/carjacking-by-month-yoy-latest.xlsx
+	python $^ $@
 
 output/dw-tables/carjacking-by-neighborhood-yoy-latest.csv: \
 		src/dw_tables/carjacking_by_neighborhood_yoy.py \
