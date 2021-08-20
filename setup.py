@@ -9,5 +9,7 @@ setup(
         "geopandas==0.9.0",
         "Rtree==0.9.7",
         "datawrapper==0.4.6",
+        "matplotlib==3.4.3",
+        "matplotlib-inline==0.1.2",
     ],
 )
