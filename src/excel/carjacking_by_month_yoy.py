@@ -15,4 +15,4 @@ xt.index = xt.index.map(
     else pd.Timestamp(2021, m, 1).strftime("%B")
     + f" (through {max_date.strftime('%m-%d')})"
 )
-df.to_excel(sys.argv[2], index=True)
+xt.to_excel(sys.argv[2], index=True)
