@@ -31,6 +31,8 @@ jobs:
           echo ""
       - name: run scraper
         run: make
+      - name: check for changes
+        run: if [ $(git status --porcelain=v1 2>/dev/null | wc -l) = 0 ] ; then exit 0 ; fi
       - name: commit files
         run: |
           git config --local user.email "action@github.com"
@@ -52,4 +54,3 @@ jobs:
           files: |
             output/*
             output/dw-tables/*
-
