@@ -38,6 +38,7 @@ jobs:
           git config --local user.email "action@github.com"
           git config --local user.name "GitHub Action"
           git add output/
+          git add README.md
           git commit -m "Add data for $DATE"
       - name: push changes
         uses: ad-m/github-push-action@master
