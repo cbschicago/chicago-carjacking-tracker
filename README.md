@@ -4,7 +4,7 @@
 
 ---
 
-## Data current through August 12, 2021
+## Data current through August 15, 2021
 
 | month                  |   2015 |   2016 |   2017 |   2018 |   2019 |   2020 |   2021 |
 |:-----------------------|-------:|-------:|-------:|-------:|-------:|-------:|-------:|
@@ -15,7 +15,7 @@
 | May                    |     19 |     47 |     63 |     49 |     49 |     96 |    108 |
 | June                   |     17 |     39 |     74 |     58 |     47 |    114 |    130 |
 | July                   |     37 |     54 |     75 |     72 |     53 |    149 |    155 |
-| August (through 08-12) |     12 |     25 |     26 |     21 |     16 |     77 |     72 |
-| Total                  |    174 |    327 |    491 |    446 |    320 |    698 |    987 |
+| August (through 08-15) |     15 |     35 |     34 |     24 |     20 |     93 |     85 |
+| Total                  |    177 |    337 |    499 |    449 |    324 |    714 |   1000 |
 
 ![output/img/carjacking-by-month-yoy-latest.png](output/img/carjacking-by-month-yoy-latest.png)
