@@ -11,6 +11,8 @@ LATEST: \
 	output/dw-tables/carjacking-by-neighborhood-yoy-latest.csv \
 	output/img/carjacking-by-month-yoy-latest.svg \
 	output/img/carjacking-by-month-yoy-latest.png \
+	output/img/carjacking-by-month-latest.png \
+	output/img/carjacking-by-month-latest.svg \
 	README.md
 
 .PHONY: \
@@ -50,6 +52,16 @@ output/dw-tables/carjacking-by-month-yoy-latest.csv: \
 output/excel/carjacking-by-month-yoy-latest.xlsx: \
 		src/excel/carjacking_by_month_yoy.py \
 		output/carjacking-ytd-latest.csv
+	python $^ $@
+
+output/img/carjacking-by-month-latest.png: \
+		src/img/carjacking_by_month.py \
+		output/dw-tables/carjacking-by-month-latest.csv
+	python $^ $@
+
+output/img/carjacking-by-month-latest.svg: \
+		src/img/carjacking_by_month.py \
+		output/dw-tables/carjacking-by-month-latest.csv
 	python $^ $@
 
 output/dw-tables/carjacking-by-month-latest.csv: \
