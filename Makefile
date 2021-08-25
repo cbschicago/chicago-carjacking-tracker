@@ -1,17 +1,27 @@
-all: LATEST update-chart-descriptions
+all: \
+	LATEST_DATA \
+	DATAWRAPPER_TABLES \
+	EXCEL \
+	IMAGES \
+	README.md \
+	update-chart-descriptions 
 
-LATEST: \
-	output/max_date.txt \
-	output/carjacking-all-latest.csv \
-	output/carjacking-ytd-latest.csv \
+IMAGES: \
+	output/img/svg/carjacking-by-month-yoy-latest.svg \
+	output/img/svg/carjacking-by-month-latest.svg
+
+EXCEL: output/excel/carjacking-by-month-yoy-latest.xlsx
+
+DATAWRAPPER_TABLES: \
 	output/dw-tables/carjacking-last-30-days.csv \
 	output/dw-tables/carjacking-by-month-latest.csv \
-	output/excel/carjacking-by-month-yoy-latest.xlsx \
 	output/dw-tables/carjacking-by-month-yoy-latest.csv \
 	output/dw-tables/carjacking-by-neighborhood-yoy-latest.csv \
-	output/img/svg/carjacking-by-month-yoy-latest.svg \
-	output/img/svg/carjacking-by-month-latest.svg \
-	README.md
+
+LATEST_DATA: \
+	output/max_date.txt \
+	output/carjacking-all-latest.csv \
+	output/carjacking-ytd-latest.csv
 
 .PHONY: \
 	output/carjacking-all-latest-raw.csv \
@@ -26,40 +36,44 @@ README.md: \
 		output/excel/carjacking-by-month-yoy-latest.xlsx
 	python $^ $@
 
-output/dw-tables/carjacking-by-neighborhood-yoy-latest.csv: \
-		src/dw_tables/carjacking_by_neighborhood_yoy.py \
-		output/carjacking-ytd-latest.csv
-	python $^ > $@
+# IMAGES
 
 output/img/svg/carjacking-by-month-yoy-latest.svg: \
 		src/img/svg/carjacking_by_month_yoy.py \
 		output/dw-tables/carjacking-by-month-yoy-latest.csv
 	python $^ $@
+output/img/svg/carjacking-by-month-latest.svg: \
+		src/img/svg/carjacking_by_month.py \
+		output/dw-tables/carjacking-by-month-latest.csv
+	python $^ $@
 
+# DATAWRAPPER TABLES
+
+output/dw-tables/carjacking-by-neighborhood-yoy-latest.csv: \
+		src/dw_tables/carjacking_by_neighborhood_yoy.py \
+		output/carjacking-ytd-latest.csv
+	python $^ > $@
 output/dw-tables/carjacking-by-month-yoy-latest.csv: \
 		src/dw_tables/carjacking_by_month_yoy.py \
 		output/carjacking-ytd-latest.csv
 	python $^ > $@
+output/dw-tables/carjacking-by-month-latest.csv: \
+		src/dw_tables/carjacking_by_month_latest.py \
+		output/carjacking-all-latest.csv
+	python $^ > $@
+output/dw-tables/carjacking-last-30-days.csv: \
+		src/dw_tables/carjacking_last_30_days.py \
+		output/carjacking-all-latest.csv
+	python $^ > $@
+
+# EXCEL FILES
 
 output/excel/carjacking-by-month-yoy-latest.xlsx: \
 		src/excel/carjacking_by_month_yoy.py \
 		output/carjacking-ytd-latest.csv
 	python $^ $@
 
-output/img/svg/carjacking-by-month-latest.svg: \
-		src/img/svg/carjacking_by_month.py \
-		output/dw-tables/carjacking-by-month-latest.csv
-	python $^ $@
-
-output/dw-tables/carjacking-by-month-latest.csv: \
-		src/dw_tables/carjacking_by_month_latest.py \
-		output/carjacking-all-latest.csv
-	python $^ > $@
-
-output/dw-tables/carjacking-last-30-days.csv: \
-		src/dw_tables/carjacking_last_30_days.py \
-		output/carjacking-all-latest.csv
-	python $^ > $@
+# INCIDENT-LEVEL DATA FILES
 
 output/carjacking-ytd-latest.csv: \
 		src/filter_ytd.py \
@@ -81,6 +95,8 @@ output/carjacking-all-latest-raw.csv:
 	echo id,case_number,date,block,iucr,primary_type,description,location_description,arrest,domestic,beat,district,ward,community_area,fbi_code,x_coordinate,y_coordinate,year,updated_on,lat,lon,location > $@
 	curl 'https://data.cityofchicago.org/resource/ijzp-q8t2.csv?$$query=SELECT%20*%20WHERE%20(iucr%20LIKE%20%270325%27%20OR%20iucr%20LIKE%20%270326%27)%20AND%20date%20%3E=%272015-01-01%27%20LIMIT%2010000000' | \
 		awk "NR > 1" >> $@
+
+# DATAWRAPPER SCRIPTS
 
 update-chart-descriptions: \
 		hand/chart-descriptions.json \
