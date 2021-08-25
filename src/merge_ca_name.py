@@ -3,7 +3,7 @@ import geopandas as gpd
 import pandas as pd
 from util import print_df
 
-df = pd.read_csv(sys.argv[1])
+df = pd.read_csv(sys.argv[1]).rename(columns={"lon": "Lon", "lat": "Lat"})
 df = gpd.GeoDataFrame(
     df, geometry=gpd.points_from_xy(df.lon, df.lat), crs="EPSG:4326"
 )
