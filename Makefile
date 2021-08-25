@@ -56,17 +56,25 @@ output/img/svg/carjacking-by-month-latest.svg: \
 
 ## DATAWRAPPER EXPORTS
 
-output/img/dw/carjacking-by-month-historical.png: src/img/dw/fetch_dw_img.py
-	python $< Y7rwP $@
+output/img/dw/carjacking-by-month-historical.png: \
+		src/img/dw/fetch_dw_img.py \
+		output/dw-tables/carjacking-by-month-latest.csv
+	python $^ Y7rwP $@
 
-output/img/dw/carjacking-by-month-yoy.png: src/img/dw/fetch_dw_img.py
-	python $< 8Ljaw $@
+output/img/dw/carjacking-by-month-yoy.png: \
+		src/img/dw/fetch_dw_img.py \
+		output/dw-tables/carjacking-by-month-yoy-latest.csv
+	python $^ 8Ljaw $@
 
-output/img/dw/carjacking-last-30-days.png: src/img/dw/fetch_dw_img.py
-	python $< EK2p4 $@
+output/img/dw/carjacking-last-30-days.png: \
+		src/img/dw/fetch_dw_img.py \
+		output/dw-tables/carjacking-last-30-days.csv
+	python $^ EK2p4 $@
 
-output/img/dw/carjacking-by-neighborhood.png: src/img/dw/fetch_dw_img.py
-	python $< EurKU $@
+output/img/dw/carjacking-by-neighborhood.png: \
+		src/img/dw/fetch_dw_img.py \
+		output/dw-tables/carjacking-by-neighborhood-yoy-latest.csv
+	python $^ EurKU $@
 
 # DATAWRAPPER TABLES
 
@@ -74,14 +82,17 @@ output/dw-tables/carjacking-by-neighborhood-yoy-latest.csv: \
 		src/dw_tables/carjacking_by_neighborhood_yoy.py \
 		output/carjacking-ytd-latest.csv
 	python $^ > $@
+
 output/dw-tables/carjacking-by-month-yoy-latest.csv: \
 		src/dw_tables/carjacking_by_month_yoy.py \
 		output/carjacking-ytd-latest.csv
 	python $^ > $@
+
 output/dw-tables/carjacking-by-month-latest.csv: \
 		src/dw_tables/carjacking_by_month_latest.py \
 		output/carjacking-all-latest.csv
 	python $^ > $@
+
 output/dw-tables/carjacking-last-30-days.csv: \
 		src/dw_tables/carjacking_last_30_days.py \
 		output/carjacking-all-latest.csv
