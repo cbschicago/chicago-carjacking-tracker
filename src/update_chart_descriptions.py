@@ -1,9 +1,10 @@
 import calendar
 from datetime import datetime, date, timedelta
 import json
-import os
 import sys
-from datawrapper import Datawrapper
+from util import get_dw_client
+
+dw = get_dw_client()
 
 
 def is_last_day_of_month(d):
@@ -14,8 +15,6 @@ def is_last_day_of_month(d):
 
 
 if __name__ == "__main__":
-    dw = Datawrapper(access_token=os.getenv("datawrapper_api_token"))
-
     with open(sys.argv[1], "r") as f:
         chart_descriptions = json.load(f)
 
