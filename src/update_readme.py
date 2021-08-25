@@ -3,13 +3,10 @@ import json
 import sys
 import pandas as pd
 
-readme = """# chicago-carjacking-tracker
-
-[![update-data](https://github.com/hackerlikecomputer/chicago-carjacking-tracker/actions/workflows/update-data.yml/badge.svg)](https://github.com/hackerlikecomputer/chicago-carjacking-tracker/actions/workflows/update-data.yml)
-
----"""
-
 with open(sys.argv[1], "r") as f:
+    readme = f.read()
+
+with open(sys.argv[2], "r") as f:
     max_date = datetime.strptime(f.read(), "%Y-%m-%d")
 
 with open("hand/datawrapper-files-ids.json", "r") as f:
@@ -17,7 +14,7 @@ with open("hand/datawrapper-files-ids.json", "r") as f:
 
 readme += f"\n\n## Data current through {max_date.strftime('%B %d, %Y')}\n\n"
 
-fileargs = sys.argv[2:-1]
+fileargs = sys.argv[3:-1]
 for i, filename in enumerate(fileargs):
     ext = filename.split(".")[1]
     if ext in ["xlsx", "csv"]:

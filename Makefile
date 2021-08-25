@@ -36,6 +36,7 @@ LATEST_DATA: \
 
 README.md: \
 		src/update_readme.py \
+		hand/readme_header.txt \
 		output/max_date.txt \
 		output/excel/carjacking-by-month-yoy-latest.xlsx \
 		output/img/dw/carjacking-by-month-historical.png \
