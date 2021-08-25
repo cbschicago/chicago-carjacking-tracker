@@ -37,7 +37,12 @@ LATEST_DATA: \
 README.md: \
 		src/update_readme.py \
 		output/max_date.txt \
-		output/excel/carjacking-by-month-yoy-latest.xlsx
+		output/excel/carjacking-by-month-yoy-latest.xlsx \
+		output/img/dw/carjacking-by-month-historical.png \
+		output/img/dw/carjacking-by-month-yoy.png \
+		output/img/dw/carjacking-last-30-days.png \
+		output/img/dw/carjacking-by-neighborhood.png \
+		hand/datawrapper-files-ids.json
 	python $^ $@
 
 # IMAGES
