@@ -28,6 +28,7 @@ jobs:
       - name: set env vars
         run: |
           echo "DATE=$(python -c 'import datetime as dt; print(dt.datetime.now().date())')" >> $GITHUB_ENV
+          echo "datawrapper_api_token={{ secrets.DATAWRAPPER_API_TOKEN }} >> $GITHUB_ENV
           echo ""
       - name: run scraper
         run: make
