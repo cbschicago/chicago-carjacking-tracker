@@ -7,7 +7,7 @@ This repository runs on Github Actions: [![update-data](https://github.com/hacke
 
 ---
 
-## Data current through August 23, 2021
+## Data current through August 24, 2021
 
 | month                  |   2015 |   2016 |   2017 |   2018 |   2019 |   2020 |   2021 |
 |:-----------------------|-------:|-------:|-------:|-------:|-------:|-------:|-------:|
@@ -18,8 +18,8 @@ This repository runs on Github Actions: [![update-data](https://github.com/hacke
 | May                    |     19 |     47 |     63 |     49 |     49 |     96 |    109 |
 | June                   |     17 |     39 |     74 |     58 |     47 |    114 |    131 |
 | July                   |     37 |     54 |     75 |     72 |     53 |    149 |    152 |
-| August (through 08-23) |     25 |     52 |     62 |     41 |     34 |    135 |    118 |
-| Total                  |    187 |    354 |    527 |    466 |    338 |    756 |   1033 |
+| August (through 08-24) |     26 |     55 |     68 |     43 |     35 |    138 |    121 |
+| Total                  |    188 |    357 |    533 |    468 |    339 |    759 |   1036 |
 
 [![output/img/dw/carjacking-by-month-historical.png](output/img/dw/carjacking-by-month-historical.png)](https://datawrapper.dwcdn.net/Y7rwP/)
 
