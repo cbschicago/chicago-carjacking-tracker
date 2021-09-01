@@ -6,7 +6,7 @@ on:
     inputs:
 env:
   ACTIONS_ALLOW_UNSECURE_COMMANDS: true
-  datawrapper_api_token: "{{ secrets.DATAWRAPPER_API_TOKEN }}"
+  datawrapper_api_token: "${{ secrets.DATAWRAPPER_API_TOKEN }}"
 jobs:
   update-data:
     runs-on: ubuntu-latest
