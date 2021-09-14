@@ -1,18 +1,9 @@
-import calendar
 from datetime import datetime, date, timedelta
 import json
 import sys
-from util import get_dw_client
+from util import get_dw_client, is_last_day_of_month
 
 dw = get_dw_client()
-
-
-def is_last_day_of_month(d):
-    last_day_of_month = calendar.monthrange(d.year, d.month)[1]
-    if d == date(d.year, d.month, last_day_of_month):
-        return True
-    return False
-
 
 if __name__ == "__main__":
     with open(sys.argv[1], "r") as f:

@@ -1,3 +1,5 @@
+import calendar
+from datetime import date
 import os
 from datawrapper import Datawrapper
 import pandas as pd
@@ -17,3 +19,10 @@ def print_df(df, index=False):
 
 def get_dw_client():
     return Datawrapper(access_token=os.getenv("datawrapper_api_token"))
+
+
+def is_last_day_of_month(d):
+    last_day_of_month = calendar.monthrange(d.year, d.month)[1]
+    if d == date(d.year, d.month, last_day_of_month):
+        return True
+    return False

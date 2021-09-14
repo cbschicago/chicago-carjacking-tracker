@@ -14,7 +14,9 @@ IMAGES: \
 	output/img/dw/carjacking-last-30-days.png \
 	output/img/dw/carjacking-by-neighborhood.png
 
-EXCEL: output/excel/carjacking-by-month-yoy-latest.xlsx
+EXCEL: \
+	output/excel/carjacking-by-month-yoy-latest.xlsx \
+	output/excel/carjacking-by-neighborhood-by-month.xlsx
 
 DATAWRAPPER_TABLES: \
 	output/dw-tables/carjacking-last-30-days.csv \
@@ -108,6 +110,11 @@ output/dw-tables/carjacking-last-30-days.csv: \
 
 output/excel/carjacking-by-month-yoy-latest.xlsx: \
 		src/excel/carjacking_by_month_yoy.py \
+		output/carjacking-ytd-latest.csv
+	python $^ $@
+
+output/excel/carjacking-by-neighborhood-by-month.xlsx: \
+		src/excel/carjacking_by_neighborhood_by_month.py \
 		output/carjacking-ytd-latest.csv
 	python $^ $@
 
