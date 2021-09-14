@@ -1,6 +1,6 @@
 import sys
 import pandas as pd
-from util import read_parse_date, is_last_day_of_month
+from util import read_parse_date, is_last_day_of_month, write_excel_report
 
 df = read_parse_date(sys.argv[1])
 df["month"] = df.date.dt.month
@@ -29,4 +29,6 @@ else:
     )
 # reverse column order so most recent is first
 by_neigh_30_days = by_neigh_30_days.iloc[:, ::-1]
-by_neigh_30_days.to_excel(sys.argv[2])
+write_excel_report(
+    {f"Through {max_date.strftime('%Y-%m-%d')}": by_neigh_30_days}, sys.argv[2]
+)

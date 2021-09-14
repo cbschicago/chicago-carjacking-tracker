@@ -11,5 +11,6 @@ setup(
         "datawrapper==0.4.6",
         "matplotlib==3.4.3",
         "matplotlib-inline==0.1.2",
+        "XlsxWriter==3.0.1",
     ],
 )

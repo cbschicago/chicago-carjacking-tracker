@@ -1,6 +1,6 @@
 import sys
 import pandas as pd
-from util import read_parse_date
+from util import read_parse_date, write_excel_report
 
 df = read_parse_date(sys.argv[1])
 df["month"] = df.date.dt.month
@@ -16,4 +16,4 @@ xt.index = xt.index.map(
     + f" (through {max_date.strftime('%m-%d')})"
 )
 xt = xt.append(pd.Series(xt.sum(), name="Total"))
-xt.to_excel(sys.argv[2], index=True)
+write_excel_report({f"Through {max_date.strftime('%Y-%m-%d')}": xt}, sys.argv[2])
