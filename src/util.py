@@ -2,6 +2,7 @@ import calendar
 from datetime import date
 import os
 from datawrapper import Datawrapper
+import openpyxl
 import pandas as pd
 from pandas.api.types import is_datetime64_any_dtype as is_datetime
 
@@ -69,9 +70,19 @@ def write_excel_report(dfs, filename, pct_cols=None):
                         raise ValueError(invalid_pct_cols_er)
                     if i in pct_cols:
                         fmt = pct_format
+                    else:
+                        fmt = None
                 else:
                     raise ValueError(invalid_pct_cols_er)
             else:
                 fmt = None
             worksheet.set_column(i, i, width, cell_format=fmt)
     writer.close()
+    # hack to keep pandas from writing a blank line below multiindex columns
+    book = openpyxl.load_workbook(filename)
+    for sheet_name in dfs:
+        df_cols = dfs[sheet_name].columns
+        if isinstance(df_cols, pd.MultiIndex):
+            sheet = book[sheet_name]
+            sheet.delete_rows(df_cols.nlevels + 1, 1)
+            book.save(filename)
