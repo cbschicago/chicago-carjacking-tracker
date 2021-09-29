@@ -11,6 +11,8 @@ xt = pd.crosstab(
     values=df.case_number,
     aggfunc="nunique",
 )
+xt = xt.append(pd.Series(xt.sum(), name="Total"))
+# get arrest rate for each year
 for year in xt.columns.get_level_values(0).unique():
     xt[(year, "arrest_rate")] = round(
         xt[(year, True)] / (xt[(year, True)] + xt[(year, False)]), 4
@@ -25,10 +27,17 @@ for year in xt.columns.get_level_values(0).unique():
 xt = xt[cols]
 max_date = df.date.max()
 xt.index = xt.index.map(
-    lambda m: pd.Timestamp(2021, m, 1).strftime("%B")
-    if m != max_date.month
-    else pd.Timestamp(2021, m, 1).strftime("%B")
-    + f" (through {max_date.strftime('%m-%d')})"
+    lambda m: (
+        pd.Timestamp(2021, m, 1).strftime("%B")
+        if m != max_date.month
+        else pd.Timestamp(2021, m, 1).strftime("%B")
+        + f" (through {max_date.strftime('%m-%d')})"
+    )
+    if m != "Total"
+    else m
 )
-xt = xt.append(pd.Series(xt.sum(), name="Total"))
-write_excel_report({f"Through {max_date.strftime('%Y-%m-%d')}": xt}, sys.argv[2])
+write_excel_report(
+    {f"Through {max_date.strftime('%Y-%m-%d')}": xt},
+    sys.argv[2],
+    pct_cols=list(range(3, len(xt.columns) + 2, 3)),
+)
