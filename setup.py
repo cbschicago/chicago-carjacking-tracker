@@ -11,6 +11,7 @@ setup(
         "matplotlib-inline==0.1.2",
         "openpyxl==3.0.7",
         "pandas==1.3.1",
+        "pysftp==0.2.9",
         "Rtree==0.9.7",
         "tabulate==0.8.9",
         "XlsxWriter==3.0.1",
