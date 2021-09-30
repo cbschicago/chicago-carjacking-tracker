@@ -1,0 +1,20 @@
+<style>
+    #date {
+        font-size: 0.8em;
+        font-variant: small-caps;
+    }
+
+    #head_hr {
+        margin: 10px 0;
+    }
+
+    #body {
+        width: 225px;
+        white-space: normal !important;
+    }
+</style>
+
+<span id="date">{date_strftime}</span>
+<hr id="head_hr">
+<p id="body">At {time_strftime}, a person was carjacked in the
+    {block}.</p>

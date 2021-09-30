@@ -1,6 +1,7 @@
 all: \
 	LATEST_DATA \
 	DATAWRAPPER_TABLES \
+	FOLIUM_MAPS \
 	EXCEL \
 	IMAGES \
 	README.md \
@@ -25,6 +26,9 @@ DATAWRAPPER_TABLES: \
 	output/dw-tables/carjacking-by-month-yoy-latest.csv \
 	output/dw-tables/carjacking-by-neighborhood-yoy-latest.csv \
 
+FOLIUM_MAPS: \
+	output/folium/carjacking-last-30-days.html
+	
 LATEST_DATA: \
 	output/max_date.txt \
 	output/carjacking-all-latest.csv \
@@ -48,6 +52,8 @@ README.md: \
 		output/img/dw/carjacking-by-neighborhood.png \
 		hand/datawrapper-files-ids.json
 	python $^ $@
+
+SFTP_DIR=projects/chicago-carjacking-tracker
 
 # IMAGES
 
@@ -84,6 +90,15 @@ output/img/dw/carjacking-by-neighborhood.png: \
 		src/img/dw/fetch_dw_img.py \
 		output/dw-tables/carjacking-by-neighborhood-yoy-latest.csv
 	python $^ EurKU $@
+
+# FOLIUM MAPS
+
+output/folium/carjacking-last-30-days.html: \
+		src/folium/carjacking_last_30_days.py \
+		output/dw-tables/carjacking-last-30-days.csv \
+		hand/tooltip_html_templates/carjacking_last_30_days.html
+	python $^ $@
+	python -m sftp $@ $(SFTP_DIR)/$$(basename $@)
 
 # DATAWRAPPER TABLES
 

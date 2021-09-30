@@ -6,6 +6,7 @@ setup(
     install_requires=[
         "csvkit==1.0.6",
         "datawrapper==0.4.6",
+        "folium==0.12.1",
         "geopandas==0.9.0",
         "matplotlib==3.4.3",
         "matplotlib-inline==0.1.2",
