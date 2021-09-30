@@ -15,6 +15,7 @@ setup(
         "pysftp==0.2.9",
         "Rtree==0.9.7",
         "tabulate==0.8.9",
+        "titlecase==2.3",
         "XlsxWriter==3.0.1",
     ],
 )
