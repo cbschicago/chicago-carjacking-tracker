@@ -7,6 +7,8 @@ on:
 env:
   ACTIONS_ALLOW_UNSECURE_COMMANDS: true
   datawrapper_api_token: "${{ secrets.DATAWRAPPER_API_TOKEN }}"
+  wbbm_sftp_server_public_key: "${{ secrets.wbbm_sftp_server_public_key }}"
+  wbbm_sftp_private_key: "${{ secrets.wbbm_sftp_private_key }}"
 jobs:
   update-data:
     runs-on: ubuntu-latest
