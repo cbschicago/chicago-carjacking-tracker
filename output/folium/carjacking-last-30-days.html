@@ -23,7 +23,7 @@
             <meta name="viewport" content="width=device-width,
                 initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
             <style>
-                #map_a9fd4bcaecbe41aa8dd7117eaf5df9f7 {
+                #map_1fdd0dcec3224159aad9661e6d8798ef {
                     position: relative;
                     width: 100.0%;
                     height: 100.0%;
@@ -38,13 +38,13 @@
 </head>
 <body>    
     
-            <div class="folium-map" id="map_a9fd4bcaecbe41aa8dd7117eaf5df9f7" ></div>
+            <div class="folium-map" id="map_1fdd0dcec3224159aad9661e6d8798ef" ></div>
         
 </body>
 <script>    
     
-            var map_a9fd4bcaecbe41aa8dd7117eaf5df9f7 = L.map(
-                "map_a9fd4bcaecbe41aa8dd7117eaf5df9f7",
+            var map_1fdd0dcec3224159aad9661e6d8798ef = L.map(
+                "map_1fdd0dcec3224159aad9661e6d8798ef",
                 {
                     center: [0, 0],
                     crs: L.CRS.EPSG3857,
@@ -58,73 +58,31 @@
 
         
     
-            var tile_layer_8e91c0b224db4ee4b166c92fb2ff5cc2 = L.tileLayer(
+            var tile_layer_91cd1cebe2284398bcbf73ce819d34ab = L.tileLayer(
                 "https://cartodb-basemaps-{s}.global.ssl.fastly.net/light_all/{z}/{x}/{y}.png",
                 {"attribution": "\u0026copy; \u003ca href=\"http://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors \u0026copy; \u003ca href=\"http://cartodb.com/attributions\"\u003eCartoDB\u003c/a\u003e, CartoDB \u003ca href =\"http://cartodb.com/attributions\"\u003eattributions\u003c/a\u003e", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
-            ).addTo(map_a9fd4bcaecbe41aa8dd7117eaf5df9f7);
+            ).addTo(map_1fdd0dcec3224159aad9661e6d8798ef);
         
     
-            map_a9fd4bcaecbe41aa8dd7117eaf5df9f7.fitBounds(
+            map_1fdd0dcec3224159aad9661e6d8798ef.fitBounds(
                 [[41.671775999, -87.824105974], [42.013931836, -87.551419766]],
                 {}
             );
         
     
-            var marker_cluster_bf124d87444a4cfc8425a6ee1ff7bf62 = L.markerClusterGroup(
+            var marker_cluster_28200da47a354627914062df25d28609 = L.markerClusterGroup(
                 {"disableClusteringAtZoom": 12, "maxClusterRadius": 40}
             );
-            map_a9fd4bcaecbe41aa8dd7117eaf5df9f7.addLayer(marker_cluster_bf124d87444a4cfc8425a6ee1ff7bf62);
+            map_1fdd0dcec3224159aad9661e6d8798ef.addLayer(marker_cluster_28200da47a354627914062df25d28609);
         
     
-            var marker_8919c9c061f34c86ab7ef259e46e10d2 = L.marker(
-                [41.924772989, -87.701304735],
-                {}
-            ).addTo(marker_cluster_bf124d87444a4cfc8425a6ee1ff7bf62);
-        
-    
-            marker_8919c9c061f34c86ab7ef259e46e10d2.bindTooltip(
-                `<div>
-                     <style>    #date {        font-size: 0.8em;        font-variant: small-caps;    }    #head_hr {        margin: 10px 0;    }    #body {        width: 225px;        white-space: normal !important;    }</style><span id="date">August 31</span><hr id="head_hr"><p id="body">At 11:55:PM, a person was carjacked in the    2900 Block of W Fullerton Ave.</p>
-                 </div>`,
-                {"sticky": true}
-            );
-        
-    
-            var marker_65fc5638dcfe4bf38dd92ab1e10aeb3a = L.marker(
-                [41.842002164, -87.717166594],
-                {}
-            ).addTo(marker_cluster_bf124d87444a4cfc8425a6ee1ff7bf62);
-        
-    
-            marker_65fc5638dcfe4bf38dd92ab1e10aeb3a.bindTooltip(
-                `<div>
-                     <style>    #date {        font-size: 0.8em;        font-variant: small-caps;    }    #head_hr {        margin: 10px 0;    }    #body {        width: 225px;        white-space: normal !important;    }</style><span id="date">August 31</span><hr id="head_hr"><p id="body">At 08:10:PM, a person was carjacked in the    2700 Block of S Lawndale Ave.</p>
-                 </div>`,
-                {"sticky": true}
-            );
-        
-    
-            var marker_f5cdf3fb25f54b46b7ca2a0104db439c = L.marker(
-                [41.874495191, -87.714291701],
-                {}
-            ).addTo(marker_cluster_bf124d87444a4cfc8425a6ee1ff7bf62);
-        
-    
-            marker_f5cdf3fb25f54b46b7ca2a0104db439c.bindTooltip(
-                `<div>
-                     <style>    #date {        font-size: 0.8em;        font-variant: small-caps;    }    #head_hr {        margin: 10px 0;    }    #body {        width: 225px;        white-space: normal !important;    }</style><span id="date">September 01</span><hr id="head_hr"><p id="body">At 06:30:PM, a person was carjacked in the    3500 Block of W Congress Pkwy.</p>
-                 </div>`,
-                {"sticky": true}
-            );
-        
-    
-            var marker_ffc2d7a55a544fbeb96a3e126d1f22d6 = L.marker(
+            var marker_431c1076c6f448b69b4af179439bd5c8 = L.marker(
                 [41.736922044, -87.551419766],
                 {}
-            ).addTo(marker_cluster_bf124d87444a4cfc8425a6ee1ff7bf62);
+            ).addTo(marker_cluster_28200da47a354627914062df25d28609);
         
     
-            marker_ffc2d7a55a544fbeb96a3e126d1f22d6.bindTooltip(
+            marker_431c1076c6f448b69b4af179439bd5c8.bindTooltip(
                 `<div>
                      <style>    #date {        font-size: 0.8em;        font-variant: small-caps;    }    #head_hr {        margin: 10px 0;    }    #body {        width: 225px;        white-space: normal !important;    }</style><span id="date">September 01</span><hr id="head_hr"><p id="body">At 10:40:PM, a person was carjacked in the    8700 Block of S Commercial Ave.</p>
                  </div>`,
@@ -132,13 +90,13 @@
             );
         
     
-            var marker_c9842151919d46f9a9e47cc8dcdc0dc9 = L.marker(
+            var marker_599ce7ebc1a1494f99e951befa1dc8c3 = L.marker(
                 [41.873787057, -87.620562963],
                 {}
-            ).addTo(marker_cluster_bf124d87444a4cfc8425a6ee1ff7bf62);
+            ).addTo(marker_cluster_28200da47a354627914062df25d28609);
         
     
-            marker_c9842151919d46f9a9e47cc8dcdc0dc9.bindTooltip(
+            marker_599ce7ebc1a1494f99e951befa1dc8c3.bindTooltip(
                 `<div>
                      <style>    #date {        font-size: 0.8em;        font-variant: small-caps;    }    #head_hr {        margin: 10px 0;    }    #body {        width: 225px;        white-space: normal !important;    }</style><span id="date">September 01</span><hr id="head_hr"><p id="body">At 11:30:PM, a person was carjacked in the    600 Block of S Columbus Dr.</p>
                  </div>`,
@@ -146,69 +104,13 @@
             );
         
     
-            var marker_1687852705f141c09c6552c874b82e1c = L.marker(
-                [41.921094756, -87.68927784],
-                {}
-            ).addTo(marker_cluster_bf124d87444a4cfc8425a6ee1ff7bf62);
-        
-    
-            marker_1687852705f141c09c6552c874b82e1c.bindTooltip(
-                `<div>
-                     <style>    #date {        font-size: 0.8em;        font-variant: small-caps;    }    #head_hr {        margin: 10px 0;    }    #body {        width: 225px;        white-space: normal !important;    }</style><span id="date">September 01</span><hr id="head_hr"><p id="body">At 04:20:PM, a person was carjacked in the    2100 Block of N Campbell Ave.</p>
-                 </div>`,
-                {"sticky": true}
-            );
-        
-    
-            var marker_952bfa7940144cfc86c16b1ad889bcd7 = L.marker(
-                [42.002225812, -87.680277948],
-                {}
-            ).addTo(marker_cluster_bf124d87444a4cfc8425a6ee1ff7bf62);
-        
-    
-            marker_952bfa7940144cfc86c16b1ad889bcd7.bindTooltip(
-                `<div>
-                     <style>    #date {        font-size: 0.8em;        font-variant: small-caps;    }    #head_hr {        margin: 10px 0;    }    #body {        width: 225px;        white-space: normal !important;    }</style><span id="date">September 01</span><hr id="head_hr"><p id="body">At 07:00:PM, a person was carjacked in the    6600 Block of N Damen Ave.</p>
-                 </div>`,
-                {"sticky": true}
-            );
-        
-    
-            var marker_27c1de20a564435daf326865f8928c7f = L.marker(
-                [41.687093779, -87.626456958],
-                {}
-            ).addTo(marker_cluster_bf124d87444a4cfc8425a6ee1ff7bf62);
-        
-    
-            marker_27c1de20a564435daf326865f8928c7f.bindTooltip(
-                `<div>
-                     <style>    #date {        font-size: 0.8em;        font-variant: small-caps;    }    #head_hr {        margin: 10px 0;    }    #body {        width: 225px;        white-space: normal !important;    }</style><span id="date">September 01</span><hr id="head_hr"><p id="body">At 10:24:AM, a person was carjacked in the    100 Block of W 114th St.</p>
-                 </div>`,
-                {"sticky": true}
-            );
-        
-    
-            var marker_18c9533950ae46dfb85b702e2bd105e1 = L.marker(
-                [41.740656078, -87.716758694],
-                {}
-            ).addTo(marker_cluster_bf124d87444a4cfc8425a6ee1ff7bf62);
-        
-    
-            marker_18c9533950ae46dfb85b702e2bd105e1.bindTooltip(
-                `<div>
-                     <style>    #date {        font-size: 0.8em;        font-variant: small-caps;    }    #head_hr {        margin: 10px 0;    }    #body {        width: 225px;        white-space: normal !important;    }</style><span id="date">September 01</span><hr id="head_hr"><p id="body">At 06:30:PM, a person was carjacked in the    8300 Block of S Hamlin Ave.</p>
-                 </div>`,
-                {"sticky": true}
-            );
-        
-    
-            var marker_e110ed92710b4aecb9015a9f184b4461 = L.marker(
+            var marker_806060aae4014388be196070a0c0c510 = L.marker(
                 [41.764632089, -87.628311641],
                 {}
-            ).addTo(marker_cluster_bf124d87444a4cfc8425a6ee1ff7bf62);
+            ).addTo(marker_cluster_28200da47a354627914062df25d28609);
         
     
-            marker_e110ed92710b4aecb9015a9f184b4461.bindTooltip(
+            marker_806060aae4014388be196070a0c0c510.bindTooltip(
                 `<div>
                      <style>    #date {        font-size: 0.8em;        font-variant: small-caps;    }    #head_hr {        margin: 10px 0;    }    #body {        width: 225px;        white-space: normal !important;    }</style><span id="date">September 02</span><hr id="head_hr"><p id="body">At 02:45:PM, a person was carjacked in the    7100 Block of S Vincennes Ave.</p>
                  </div>`,
@@ -216,13 +118,13 @@
             );
         
     
-            var marker_1de9a1f1ef1041ac8cddfd73ffe75e0c = L.marker(
+            var marker_1fc36daa0bf745498bd803b8efc10cff = L.marker(
                 [41.874907353, -87.694346199],
                 {}
-            ).addTo(marker_cluster_bf124d87444a4cfc8425a6ee1ff7bf62);
+            ).addTo(marker_cluster_28200da47a354627914062df25d28609);
         
     
-            marker_1de9a1f1ef1041ac8cddfd73ffe75e0c.bindTooltip(
+            marker_1fc36daa0bf745498bd803b8efc10cff.bindTooltip(
                 `<div>
                      <style>    #date {        font-size: 0.8em;        font-variant: small-caps;    }    #head_hr {        margin: 10px 0;    }    #body {        width: 225px;        white-space: normal !important;    }</style><span id="date">September 02</span><hr id="head_hr"><p id="body">At 02:00:PM, a person was carjacked in the    2700 Block of W Congress Pkwy.</p>
                  </div>`,
@@ -230,13 +132,13 @@
             );
         
     
-            var marker_fe3896be678d44a2bf605e4d0b197d51 = L.marker(
+            var marker_b766bdb94d2e494c81b695975653b57e = L.marker(
                 [41.891910367, -87.759228891],
                 {}
-            ).addTo(marker_cluster_bf124d87444a4cfc8425a6ee1ff7bf62);
+            ).addTo(marker_cluster_28200da47a354627914062df25d28609);
         
     
-            marker_fe3896be678d44a2bf605e4d0b197d51.bindTooltip(
+            marker_b766bdb94d2e494c81b695975653b57e.bindTooltip(
                 `<div>
                      <style>    #date {        font-size: 0.8em;        font-variant: small-caps;    }    #head_hr {        margin: 10px 0;    }    #body {        width: 225px;        white-space: normal !important;    }</style><span id="date">September 03</span><hr id="head_hr"><p id="body">At 01:30:AM, a person was carjacked in the    600 Block of N Lorel Ave.</p>
                  </div>`,
@@ -244,13 +146,13 @@
             );
         
     
-            var marker_c62c7d0cbb594cc39cf2ecd8fc2e74a6 = L.marker(
+            var marker_d3d52f156d1140e28dd3e222880cf92f = L.marker(
                 [41.731034037, -87.613779357],
                 {}
-            ).addTo(marker_cluster_bf124d87444a4cfc8425a6ee1ff7bf62);
+            ).addTo(marker_cluster_28200da47a354627914062df25d28609);
         
     
-            marker_c62c7d0cbb594cc39cf2ecd8fc2e74a6.bindTooltip(
+            marker_d3d52f156d1140e28dd3e222880cf92f.bindTooltip(
                 `<div>
                      <style>    #date {        font-size: 0.8em;        font-variant: small-caps;    }    #head_hr {        margin: 10px 0;    }    #body {        width: 225px;        white-space: normal !important;    }</style><span id="date">September 03</span><hr id="head_hr"><p id="body">At 10:30:PM, a person was carjacked in the    400 Block of E 90th St.</p>
                  </div>`,
@@ -258,13 +160,13 @@
             );
         
     
-            var marker_9199d42e0d1042bb82e50f5dc57bf543 = L.marker(
+            var marker_056a53d84376488d86a85f19fa54f40f = L.marker(
                 [41.690052791, -87.613295298],
                 {}
-            ).addTo(marker_cluster_bf124d87444a4cfc8425a6ee1ff7bf62);
+            ).addTo(marker_cluster_28200da47a354627914062df25d28609);
         
     
-            marker_9199d42e0d1042bb82e50f5dc57bf543.bindTooltip(
+            marker_056a53d84376488d86a85f19fa54f40f.bindTooltip(
                 `<div>
                      <style>    #date {        font-size: 0.8em;        font-variant: small-caps;    }    #head_hr {        margin: 10px 0;    }    #body {        width: 225px;        white-space: normal !important;    }</style><span id="date">September 04</span><hr id="head_hr"><p id="body">At 09:00:AM, a person was carjacked in the    11200 Block of S Dr Martin Luther King Jr Dr.</p>
                  </div>`,
@@ -272,13 +174,13 @@
             );
         
     
-            var marker_a0a1d6bd59504a078d9e25f3be0ddcd7 = L.marker(
+            var marker_52512e0f9cad4007af1deee850937849 = L.marker(
                 [41.749723816, -87.651294551],
                 {}
-            ).addTo(marker_cluster_bf124d87444a4cfc8425a6ee1ff7bf62);
+            ).addTo(marker_cluster_28200da47a354627914062df25d28609);
         
     
-            marker_a0a1d6bd59504a078d9e25f3be0ddcd7.bindTooltip(
+            marker_52512e0f9cad4007af1deee850937849.bindTooltip(
                 `<div>
                      <style>    #date {        font-size: 0.8em;        font-variant: small-caps;    }    #head_hr {        margin: 10px 0;    }    #body {        width: 225px;        white-space: normal !important;    }</style><span id="date">September 04</span><hr id="head_hr"><p id="body">At 10:30:PM, a person was carjacked in the    7900 Block of S Aberdeen St.</p>
                  </div>`,
@@ -286,13 +188,13 @@
             );
         
     
-            var marker_c06c23cfea77410dbe885245ed82c949 = L.marker(
+            var marker_bc9688c38bc84385abf50428fe85579a = L.marker(
                 [41.854939286, -87.704129073],
                 {}
-            ).addTo(marker_cluster_bf124d87444a4cfc8425a6ee1ff7bf62);
+            ).addTo(marker_cluster_28200da47a354627914062df25d28609);
         
     
-            marker_c06c23cfea77410dbe885245ed82c949.bindTooltip(
+            marker_bc9688c38bc84385abf50428fe85579a.bindTooltip(
                 `<div>
                      <style>    #date {        font-size: 0.8em;        font-variant: small-caps;    }    #head_hr {        margin: 10px 0;    }    #body {        width: 225px;        white-space: normal !important;    }</style><span id="date">September 04</span><hr id="head_hr"><p id="body">At 02:40:PM, a person was carjacked in the    1900 Block of S Troy St.</p>
                  </div>`,
@@ -300,13 +202,13 @@
             );
         
     
-            var marker_05876562383543ac8465781b06be3fac = L.marker(
+            var marker_dcb963dd990f4cdda2ffca6910f8bc27 = L.marker(
                 [41.837066867, -87.713900259],
                 {}
-            ).addTo(marker_cluster_bf124d87444a4cfc8425a6ee1ff7bf62);
+            ).addTo(marker_cluster_28200da47a354627914062df25d28609);
         
     
-            marker_05876562383543ac8465781b06be3fac.bindTooltip(
+            marker_dcb963dd990f4cdda2ffca6910f8bc27.bindTooltip(
                 `<div>
                      <style>    #date {        font-size: 0.8em;        font-variant: small-caps;    }    #head_hr {        margin: 10px 0;    }    #body {        width: 225px;        white-space: normal !important;    }</style><span id="date">September 04</span><hr id="head_hr"><p id="body">At 06:25:AM, a person was carjacked in the    3500 Block of W 31st St.</p>
                  </div>`,
@@ -314,13 +216,13 @@
             );
         
     
-            var marker_e203b450db424f0882f6c931fd1e037e = L.marker(
+            var marker_5d56eb6e2f794230841ce406afb6adaf = L.marker(
                 [41.901876422, -87.628905023],
                 {}
-            ).addTo(marker_cluster_bf124d87444a4cfc8425a6ee1ff7bf62);
+            ).addTo(marker_cluster_28200da47a354627914062df25d28609);
         
     
-            marker_e203b450db424f0882f6c931fd1e037e.bindTooltip(
+            marker_5d56eb6e2f794230841ce406afb6adaf.bindTooltip(
                 `<div>
                      <style>    #date {        font-size: 0.8em;        font-variant: small-caps;    }    #head_hr {        margin: 10px 0;    }    #body {        width: 225px;        white-space: normal !important;    }</style><span id="date">September 04</span><hr id="head_hr"><p id="body">At 05:25:AM, a person was carjacked in the    0x W Maple St.</p>
                  </div>`,
@@ -328,13 +230,13 @@
             );
         
     
-            var marker_aeef5c725b974d6d826c3cc67b942ad4 = L.marker(
+            var marker_be88e8a0908d4a878b4415dfa35b5e25 = L.marker(
                 [41.846820192, -87.647298713],
                 {}
-            ).addTo(marker_cluster_bf124d87444a4cfc8425a6ee1ff7bf62);
+            ).addTo(marker_cluster_28200da47a354627914062df25d28609);
         
     
-            marker_aeef5c725b974d6d826c3cc67b942ad4.bindTooltip(
+            marker_be88e8a0908d4a878b4415dfa35b5e25.bindTooltip(
                 `<div>
                      <style>    #date {        font-size: 0.8em;        font-variant: small-caps;    }    #head_hr {        margin: 10px 0;    }    #body {        width: 225px;        white-space: normal !important;    }</style><span id="date">September 04</span><hr id="head_hr"><p id="body">At 12:57:AM, a person was carjacked in the    2500 Block of S Archer Ave.</p>
                  </div>`,
@@ -342,13 +244,13 @@
             );
         
     
-            var marker_a5645ea1ccfb4ed98bbd4307b49b5db1 = L.marker(
+            var marker_0a4956b44611419a8dd36c4ed59e499b = L.marker(
                 [41.883099003, -87.65002851],
                 {}
-            ).addTo(marker_cluster_bf124d87444a4cfc8425a6ee1ff7bf62);
+            ).addTo(marker_cluster_28200da47a354627914062df25d28609);
         
     
-            marker_a5645ea1ccfb4ed98bbd4307b49b5db1.bindTooltip(
+            marker_0a4956b44611419a8dd36c4ed59e499b.bindTooltip(
                 `<div>
                      <style>    #date {        font-size: 0.8em;        font-variant: small-caps;    }    #head_hr {        margin: 10px 0;    }    #body {        width: 225px;        white-space: normal !important;    }</style><span id="date">September 04</span><hr id="head_hr"><p id="body">At 08:55:AM, a person was carjacked in the    900 Block of W Washington BLVD.</p>
                  </div>`,
@@ -356,13 +258,13 @@
             );
         
     
-            var marker_7339f94f77824563babc76e9e2806c56 = L.marker(
+            var marker_0e44b8e500c84f66b9d465c59110632e = L.marker(
                 [41.871587825, -87.698487788],
                 {}
-            ).addTo(marker_cluster_bf124d87444a4cfc8425a6ee1ff7bf62);
+            ).addTo(marker_cluster_28200da47a354627914062df25d28609);
         
     
-            marker_7339f94f77824563babc76e9e2806c56.bindTooltip(
+            marker_0e44b8e500c84f66b9d465c59110632e.bindTooltip(
                 `<div>
                      <style>    #date {        font-size: 0.8em;        font-variant: small-caps;    }    #head_hr {        margin: 10px 0;    }    #body {        width: 225px;        white-space: normal !important;    }</style><span id="date">September 05</span><hr id="head_hr"><p id="body">At 03:45:PM, a person was carjacked in the    700 Block of S Francisco Ave.</p>
                  </div>`,
@@ -370,13 +272,13 @@
             );
         
     
-            var marker_7238feef68714f50b713d59e143bd384 = L.marker(
+            var marker_0f1fa021faca40d29dfd067cd47979d4 = L.marker(
                 [41.895239896, -87.745814792],
                 {}
-            ).addTo(marker_cluster_bf124d87444a4cfc8425a6ee1ff7bf62);
+            ).addTo(marker_cluster_28200da47a354627914062df25d28609);
         
     
-            marker_7238feef68714f50b713d59e143bd384.bindTooltip(
+            marker_0f1fa021faca40d29dfd067cd47979d4.bindTooltip(
                 `<div>
                      <style>    #date {        font-size: 0.8em;        font-variant: small-caps;    }    #head_hr {        margin: 10px 0;    }    #body {        width: 225px;        white-space: normal !important;    }</style><span id="date">September 05</span><hr id="head_hr"><p id="body">At 01:57:AM, a person was carjacked in the    800 Block of N Cicero Ave.</p>
                  </div>`,
@@ -384,13 +286,13 @@
             );
         
     
-            var marker_f90d000c62a84635b93c0cce40aa64c5 = L.marker(
+            var marker_c7ebc9fa9078404c8fb70b5be2696edd = L.marker(
                 [41.876959033, -87.735961599],
                 {}
-            ).addTo(marker_cluster_bf124d87444a4cfc8425a6ee1ff7bf62);
+            ).addTo(marker_cluster_28200da47a354627914062df25d28609);
         
     
-            marker_f90d000c62a84635b93c0cce40aa64c5.bindTooltip(
+            marker_c7ebc9fa9078404c8fb70b5be2696edd.bindTooltip(
                 `<div>
                      <style>    #date {        font-size: 0.8em;        font-variant: small-caps;    }    #head_hr {        margin: 10px 0;    }    #body {        width: 225px;        white-space: normal !important;    }</style><span id="date">September 05</span><hr id="head_hr"><p id="body">At 09:00:PM, a person was carjacked in the    4400 Block of W Jackson BLVD.</p>
                  </div>`,
@@ -398,13 +300,13 @@
             );
         
     
-            var marker_b80f27f29d8447afbf8067f8895c0697 = L.marker(
+            var marker_8f7d3e6530c04f879ecc0dc810c0f8db = L.marker(
                 [41.736886394, -87.624170849],
                 {}
-            ).addTo(marker_cluster_bf124d87444a4cfc8425a6ee1ff7bf62);
+            ).addTo(marker_cluster_28200da47a354627914062df25d28609);
         
     
-            marker_b80f27f29d8447afbf8067f8895c0697.bindTooltip(
+            marker_8f7d3e6530c04f879ecc0dc810c0f8db.bindTooltip(
                 `<div>
                      <style>    #date {        font-size: 0.8em;        font-variant: small-caps;    }    #head_hr {        margin: 10px 0;    }    #body {        width: 225px;        white-space: normal !important;    }</style><span id="date">September 05</span><hr id="head_hr"><p id="body">At 05:00:AM, a person was carjacked in the    8600 Block of S State St.</p>
                  </div>`,
@@ -412,13 +314,13 @@
             );
         
     
-            var marker_3a0059d9b01d404facdac75f8dad6391 = L.marker(
+            var marker_71f3156161644796aaf02b1f60267be7 = L.marker(
                 [41.69600103, -87.623203137],
                 {}
-            ).addTo(marker_cluster_bf124d87444a4cfc8425a6ee1ff7bf62);
+            ).addTo(marker_cluster_28200da47a354627914062df25d28609);
         
     
-            marker_3a0059d9b01d404facdac75f8dad6391.bindTooltip(
+            marker_71f3156161644796aaf02b1f60267be7.bindTooltip(
                 `<div>
                      <style>    #date {        font-size: 0.8em;        font-variant: small-caps;    }    #head_hr {        margin: 10px 0;    }    #body {        width: 225px;        white-space: normal !important;    }</style><span id="date">September 05</span><hr id="head_hr"><p id="body">At 02:34:AM, a person was carjacked in the    10900 Block of S State St.</p>
                  </div>`,
@@ -426,13 +328,13 @@
             );
         
     
-            var marker_4057ce572b69484b883bd12b8265630a = L.marker(
+            var marker_a52ca9ac554d4d139b4eac311d2b535d = L.marker(
                 [41.899322829, -87.692857635],
                 {}
-            ).addTo(marker_cluster_bf124d87444a4cfc8425a6ee1ff7bf62);
+            ).addTo(marker_cluster_28200da47a354627914062df25d28609);
         
     
-            marker_4057ce572b69484b883bd12b8265630a.bindTooltip(
+            marker_a52ca9ac554d4d139b4eac311d2b535d.bindTooltip(
                 `<div>
                      <style>    #date {        font-size: 0.8em;        font-variant: small-caps;    }    #head_hr {        margin: 10px 0;    }    #body {        width: 225px;        white-space: normal !important;    }</style><span id="date">September 06</span><hr id="head_hr"><p id="body">At 01:00:AM, a person was carjacked in the    2600 Block of W Augusta BLVD.</p>
                  </div>`,
@@ -440,13 +342,13 @@
             );
         
     
-            var marker_dbb62fae24ec4d10a29cae59aa270c2a = L.marker(
+            var marker_c271f94a443c481aab056061887c2bfd = L.marker(
                 [41.735873659, -87.657394882],
                 {}
-            ).addTo(marker_cluster_bf124d87444a4cfc8425a6ee1ff7bf62);
+            ).addTo(marker_cluster_28200da47a354627914062df25d28609);
         
     
-            marker_dbb62fae24ec4d10a29cae59aa270c2a.bindTooltip(
+            marker_c271f94a443c481aab056061887c2bfd.bindTooltip(
                 `<div>
                      <style>    #date {        font-size: 0.8em;        font-variant: small-caps;    }    #head_hr {        margin: 10px 0;    }    #body {        width: 225px;        white-space: normal !important;    }</style><span id="date">September 06</span><hr id="head_hr"><p id="body">At 07:16:AM, a person was carjacked in the    1300 Block of W 87th St.</p>
                  </div>`,
@@ -454,13 +356,13 @@
             );
         
     
-            var marker_a973f48ec02248d182c65dd7577f8239 = L.marker(
+            var marker_68349401c68e412da5d5e8816df52483 = L.marker(
                 [41.877677517, -87.770074746],
                 {}
-            ).addTo(marker_cluster_bf124d87444a4cfc8425a6ee1ff7bf62);
+            ).addTo(marker_cluster_28200da47a354627914062df25d28609);
         
     
-            marker_a973f48ec02248d182c65dd7577f8239.bindTooltip(
+            marker_68349401c68e412da5d5e8816df52483.bindTooltip(
                 `<div>
                      <style>    #date {        font-size: 0.8em;        font-variant: small-caps;    }    #head_hr {        margin: 10px 0;    }    #body {        width: 225px;        white-space: normal !important;    }</style><span id="date">September 06</span><hr id="head_hr"><p id="body">At 07:50:PM, a person was carjacked in the    5800 Block of W Adams BLVD.</p>
                  </div>`,
@@ -468,13 +370,13 @@
             );
         
     
-            var marker_57d29927a1604d0fb8903c7105678efd = L.marker(
+            var marker_d7ab04074f594238833f403a4c398f3c = L.marker(
                 [41.754783291, -87.558503546],
                 {}
-            ).addTo(marker_cluster_bf124d87444a4cfc8425a6ee1ff7bf62);
+            ).addTo(marker_cluster_28200da47a354627914062df25d28609);
         
     
-            marker_57d29927a1604d0fb8903c7105678efd.bindTooltip(
+            marker_d7ab04074f594238833f403a4c398f3c.bindTooltip(
                 `<div>
                      <style>    #date {        font-size: 0.8em;        font-variant: small-caps;    }    #head_hr {        margin: 10px 0;    }    #body {        width: 225px;        white-space: normal !important;    }</style><span id="date">September 07</span><hr id="head_hr"><p id="body">At 01:00:AM, a person was carjacked in the    7700 Block of S Marquette Ave.</p>
                  </div>`,
@@ -482,13 +384,13 @@
             );
         
     
-            var marker_9b54c5b482b347f385b2fd03c8f006d7 = L.marker(
+            var marker_f8f7e16464c24617b827129d26fd4f16 = L.marker(
                 [41.764669618, -87.68500551],
                 {}
-            ).addTo(marker_cluster_bf124d87444a4cfc8425a6ee1ff7bf62);
+            ).addTo(marker_cluster_28200da47a354627914062df25d28609);
         
     
-            marker_9b54c5b482b347f385b2fd03c8f006d7.bindTooltip(
+            marker_f8f7e16464c24617b827129d26fd4f16.bindTooltip(
                 `<div>
                      <style>    #date {        font-size: 0.8em;        font-variant: small-caps;    }    #head_hr {        margin: 10px 0;    }    #body {        width: 225px;        white-space: normal !important;    }</style><span id="date">September 06</span><hr id="head_hr"><p id="body">At 07:25:PM, a person was carjacked in the    2400 Block of W 71st St.</p>
                  </div>`,
@@ -496,13 +398,13 @@
             );
         
     
-            var marker_81482bfda5cd4737942a4cf0ff2cf2eb = L.marker(
+            var marker_453b10a187c9497fbcdca915ca3b06fb = L.marker(
                 [41.876720197, -87.701088107],
                 {}
-            ).addTo(marker_cluster_bf124d87444a4cfc8425a6ee1ff7bf62);
+            ).addTo(marker_cluster_28200da47a354627914062df25d28609);
         
     
-            marker_81482bfda5cd4737942a4cf0ff2cf2eb.bindTooltip(
+            marker_453b10a187c9497fbcdca915ca3b06fb.bindTooltip(
                 `<div>
                      <style>    #date {        font-size: 0.8em;        font-variant: small-caps;    }    #head_hr {        margin: 10px 0;    }    #body {        width: 225px;        white-space: normal !important;    }</style><span id="date">September 07</span><hr id="head_hr"><p id="body">At 06:45:PM, a person was carjacked in the    300 Block of S Sacramento BLVD.</p>
                  </div>`,
@@ -510,13 +412,13 @@
             );
         
     
-            var marker_afef7a0b959748af836a4e8f59e73e77 = L.marker(
+            var marker_77c585ed8f344f1389e20e929d5d6946 = L.marker(
                 [41.749876545, -87.682838316],
                 {}
-            ).addTo(marker_cluster_bf124d87444a4cfc8425a6ee1ff7bf62);
+            ).addTo(marker_cluster_28200da47a354627914062df25d28609);
         
     
-            marker_afef7a0b959748af836a4e8f59e73e77.bindTooltip(
+            marker_77c585ed8f344f1389e20e929d5d6946.bindTooltip(
                 `<div>
                      <style>    #date {        font-size: 0.8em;        font-variant: small-caps;    }    #head_hr {        margin: 10px 0;    }    #body {        width: 225px;        white-space: normal !important;    }</style><span id="date">September 08</span><hr id="head_hr"><p id="body">At 12:45:PM, a person was carjacked in the    7900 Block of S Western Ave.</p>
                  </div>`,
@@ -524,13 +426,13 @@
             );
         
     
-            var marker_375ca503bf564211af64fc5a1c268789 = L.marker(
+            var marker_cea2ca72e3414cafbd906382cefc0302 = L.marker(
                 [41.835906739, -87.632828774],
                 {}
-            ).addTo(marker_cluster_bf124d87444a4cfc8425a6ee1ff7bf62);
+            ).addTo(marker_cluster_28200da47a354627914062df25d28609);
         
     
-            marker_375ca503bf564211af64fc5a1c268789.bindTooltip(
+            marker_cea2ca72e3414cafbd906382cefc0302.bindTooltip(
                 `<div>
                      <style>    #date {        font-size: 0.8em;        font-variant: small-caps;    }    #head_hr {        margin: 10px 0;    }    #body {        width: 225px;        white-space: normal !important;    }</style><span id="date">September 08</span><hr id="head_hr"><p id="body">At 08:30:PM, a person was carjacked in the    3200 Block of S Wells St.</p>
                  </div>`,
@@ -538,13 +440,13 @@
             );
         
     
-            var marker_bbdc4e9b77d041f98f84a5b4d7192bf8 = L.marker(
+            var marker_46212108e2c04c108536b881effd7498 = L.marker(
                 [41.821115095, -87.624768426],
                 {}
-            ).addTo(marker_cluster_bf124d87444a4cfc8425a6ee1ff7bf62);
+            ).addTo(marker_cluster_28200da47a354627914062df25d28609);
         
     
-            marker_bbdc4e9b77d041f98f84a5b4d7192bf8.bindTooltip(
+            marker_46212108e2c04c108536b881effd7498.bindTooltip(
                 `<div>
                      <style>    #date {        font-size: 0.8em;        font-variant: small-caps;    }    #head_hr {        margin: 10px 0;    }    #body {        width: 225px;        white-space: normal !important;    }</style><span id="date">September 09</span><hr id="head_hr"><p id="body">At 09:08:PM, a person was carjacked in the    4000 Block of S Wabash Ave.</p>
                  </div>`,
@@ -552,13 +454,13 @@
             );
         
     
-            var marker_60a43d46eaca4bf9a4dbcb67380cf470 = L.marker(
+            var marker_de215588d6ab42c998602c0a2aebee61 = L.marker(
                 [41.90853125, -87.627575453],
                 {}
-            ).addTo(marker_cluster_bf124d87444a4cfc8425a6ee1ff7bf62);
+            ).addTo(marker_cluster_28200da47a354627914062df25d28609);
         
     
-            marker_60a43d46eaca4bf9a4dbcb67380cf470.bindTooltip(
+            marker_de215588d6ab42c998602c0a2aebee61.bindTooltip(
                 `<div>
                      <style>    #date {        font-size: 0.8em;        font-variant: small-caps;    }    #head_hr {        margin: 10px 0;    }    #body {        width: 225px;        white-space: normal !important;    }</style><span id="date">September 09</span><hr id="head_hr"><p id="body">At 08:17:PM, a person was carjacked in the    1400 Block of N Astor St.</p>
                  </div>`,
@@ -566,13 +468,13 @@
             );
         
     
-            var marker_0ddbf3875ffa4175908ef0ccf8f6b9ee = L.marker(
+            var marker_937c5eaef9e34152bd46328c03ccfde9 = L.marker(
                 [41.892667777, -87.616210158],
                 {}
-            ).addTo(marker_cluster_bf124d87444a4cfc8425a6ee1ff7bf62);
+            ).addTo(marker_cluster_28200da47a354627914062df25d28609);
         
     
-            marker_0ddbf3875ffa4175908ef0ccf8f6b9ee.bindTooltip(
+            marker_937c5eaef9e34152bd46328c03ccfde9.bindTooltip(
                 `<div>
                      <style>    #date {        font-size: 0.8em;        font-variant: small-caps;    }    #head_hr {        margin: 10px 0;    }    #body {        width: 225px;        white-space: normal !important;    }</style><span id="date">September 09</span><hr id="head_hr"><p id="body">At 08:16:PM, a person was carjacked in the    400 Block of E Ohio St.</p>
                  </div>`,
@@ -580,13 +482,13 @@
             );
         
     
-            var marker_e855467288c241d4afee4e6c71fd9a13 = L.marker(
+            var marker_704a5e88b094433dbb8504beb6962eea = L.marker(
                 [41.874771656, -87.725462289],
                 {}
-            ).addTo(marker_cluster_bf124d87444a4cfc8425a6ee1ff7bf62);
+            ).addTo(marker_cluster_28200da47a354627914062df25d28609);
         
     
-            marker_e855467288c241d4afee4e6c71fd9a13.bindTooltip(
+            marker_704a5e88b094433dbb8504beb6962eea.bindTooltip(
                 `<div>
                      <style>    #date {        font-size: 0.8em;        font-variant: small-caps;    }    #head_hr {        margin: 10px 0;    }    #body {        width: 225px;        white-space: normal !important;    }</style><span id="date">September 09</span><hr id="head_hr"><p id="body">At 11:36:AM, a person was carjacked in the    400 Block of S Pulaski Rd.</p>
                  </div>`,
@@ -594,13 +496,13 @@
             );
         
     
-            var marker_30c4e016943f4e95885e1ffc4fc3ff38 = L.marker(
+            var marker_03e0a483ce8e4491add771aabcec0ba4 = L.marker(
                 [41.901504358, -87.682098725],
                 {}
-            ).addTo(marker_cluster_bf124d87444a4cfc8425a6ee1ff7bf62);
+            ).addTo(marker_cluster_28200da47a354627914062df25d28609);
         
     
-            marker_30c4e016943f4e95885e1ffc4fc3ff38.bindTooltip(
+            marker_03e0a483ce8e4491add771aabcec0ba4.bindTooltip(
                 `<div>
                      <style>    #date {        font-size: 0.8em;        font-variant: small-caps;    }    #head_hr {        margin: 10px 0;    }    #body {        width: 225px;        white-space: normal !important;    }</style><span id="date">September 09</span><hr id="head_hr"><p id="body">At 07:44:PM, a person was carjacked in the    1100 Block of N Leavitt St.</p>
                  </div>`,
@@ -608,13 +510,13 @@
             );
         
     
-            var marker_11b063d58a3e4da793877be832022963 = L.marker(
+            var marker_0b7bb5b155764c2fb1f9095ed6fe7f4d = L.marker(
                 [41.926183797, -87.702352809],
                 {}
-            ).addTo(marker_cluster_bf124d87444a4cfc8425a6ee1ff7bf62);
+            ).addTo(marker_cluster_28200da47a354627914062df25d28609);
         
     
-            marker_11b063d58a3e4da793877be832022963.bindTooltip(
+            marker_0b7bb5b155764c2fb1f9095ed6fe7f4d.bindTooltip(
                 `<div>
                      <style>    #date {        font-size: 0.8em;        font-variant: small-caps;    }    #head_hr {        margin: 10px 0;    }    #body {        width: 225px;        white-space: normal !important;    }</style><span id="date">September 09</span><hr id="head_hr"><p id="body">At 11:00:PM, a person was carjacked in the    2400 Block of N Sacramento Ave.</p>
                  </div>`,
@@ -622,13 +524,13 @@
             );
         
     
-            var marker_61d7cd97acd54e6b96a594965df78cfe = L.marker(
+            var marker_acc1e79877fb49fa83d0d21de374c13f = L.marker(
                 [41.801263281, -87.617729032],
                 {}
-            ).addTo(marker_cluster_bf124d87444a4cfc8425a6ee1ff7bf62);
+            ).addTo(marker_cluster_28200da47a354627914062df25d28609);
         
     
-            marker_61d7cd97acd54e6b96a594965df78cfe.bindTooltip(
+            marker_acc1e79877fb49fa83d0d21de374c13f.bindTooltip(
                 `<div>
                      <style>    #date {        font-size: 0.8em;        font-variant: small-caps;    }    #head_hr {        margin: 10px 0;    }    #body {        width: 225px;        white-space: normal !important;    }</style><span id="date">September 10</span><hr id="head_hr"><p id="body">At 06:15:PM, a person was carjacked in the    5100 Block of S Calumet Ave.</p>
                  </div>`,
@@ -636,13 +538,13 @@
             );
         
     
-            var marker_5730275214ef4c268d3758fe3cb66d1f = L.marker(
+            var marker_25b21ceadf5b413c8cc2b13aa17d1508 = L.marker(
                 [41.912339189, -87.675463683],
                 {}
-            ).addTo(marker_cluster_bf124d87444a4cfc8425a6ee1ff7bf62);
+            ).addTo(marker_cluster_28200da47a354627914062df25d28609);
         
     
-            marker_5730275214ef4c268d3758fe3cb66d1f.bindTooltip(
+            marker_25b21ceadf5b413c8cc2b13aa17d1508.bindTooltip(
                 `<div>
                      <style>    #date {        font-size: 0.8em;        font-variant: small-caps;    }    #head_hr {        margin: 10px 0;    }    #body {        width: 225px;        white-space: normal !important;    }</style><span id="date">September 10</span><hr id="head_hr"><p id="body">At 09:38:PM, a person was carjacked in the    1900 Block of W Wabansia Ave.</p>
                  </div>`,
@@ -650,13 +552,13 @@
             );
         
     
-            var marker_3c27a94f3b2443f7a73315c6eede9d53 = L.marker(
+            var marker_2694ba2fad2a482698407d64c69111f7 = L.marker(
                 [41.9066185, -87.754655732],
                 {}
-            ).addTo(marker_cluster_bf124d87444a4cfc8425a6ee1ff7bf62);
+            ).addTo(marker_cluster_28200da47a354627914062df25d28609);
         
     
-            marker_3c27a94f3b2443f7a73315c6eede9d53.bindTooltip(
+            marker_2694ba2fad2a482698407d64c69111f7.bindTooltip(
                 `<div>
                      <style>    #date {        font-size: 0.8em;        font-variant: small-caps;    }    #head_hr {        margin: 10px 0;    }    #body {        width: 225px;        white-space: normal !important;    }</style><span id="date">September 10</span><hr id="head_hr"><p id="body">At 10:59:PM, a person was carjacked in the    1400 Block of N Leamington Ave.</p>
                  </div>`,
@@ -664,13 +566,13 @@
             );
         
     
-            var marker_b6d6858d9fe34212bdf61dac8633dc91 = L.marker(
+            var marker_4c0128cfd05a4d3c83f3e9dc31800e18 = L.marker(
                 [41.912718998, -87.694615816],
                 {}
-            ).addTo(marker_cluster_bf124d87444a4cfc8425a6ee1ff7bf62);
+            ).addTo(marker_cluster_28200da47a354627914062df25d28609);
         
     
-            marker_b6d6858d9fe34212bdf61dac8633dc91.bindTooltip(
+            marker_4c0128cfd05a4d3c83f3e9dc31800e18.bindTooltip(
                 `<div>
                      <style>    #date {        font-size: 0.8em;        font-variant: small-caps;    }    #head_hr {        margin: 10px 0;    }    #body {        width: 225px;        white-space: normal !important;    }</style><span id="date">September 10</span><hr id="head_hr"><p id="body">At 08:00:PM, a person was carjacked in the    1700 Block of N Washtenaw Ave.</p>
                  </div>`,
@@ -678,13 +580,13 @@
             );
         
     
-            var marker_c266b6060e934e238cf049156d5d2ffe = L.marker(
+            var marker_7dd9d33c74a74709b21a31d075557307 = L.marker(
                 [42.013931836, -87.678233681],
                 {}
-            ).addTo(marker_cluster_bf124d87444a4cfc8425a6ee1ff7bf62);
+            ).addTo(marker_cluster_28200da47a354627914062df25d28609);
         
     
-            marker_c266b6060e934e238cf049156d5d2ffe.bindTooltip(
+            marker_7dd9d33c74a74709b21a31d075557307.bindTooltip(
                 `<div>
                      <style>    #date {        font-size: 0.8em;        font-variant: small-caps;    }    #head_hr {        margin: 10px 0;    }    #body {        width: 225px;        white-space: normal !important;    }</style><span id="date">September 10</span><hr id="head_hr"><p id="body">At 04:55:AM, a person was carjacked in the    7300 Block of N Wolcott Ave.</p>
                  </div>`,
@@ -692,13 +594,13 @@
             );
         
     
-            var marker_d192a4a10e00467a8ec137429d66dd37 = L.marker(
+            var marker_a3c12a258db64ba381cb92a6c78d47bf = L.marker(
                 [41.768543259, -87.612916796],
                 {}
-            ).addTo(marker_cluster_bf124d87444a4cfc8425a6ee1ff7bf62);
+            ).addTo(marker_cluster_28200da47a354627914062df25d28609);
         
     
-            marker_d192a4a10e00467a8ec137429d66dd37.bindTooltip(
+            marker_a3c12a258db64ba381cb92a6c78d47bf.bindTooltip(
                 `<div>
                      <style>    #date {        font-size: 0.8em;        font-variant: small-caps;    }    #head_hr {        margin: 10px 0;    }    #body {        width: 225px;        white-space: normal !important;    }</style><span id="date">September 10</span><hr id="head_hr"><p id="body">At 08:25:PM, a person was carjacked in the    6900 Block of S Eberhart Ave.</p>
                  </div>`,
@@ -706,13 +608,13 @@
             );
         
     
-            var marker_9de39b33c94c46c6b09df0cf85021925 = L.marker(
+            var marker_5f6f0e69741a4c978e0026e19b8062a7 = L.marker(
                 [41.870717292, -87.733603832],
                 {}
-            ).addTo(marker_cluster_bf124d87444a4cfc8425a6ee1ff7bf62);
+            ).addTo(marker_cluster_28200da47a354627914062df25d28609);
         
     
-            marker_9de39b33c94c46c6b09df0cf85021925.bindTooltip(
+            marker_5f6f0e69741a4c978e0026e19b8062a7.bindTooltip(
                 `<div>
                      <style>    #date {        font-size: 0.8em;        font-variant: small-caps;    }    #head_hr {        margin: 10px 0;    }    #body {        width: 225px;        white-space: normal !important;    }</style><span id="date">September 10</span><hr id="head_hr"><p id="body">At 02:00:AM, a person was carjacked in the    4300 Block of W Fifth Ave.</p>
                  </div>`,
@@ -720,13 +622,13 @@
             );
         
     
-            var marker_a71156c4dfe34ee38b8deaffbc35c32e = L.marker(
+            var marker_025ffa573bf14c888dae2b80ca0bfaab = L.marker(
                 [41.854939286, -87.704129073],
                 {}
-            ).addTo(marker_cluster_bf124d87444a4cfc8425a6ee1ff7bf62);
+            ).addTo(marker_cluster_28200da47a354627914062df25d28609);
         
     
-            marker_a71156c4dfe34ee38b8deaffbc35c32e.bindTooltip(
+            marker_025ffa573bf14c888dae2b80ca0bfaab.bindTooltip(
                 `<div>
                      <style>    #date {        font-size: 0.8em;        font-variant: small-caps;    }    #head_hr {        margin: 10px 0;    }    #body {        width: 225px;        white-space: normal !important;    }</style><span id="date">September 11</span><hr id="head_hr"><p id="body">At 02:24:PM, a person was carjacked in the    1900 Block of S Troy St.</p>
                  </div>`,
@@ -734,13 +636,13 @@
             );
         
     
-            var marker_f00818a354464b7f9499a61882316e74 = L.marker(
+            var marker_981a5e9917ea44e080ee732421300b69 = L.marker(
                 [41.844160231, -87.7313416],
                 {}
-            ).addTo(marker_cluster_bf124d87444a4cfc8425a6ee1ff7bf62);
+            ).addTo(marker_cluster_28200da47a354627914062df25d28609);
         
     
-            marker_f00818a354464b7f9499a61882316e74.bindTooltip(
+            marker_981a5e9917ea44e080ee732421300b69.bindTooltip(
                 `<div>
                      <style>    #date {        font-size: 0.8em;        font-variant: small-caps;    }    #head_hr {        margin: 10px 0;    }    #body {        width: 225px;        white-space: normal !important;    }</style><span id="date">September 11</span><hr id="head_hr"><p id="body">At 11:30:PM, a person was carjacked in the    4200 Block of W 26th St.</p>
                  </div>`,
@@ -748,13 +650,13 @@
             );
         
     
-            var marker_8fe8c893ddee4ff8af93ac87d2a45099 = L.marker(
+            var marker_b39916dfa2df42049eb1b71be3f30476 = L.marker(
                 [41.969159427, -87.649837624],
                 {}
-            ).addTo(marker_cluster_bf124d87444a4cfc8425a6ee1ff7bf62);
+            ).addTo(marker_cluster_28200da47a354627914062df25d28609);
         
     
-            marker_8fe8c893ddee4ff8af93ac87d2a45099.bindTooltip(
+            marker_b39916dfa2df42049eb1b71be3f30476.bindTooltip(
                 `<div>
                      <style>    #date {        font-size: 0.8em;        font-variant: small-caps;    }    #head_hr {        margin: 10px 0;    }    #body {        width: 225px;        white-space: normal !important;    }</style><span id="date">September 11</span><hr id="head_hr"><p id="body">At 03:10:AM, a person was carjacked in the    700 Block of W Lawrence Ave.</p>
                  </div>`,
@@ -762,13 +664,13 @@
             );
         
     
-            var marker_5d63de3469ba4f28bd132a2ef2045569 = L.marker(
+            var marker_33b43db51a0a4e8283aa044d00c3088f = L.marker(
                 [41.731908752, -87.638634675],
                 {}
-            ).addTo(marker_cluster_bf124d87444a4cfc8425a6ee1ff7bf62);
+            ).addTo(marker_cluster_28200da47a354627914062df25d28609);
         
     
-            marker_5d63de3469ba4f28bd132a2ef2045569.bindTooltip(
+            marker_33b43db51a0a4e8283aa044d00c3088f.bindTooltip(
                 `<div>
                      <style>    #date {        font-size: 0.8em;        font-variant: small-caps;    }    #head_hr {        margin: 10px 0;    }    #body {        width: 225px;        white-space: normal !important;    }</style><span id="date">September 11</span><hr id="head_hr"><p id="body">At 06:08:PM, a person was carjacked in the    8900 Block of S Wallace St.</p>
                  </div>`,
@@ -776,13 +678,13 @@
             );
         
     
-            var marker_9ee982c6d11144a5bfb4736980025bbf = L.marker(
+            var marker_91182bc7c5e54dc8813240c69cd1b42a = L.marker(
                 [41.873288418, -87.737776557],
                 {}
-            ).addTo(marker_cluster_bf124d87444a4cfc8425a6ee1ff7bf62);
+            ).addTo(marker_cluster_28200da47a354627914062df25d28609);
         
     
-            marker_9ee982c6d11144a5bfb4736980025bbf.bindTooltip(
+            marker_91182bc7c5e54dc8813240c69cd1b42a.bindTooltip(
                 `<div>
                      <style>    #date {        font-size: 0.8em;        font-variant: small-caps;    }    #head_hr {        margin: 10px 0;    }    #body {        width: 225px;        white-space: normal !important;    }</style><span id="date">September 11</span><hr id="head_hr"><p id="body">At 07:30:PM, a person was carjacked in the    4500 Block of W Harrison St.</p>
                  </div>`,
@@ -790,13 +692,13 @@
             );
         
     
-            var marker_50084fbd5bd44ad2bf3e87ac987af481 = L.marker(
+            var marker_3ec4cf60fd0041e989a3193fbc478f9c = L.marker(
                 [41.738692957, -87.640041826],
                 {}
-            ).addTo(marker_cluster_bf124d87444a4cfc8425a6ee1ff7bf62);
+            ).addTo(marker_cluster_28200da47a354627914062df25d28609);
         
     
-            marker_50084fbd5bd44ad2bf3e87ac987af481.bindTooltip(
+            marker_3ec4cf60fd0041e989a3193fbc478f9c.bindTooltip(
                 `<div>
                      <style>    #date {        font-size: 0.8em;        font-variant: small-caps;    }    #head_hr {        margin: 10px 0;    }    #body {        width: 225px;        white-space: normal !important;    }</style><span id="date">September 11</span><hr id="head_hr"><p id="body">At 05:46:AM, a person was carjacked in the    8500 Block of S Lowe Ave.</p>
                  </div>`,
@@ -804,13 +706,13 @@
             );
         
     
-            var marker_209f002fb691431bb51b8b630868fe0e = L.marker(
+            var marker_e1499336da8048b781b2d0090073115f = L.marker(
                 [41.905773874, -87.666233304],
                 {}
-            ).addTo(marker_cluster_bf124d87444a4cfc8425a6ee1ff7bf62);
+            ).addTo(marker_cluster_28200da47a354627914062df25d28609);
         
     
-            marker_209f002fb691431bb51b8b630868fe0e.bindTooltip(
+            marker_e1499336da8048b781b2d0090073115f.bindTooltip(
                 `<div>
                      <style>    #date {        font-size: 0.8em;        font-variant: small-caps;    }    #head_hr {        margin: 10px 0;    }    #body {        width: 225px;        white-space: normal !important;    }</style><span id="date">September 11</span><hr id="head_hr"><p id="body">At 12:15:AM, a person was carjacked in the    1300 Block of N Bosworth Ave.</p>
                  </div>`,
@@ -818,13 +720,13 @@
             );
         
     
-            var marker_15f643e2346140c283be03b8aec72c29 = L.marker(
+            var marker_c3524c038a4b4905b94f57c2a5a24936 = L.marker(
                 [41.869453571, -87.654480496],
                 {}
-            ).addTo(marker_cluster_bf124d87444a4cfc8425a6ee1ff7bf62);
+            ).addTo(marker_cluster_28200da47a354627914062df25d28609);
         
     
-            marker_15f643e2346140c283be03b8aec72c29.bindTooltip(
+            marker_c3524c038a4b4905b94f57c2a5a24936.bindTooltip(
                 `<div>
                      <style>    #date {        font-size: 0.8em;        font-variant: small-caps;    }    #head_hr {        margin: 10px 0;    }    #body {        width: 225px;        white-space: normal !important;    }</style><span id="date">September 11</span><hr id="head_hr"><p id="body">At 07:50:PM, a person was carjacked in the    1100 Block of W Taylor St.</p>
                  </div>`,
@@ -832,13 +734,13 @@
             );
         
     
-            var marker_c905f683e8c3421fa8d09e9097bd06da = L.marker(
+            var marker_d947eb411aef467b84baf95ff0d62fde = L.marker(
                 [41.742010714, -87.579451468],
                 {}
-            ).addTo(marker_cluster_bf124d87444a4cfc8425a6ee1ff7bf62);
+            ).addTo(marker_cluster_28200da47a354627914062df25d28609);
         
     
-            marker_c905f683e8c3421fa8d09e9097bd06da.bindTooltip(
+            marker_d947eb411aef467b84baf95ff0d62fde.bindTooltip(
                 `<div>
                      <style>    #date {        font-size: 0.8em;        font-variant: small-caps;    }    #head_hr {        margin: 10px 0;    }    #body {        width: 225px;        white-space: normal !important;    }</style><span id="date">September 11</span><hr id="head_hr"><p id="body">At 04:14:PM, a person was carjacked in the    8400 Block of S Constance Ave.</p>
                  </div>`,
@@ -846,13 +748,13 @@
             );
         
     
-            var marker_31b92189eec2463b900a39518c31d891 = L.marker(
+            var marker_3d170ade08ae43629f5f443288361212 = L.marker(
                 [41.877418248, -87.697791169],
                 {}
-            ).addTo(marker_cluster_bf124d87444a4cfc8425a6ee1ff7bf62);
+            ).addTo(marker_cluster_28200da47a354627914062df25d28609);
         
     
-            marker_31b92189eec2463b900a39518c31d891.bindTooltip(
+            marker_3d170ade08ae43629f5f443288361212.bindTooltip(
                 `<div>
                      <style>    #date {        font-size: 0.8em;        font-variant: small-caps;    }    #head_hr {        margin: 10px 0;    }    #body {        width: 225px;        white-space: normal !important;    }</style><span id="date">September 11</span><hr id="head_hr"><p id="body">At 01:14:AM, a person was carjacked in the    2800 Block of W Jackson BLVD.</p>
                  </div>`,
@@ -860,13 +762,13 @@
             );
         
     
-            var marker_3007881dec524c7eacf4332c87d6353d = L.marker(
+            var marker_810bf195d1734cc89e53ce9d899fc756 = L.marker(
                 [41.787109268, -87.722994671],
                 {}
-            ).addTo(marker_cluster_bf124d87444a4cfc8425a6ee1ff7bf62);
+            ).addTo(marker_cluster_28200da47a354627914062df25d28609);
         
     
-            marker_3007881dec524c7eacf4332c87d6353d.bindTooltip(
+            marker_810bf195d1734cc89e53ce9d899fc756.bindTooltip(
                 `<div>
                      <style>    #date {        font-size: 0.8em;        font-variant: small-caps;    }    #head_hr {        margin: 10px 0;    }    #body {        width: 225px;        white-space: normal !important;    }</style><span id="date">September 12</span><hr id="head_hr"><p id="body">At 02:22:PM, a person was carjacked in the    5800 Block of S Pulaski Rd.</p>
                  </div>`,
@@ -874,13 +776,13 @@
             );
         
     
-            var marker_9b079edc48e340968c524d603630c455 = L.marker(
+            var marker_22cd654919df4ca783628c3bcf1576a8 = L.marker(
                 [41.894660159, -87.655994998],
                 {}
-            ).addTo(marker_cluster_bf124d87444a4cfc8425a6ee1ff7bf62);
+            ).addTo(marker_cluster_28200da47a354627914062df25d28609);
         
     
-            marker_9b079edc48e340968c524d603630c455.bindTooltip(
+            marker_22cd654919df4ca783628c3bcf1576a8.bindTooltip(
                 `<div>
                      <style>    #date {        font-size: 0.8em;        font-variant: small-caps;    }    #head_hr {        margin: 10px 0;    }    #body {        width: 225px;        white-space: normal !important;    }</style><span id="date">September 12</span><hr id="head_hr"><p id="body">At 08:45:PM, a person was carjacked in the    700 Block of N Ogden Ave.</p>
                  </div>`,
@@ -888,13 +790,13 @@
             );
         
     
-            var marker_0ecce973d115435f8aaa7a19a54904e3 = L.marker(
+            var marker_146bffcb74744d088816bcce8d46a8ef = L.marker(
                 [41.704130866, -87.648715126],
                 {}
-            ).addTo(marker_cluster_bf124d87444a4cfc8425a6ee1ff7bf62);
+            ).addTo(marker_cluster_28200da47a354627914062df25d28609);
         
     
-            marker_0ecce973d115435f8aaa7a19a54904e3.bindTooltip(
+            marker_146bffcb74744d088816bcce8d46a8ef.bindTooltip(
                 `<div>
                      <style>    #date {        font-size: 0.8em;        font-variant: small-caps;    }    #head_hr {        margin: 10px 0;    }    #body {        width: 225px;        white-space: normal !important;    }</style><span id="date">September 12</span><hr id="head_hr"><p id="body">At 09:15:PM, a person was carjacked in the    1000 Block of W 104th Pl.</p>
                  </div>`,
@@ -902,13 +804,13 @@
             );
         
     
-            var marker_e9db86c80a4b4515af84d8efbf9a5767 = L.marker(
+            var marker_e435a38bae6c481ebc03fe04e0cdbb2f = L.marker(
                 [41.742526005, -87.664452064],
                 {}
-            ).addTo(marker_cluster_bf124d87444a4cfc8425a6ee1ff7bf62);
+            ).addTo(marker_cluster_28200da47a354627914062df25d28609);
         
     
-            marker_e9db86c80a4b4515af84d8efbf9a5767.bindTooltip(
+            marker_e435a38bae6c481ebc03fe04e0cdbb2f.bindTooltip(
                 `<div>
                      <style>    #date {        font-size: 0.8em;        font-variant: small-caps;    }    #head_hr {        margin: 10px 0;    }    #body {        width: 225px;        white-space: normal !important;    }</style><span id="date">September 12</span><hr id="head_hr"><p id="body">At 01:10:AM, a person was carjacked in the    8300 Block of S Marshfield Ave.</p>
                  </div>`,
@@ -916,13 +818,13 @@
             );
         
     
-            var marker_5b116b3ec4c24b1aaea96ea6f7dc33a8 = L.marker(
+            var marker_edfa6d5df565494b93c23c46dae039b5 = L.marker(
                 [41.724112756, -87.632857554],
                 {}
-            ).addTo(marker_cluster_bf124d87444a4cfc8425a6ee1ff7bf62);
+            ).addTo(marker_cluster_28200da47a354627914062df25d28609);
         
     
-            marker_5b116b3ec4c24b1aaea96ea6f7dc33a8.bindTooltip(
+            marker_edfa6d5df565494b93c23c46dae039b5.bindTooltip(
                 `<div>
                      <style>    #date {        font-size: 0.8em;        font-variant: small-caps;    }    #head_hr {        margin: 10px 0;    }    #body {        width: 225px;        white-space: normal !important;    }</style><span id="date">September 12</span><hr id="head_hr"><p id="body">At 07:00:PM, a person was carjacked in the    9300 Block of S Stewart Ave.</p>
                  </div>`,
@@ -930,13 +832,13 @@
             );
         
     
-            var marker_1701381a8eb7453fafa9318b257e3a23 = L.marker(
+            var marker_e594d826ebd94b81b74c17028565a0c1 = L.marker(
                 [41.882697929, -87.670560598],
                 {}
-            ).addTo(marker_cluster_bf124d87444a4cfc8425a6ee1ff7bf62);
+            ).addTo(marker_cluster_28200da47a354627914062df25d28609);
         
     
-            marker_1701381a8eb7453fafa9318b257e3a23.bindTooltip(
+            marker_e594d826ebd94b81b74c17028565a0c1.bindTooltip(
                 `<div>
                      <style>    #date {        font-size: 0.8em;        font-variant: small-caps;    }    #head_hr {        margin: 10px 0;    }    #body {        width: 225px;        white-space: normal !important;    }</style><span id="date">September 13</span><hr id="head_hr"><p id="body">At 02:20:PM, a person was carjacked in the    0x N Hermitage Ave.</p>
                  </div>`,
@@ -944,13 +846,13 @@
             );
         
     
-            var marker_db6aba6c76a44617ae1da7312c37525b = L.marker(
+            var marker_09b50db0839244c7811734754525fb6a = L.marker(
                 [41.736148121, -87.629070243],
                 {}
-            ).addTo(marker_cluster_bf124d87444a4cfc8425a6ee1ff7bf62);
+            ).addTo(marker_cluster_28200da47a354627914062df25d28609);
         
     
-            marker_db6aba6c76a44617ae1da7312c37525b.bindTooltip(
+            marker_09b50db0839244c7811734754525fb6a.bindTooltip(
                 `<div>
                      <style>    #date {        font-size: 0.8em;        font-variant: small-caps;    }    #head_hr {        margin: 10px 0;    }    #body {        width: 225px;        white-space: normal !important;    }</style><span id="date">September 13</span><hr id="head_hr"><p id="body">At 12:00:AM, a person was carjacked in the    200 Block of W 87th St.</p>
                  </div>`,
@@ -958,13 +860,13 @@
             );
         
     
-            var marker_bd039913561d4eb9b9029640e0742bb3 = L.marker(
+            var marker_3467386e1a514b79a717833d52e08bd8 = L.marker(
                 [41.909063759, -87.671371693],
                 {}
-            ).addTo(marker_cluster_bf124d87444a4cfc8425a6ee1ff7bf62);
+            ).addTo(marker_cluster_28200da47a354627914062df25d28609);
         
     
-            marker_bd039913561d4eb9b9029640e0742bb3.bindTooltip(
+            marker_3467386e1a514b79a717833d52e08bd8.bindTooltip(
                 `<div>
                      <style>    #date {        font-size: 0.8em;        font-variant: small-caps;    }    #head_hr {        margin: 10px 0;    }    #body {        width: 225px;        white-space: normal !important;    }</style><span id="date">September 13</span><hr id="head_hr"><p id="body">At 10:40:PM, a person was carjacked in the    1700 Block of W Le Moyne St.</p>
                  </div>`,
@@ -972,13 +874,13 @@
             );
         
     
-            var marker_b5422533bdc947659f29eea10e03dc6b = L.marker(
+            var marker_6e10052551944afeb1a4574c763f9d29 = L.marker(
                 [41.904810485, -87.755832889],
                 {}
-            ).addTo(marker_cluster_bf124d87444a4cfc8425a6ee1ff7bf62);
+            ).addTo(marker_cluster_28200da47a354627914062df25d28609);
         
     
-            marker_b5422533bdc947659f29eea10e03dc6b.bindTooltip(
+            marker_6e10052551944afeb1a4574c763f9d29.bindTooltip(
                 `<div>
                      <style>    #date {        font-size: 0.8em;        font-variant: small-caps;    }    #head_hr {        margin: 10px 0;    }    #body {        width: 225px;        white-space: normal !important;    }</style><span id="date">September 13</span><hr id="head_hr"><p id="body">At 09:50:PM, a person was carjacked in the    1300 Block of N Laramie Ave.</p>
                  </div>`,
@@ -986,13 +888,13 @@
             );
         
     
-            var marker_ada68975d81f480a8d29d12c8aa7cfd8 = L.marker(
+            var marker_bab0b1af2a7e412aaaa7a481e0604def = L.marker(
                 [41.79175137, -87.645088281],
                 {}
-            ).addTo(marker_cluster_bf124d87444a4cfc8425a6ee1ff7bf62);
+            ).addTo(marker_cluster_28200da47a354627914062df25d28609);
         
     
-            marker_ada68975d81f480a8d29d12c8aa7cfd8.bindTooltip(
+            marker_bab0b1af2a7e412aaaa7a481e0604def.bindTooltip(
                 `<div>
                      <style>    #date {        font-size: 0.8em;        font-variant: small-caps;    }    #head_hr {        margin: 10px 0;    }    #body {        width: 225px;        white-space: normal !important;    }</style><span id="date">September 13</span><hr id="head_hr"><p id="body">At 12:41:AM, a person was carjacked in the    5600 Block of S Halsted St.</p>
                  </div>`,
@@ -1000,13 +902,13 @@
             );
         
     
-            var marker_bc62d5bf509b42a8b4594f3c3a248dfb = L.marker(
+            var marker_981b6f1aef904cc3884a68f0adf54593 = L.marker(
                 [41.732016756, -87.641069832],
                 {}
-            ).addTo(marker_cluster_bf124d87444a4cfc8425a6ee1ff7bf62);
+            ).addTo(marker_cluster_28200da47a354627914062df25d28609);
         
     
-            marker_bc62d5bf509b42a8b4594f3c3a248dfb.bindTooltip(
+            marker_981b6f1aef904cc3884a68f0adf54593.bindTooltip(
                 `<div>
                      <style>    #date {        font-size: 0.8em;        font-variant: small-caps;    }    #head_hr {        margin: 10px 0;    }    #body {        width: 225px;        white-space: normal !important;    }</style><span id="date">September 13</span><hr id="head_hr"><p id="body">At 08:20:PM, a person was carjacked in the    8900 Block of S Union Ave.</p>
                  </div>`,
@@ -1014,13 +916,13 @@
             );
         
     
-            var marker_ff964edf06b443449a5c173caa025d15 = L.marker(
+            var marker_a22ac902f1194964bac562d3e24e30ad = L.marker(
                 [41.915405968, -87.681013168],
                 {}
-            ).addTo(marker_cluster_bf124d87444a4cfc8425a6ee1ff7bf62);
+            ).addTo(marker_cluster_28200da47a354627914062df25d28609);
         
     
-            marker_ff964edf06b443449a5c173caa025d15.bindTooltip(
+            marker_a22ac902f1194964bac562d3e24e30ad.bindTooltip(
                 `<div>
                      <style>    #date {        font-size: 0.8em;        font-variant: small-caps;    }    #head_hr {        margin: 10px 0;    }    #body {        width: 225px;        white-space: normal !important;    }</style><span id="date">September 13</span><hr id="head_hr"><p id="body">At 08:57:PM, a person was carjacked in the    2100 Block of W Moffat St.</p>
                  </div>`,
@@ -1028,13 +930,13 @@
             );
         
     
-            var marker_c563e354653d4fc683c8c4881536f5ac = L.marker(
+            var marker_955c33c05ef441f88f1a30d99a539991 = L.marker(
                 [41.86610073, -87.659714511],
                 {}
-            ).addTo(marker_cluster_bf124d87444a4cfc8425a6ee1ff7bf62);
+            ).addTo(marker_cluster_28200da47a354627914062df25d28609);
         
     
-            marker_c563e354653d4fc683c8c4881536f5ac.bindTooltip(
+            marker_955c33c05ef441f88f1a30d99a539991.bindTooltip(
                 `<div>
                      <style>    #date {        font-size: 0.8em;        font-variant: small-caps;    }    #head_hr {        margin: 10px 0;    }    #body {        width: 225px;        white-space: normal !important;    }</style><span id="date">September 13</span><hr id="head_hr"><p id="body">At 08:00:PM, a person was carjacked in the    1300 Block of W Washburne Ave.</p>
                  </div>`,
@@ -1042,13 +944,13 @@
             );
         
     
-            var marker_453707315748423aa81fa958508ad4d9 = L.marker(
+            var marker_c984fb14d2604209993e2114e8f53622 = L.marker(
                 [41.736269116, -87.627768243],
                 {}
-            ).addTo(marker_cluster_bf124d87444a4cfc8425a6ee1ff7bf62);
+            ).addTo(marker_cluster_28200da47a354627914062df25d28609);
         
     
-            marker_453707315748423aa81fa958508ad4d9.bindTooltip(
+            marker_c984fb14d2604209993e2114e8f53622.bindTooltip(
                 `<div>
                      <style>    #date {        font-size: 0.8em;        font-variant: small-caps;    }    #head_hr {        margin: 10px 0;    }    #body {        width: 225px;        white-space: normal !important;    }</style><span id="date">September 14</span><hr id="head_hr"><p id="body">At 10:00:PM, a person was carjacked in the    0x W 87th St.</p>
                  </div>`,
@@ -1056,13 +958,13 @@
             );
         
     
-            var marker_a7f8f16025d747109f15b1d019bad167 = L.marker(
+            var marker_056eec2779df4a6c904b7d14783cb28e = L.marker(
                 [41.911221387, -87.676265044],
                 {}
-            ).addTo(marker_cluster_bf124d87444a4cfc8425a6ee1ff7bf62);
+            ).addTo(marker_cluster_28200da47a354627914062df25d28609);
         
     
-            marker_a7f8f16025d747109f15b1d019bad167.bindTooltip(
+            marker_056eec2779df4a6c904b7d14783cb28e.bindTooltip(
                 `<div>
                      <style>    #date {        font-size: 0.8em;        font-variant: small-caps;    }    #head_hr {        margin: 10px 0;    }    #body {        width: 225px;        white-space: normal !important;    }</style><span id="date">September 14</span><hr id="head_hr"><p id="body">At 09:52:PM, a person was carjacked in the    1600 Block of N Winchester Ave.</p>
                  </div>`,
@@ -1070,13 +972,13 @@
             );
         
     
-            var marker_758fc1b6c32f48aa8de1afa5ad2509c4 = L.marker(
+            var marker_b34eea9b4f454ce2930393122874d3f9 = L.marker(
                 [41.749101491, -87.595437814],
                 {}
-            ).addTo(marker_cluster_bf124d87444a4cfc8425a6ee1ff7bf62);
+            ).addTo(marker_cluster_28200da47a354627914062df25d28609);
         
     
-            marker_758fc1b6c32f48aa8de1afa5ad2509c4.bindTooltip(
+            marker_b34eea9b4f454ce2930393122874d3f9.bindTooltip(
                 `<div>
                      <style>    #date {        font-size: 0.8em;        font-variant: small-caps;    }    #head_hr {        margin: 10px 0;    }    #body {        width: 225px;        white-space: normal !important;    }</style><span id="date">September 14</span><hr id="head_hr"><p id="body">At 08:00:PM, a person was carjacked in the    8000 Block of S Woodlawn Ave.</p>
                  </div>`,
@@ -1084,13 +986,13 @@
             );
         
     
-            var marker_288532593a0040aa85db0ba73b083ece = L.marker(
+            var marker_96e15e9161fe471da57d3a947eafd03a = L.marker(
                 [41.92652984, -87.639151006],
                 {}
-            ).addTo(marker_cluster_bf124d87444a4cfc8425a6ee1ff7bf62);
+            ).addTo(marker_cluster_28200da47a354627914062df25d28609);
         
     
-            marker_288532593a0040aa85db0ba73b083ece.bindTooltip(
+            marker_96e15e9161fe471da57d3a947eafd03a.bindTooltip(
                 `<div>
                      <style>    #date {        font-size: 0.8em;        font-variant: small-caps;    }    #head_hr {        margin: 10px 0;    }    #body {        width: 225px;        white-space: normal !important;    }</style><span id="date">September 14</span><hr id="head_hr"><p id="body">At 02:35:PM, a person was carjacked in the    2400 Block of N Lakeview Ave.</p>
                  </div>`,
@@ -1098,13 +1000,13 @@
             );
         
     
-            var marker_fce27b6f5673452fb802d48687aea75d = L.marker(
+            var marker_b2972d24fa6249d19d70970f7cd2dfda = L.marker(
                 [41.907369626, -87.707920018],
                 {}
-            ).addTo(marker_cluster_bf124d87444a4cfc8425a6ee1ff7bf62);
+            ).addTo(marker_cluster_28200da47a354627914062df25d28609);
         
     
-            marker_fce27b6f5673452fb802d48687aea75d.bindTooltip(
+            marker_b2972d24fa6249d19d70970f7cd2dfda.bindTooltip(
                 `<div>
                      <style>    #date {        font-size: 0.8em;        font-variant: small-caps;    }    #head_hr {        margin: 10px 0;    }    #body {        width: 225px;        white-space: normal !important;    }</style><span id="date">September 15</span><hr id="head_hr"><p id="body">At 06:50:AM, a person was carjacked in the    3200 Block of W Beach Ave.</p>
                  </div>`,
@@ -1112,13 +1014,13 @@
             );
         
     
-            var marker_fc713f0344fd49968adf653d798b06c4 = L.marker(
+            var marker_2bc7da91eea745838fcc5c7588e19764 = L.marker(
                 [41.930767324, -87.735294433],
                 {}
-            ).addTo(marker_cluster_bf124d87444a4cfc8425a6ee1ff7bf62);
+            ).addTo(marker_cluster_28200da47a354627914062df25d28609);
         
     
-            marker_fc713f0344fd49968adf653d798b06c4.bindTooltip(
+            marker_2bc7da91eea745838fcc5c7588e19764.bindTooltip(
                 `<div>
                      <style>    #date {        font-size: 0.8em;        font-variant: small-caps;    }    #head_hr {        margin: 10px 0;    }    #body {        width: 225px;        white-space: normal !important;    }</style><span id="date">September 15</span><hr id="head_hr"><p id="body">At 12:00:AM, a person was carjacked in the    4300 Block of W Parker Ave.</p>
                  </div>`,
@@ -1126,13 +1028,13 @@
             );
         
     
-            var marker_9e17e4ca83dc4737afca09eba7a0f0db = L.marker(
+            var marker_943c27b40703421bbd1bb145b18ac86d = L.marker(
                 [41.911807635, -87.63201785],
                 {}
-            ).addTo(marker_cluster_bf124d87444a4cfc8425a6ee1ff7bf62);
+            ).addTo(marker_cluster_28200da47a354627914062df25d28609);
         
     
-            marker_9e17e4ca83dc4737afca09eba7a0f0db.bindTooltip(
+            marker_943c27b40703421bbd1bb145b18ac86d.bindTooltip(
                 `<div>
                      <style>    #date {        font-size: 0.8em;        font-variant: small-caps;    }    #head_hr {        margin: 10px 0;    }    #body {        width: 225px;        white-space: normal !important;    }</style><span id="date">September 15</span><hr id="head_hr"><p id="body">At 04:20:PM, a person was carjacked in the    1600 Block of N Clark St.</p>
                  </div>`,
@@ -1140,13 +1042,13 @@
             );
         
     
-            var marker_f5917cfb90174ee9bfbb317fd3ec2cef = L.marker(
+            var marker_30c11953a8804ccea2af8f17e98172a8 = L.marker(
                 [41.87047662, -87.743298961],
                 {}
-            ).addTo(marker_cluster_bf124d87444a4cfc8425a6ee1ff7bf62);
+            ).addTo(marker_cluster_28200da47a354627914062df25d28609);
         
     
-            marker_f5917cfb90174ee9bfbb317fd3ec2cef.bindTooltip(
+            marker_30c11953a8804ccea2af8f17e98172a8.bindTooltip(
                 `<div>
                      <style>    #date {        font-size: 0.8em;        font-variant: small-caps;    }    #head_hr {        margin: 10px 0;    }    #body {        width: 225px;        white-space: normal !important;    }</style><span id="date">September 15</span><hr id="head_hr"><p id="body">At 07:34:PM, a person was carjacked in the    4700 Block of W Polk St.</p>
                  </div>`,
@@ -1154,13 +1056,13 @@
             );
         
     
-            var marker_de1758eea7a14ebdafe01e565be51e55 = L.marker(
+            var marker_e1702dab1e514534aa7f743a8c8fe80b = L.marker(
                 [41.736269116, -87.627768243],
                 {}
-            ).addTo(marker_cluster_bf124d87444a4cfc8425a6ee1ff7bf62);
+            ).addTo(marker_cluster_28200da47a354627914062df25d28609);
         
     
-            marker_de1758eea7a14ebdafe01e565be51e55.bindTooltip(
+            marker_e1702dab1e514534aa7f743a8c8fe80b.bindTooltip(
                 `<div>
                      <style>    #date {        font-size: 0.8em;        font-variant: small-caps;    }    #head_hr {        margin: 10px 0;    }    #body {        width: 225px;        white-space: normal !important;    }</style><span id="date">September 15</span><hr id="head_hr"><p id="body">At 07:00:PM, a person was carjacked in the    0x W 87th St.</p>
                  </div>`,
@@ -1168,13 +1070,13 @@
             );
         
     
-            var marker_2c61c57a0fc447508948db0cd917aa0d = L.marker(
+            var marker_1d7244676aa94f0eb61f838bfc4c9ae3 = L.marker(
                 [41.932845624, -87.708667158],
                 {}
-            ).addTo(marker_cluster_bf124d87444a4cfc8425a6ee1ff7bf62);
+            ).addTo(marker_cluster_28200da47a354627914062df25d28609);
         
     
-            marker_2c61c57a0fc447508948db0cd917aa0d.bindTooltip(
+            marker_1d7244676aa94f0eb61f838bfc4c9ae3.bindTooltip(
                 `<div>
                      <style>    #date {        font-size: 0.8em;        font-variant: small-caps;    }    #head_hr {        margin: 10px 0;    }    #body {        width: 225px;        white-space: normal !important;    }</style><span id="date">September 15</span><hr id="head_hr"><p id="body">At 09:20:AM, a person was carjacked in the    2800 Block of N Sawyer Ave.</p>
                  </div>`,
@@ -1182,13 +1084,13 @@
             );
         
     
-            var marker_1ffa5d62f79646e7beb311335f0394b4 = L.marker(
+            var marker_aa4e09e08ba245aebb0ff664ee25f149 = L.marker(
                 [41.756909903, -87.711024918],
                 {}
-            ).addTo(marker_cluster_bf124d87444a4cfc8425a6ee1ff7bf62);
+            ).addTo(marker_cluster_28200da47a354627914062df25d28609);
         
     
-            marker_1ffa5d62f79646e7beb311335f0394b4.bindTooltip(
+            marker_aa4e09e08ba245aebb0ff664ee25f149.bindTooltip(
                 `<div>
                      <style>    #date {        font-size: 0.8em;        font-variant: small-caps;    }    #head_hr {        margin: 10px 0;    }    #body {        width: 225px;        white-space: normal !important;    }</style><span id="date">September 16</span><hr id="head_hr"><p id="body">At 09:00:PM, a person was carjacked in the    3500 Block of W 75th St.</p>
                  </div>`,
@@ -1196,13 +1098,13 @@
             );
         
     
-            var marker_e88bb3a6cf6f49bbbe60b7ebab2fb412 = L.marker(
+            var marker_7eab11895bb34cf1afecf055c224839d = L.marker(
                 [41.903901538, -87.693094732],
                 {}
-            ).addTo(marker_cluster_bf124d87444a4cfc8425a6ee1ff7bf62);
+            ).addTo(marker_cluster_28200da47a354627914062df25d28609);
         
     
-            marker_e88bb3a6cf6f49bbbe60b7ebab2fb412.bindTooltip(
+            marker_7eab11895bb34cf1afecf055c224839d.bindTooltip(
                 `<div>
                      <style>    #date {        font-size: 0.8em;        font-variant: small-caps;    }    #head_hr {        margin: 10px 0;    }    #body {        width: 225px;        white-space: normal !important;    }</style><span id="date">September 16</span><hr id="head_hr"><p id="body">At 06:39:AM, a person was carjacked in the    2600 Block of W Crystal St.</p>
                  </div>`,
@@ -1210,13 +1112,13 @@
             );
         
     
-            var marker_5851f14a242b4402b8f190682fbc5fce = L.marker(
+            var marker_295341c27a694711a43bd1e47ca0f5c0 = L.marker(
                 [41.87834817, -87.70923123],
                 {}
-            ).addTo(marker_cluster_bf124d87444a4cfc8425a6ee1ff7bf62);
+            ).addTo(marker_cluster_28200da47a354627914062df25d28609);
         
     
-            marker_5851f14a242b4402b8f190682fbc5fce.bindTooltip(
+            marker_295341c27a694711a43bd1e47ca0f5c0.bindTooltip(
                 `<div>
                      <style>    #date {        font-size: 0.8em;        font-variant: small-caps;    }    #head_hr {        margin: 10px 0;    }    #body {        width: 225px;        white-space: normal !important;    }</style><span id="date">September 16</span><hr id="head_hr"><p id="body">At 10:37:AM, a person was carjacked in the    3300 Block of W Adams St.</p>
                  </div>`,
@@ -1224,13 +1126,13 @@
             );
         
     
-            var marker_9caaad5b094448ba84b0aa0e6adf71ff = L.marker(
+            var marker_5d741c3e5db24aae81ad352d1f96cd96 = L.marker(
                 [42.005963102, -87.664970545],
                 {}
-            ).addTo(marker_cluster_bf124d87444a4cfc8425a6ee1ff7bf62);
+            ).addTo(marker_cluster_28200da47a354627914062df25d28609);
         
     
-            marker_9caaad5b094448ba84b0aa0e6adf71ff.bindTooltip(
+            marker_5d741c3e5db24aae81ad352d1f96cd96.bindTooltip(
                 `<div>
                      <style>    #date {        font-size: 0.8em;        font-variant: small-caps;    }    #head_hr {        margin: 10px 0;    }    #body {        width: 225px;        white-space: normal !important;    }</style><span id="date">September 16</span><hr id="head_hr"><p id="body">At 03:48:AM, a person was carjacked in the    6800 Block of N Wayne Ave.</p>
                  </div>`,
@@ -1238,13 +1140,13 @@
             );
         
     
-            var marker_4816760cbd814da8a85af5da257e0092 = L.marker(
+            var marker_63f5fded0e794552b35ea426b78ce898 = L.marker(
                 [41.872943036, -87.755036692],
                 {}
-            ).addTo(marker_cluster_bf124d87444a4cfc8425a6ee1ff7bf62);
+            ).addTo(marker_cluster_28200da47a354627914062df25d28609);
         
     
-            marker_4816760cbd814da8a85af5da257e0092.bindTooltip(
+            marker_63f5fded0e794552b35ea426b78ce898.bindTooltip(
                 `<div>
                      <style>    #date {        font-size: 0.8em;        font-variant: small-caps;    }    #head_hr {        margin: 10px 0;    }    #body {        width: 225px;        white-space: normal !important;    }</style><span id="date">September 18</span><hr id="head_hr"><p id="body">At 12:00:AM, a person was carjacked in the    5200 Block of W Harrison St.</p>
                  </div>`,
@@ -1252,13 +1154,13 @@
             );
         
     
-            var marker_74bf9e02aabc439cab47a426cca34017 = L.marker(
+            var marker_9311709c8b5845d5a0394b9075679080 = L.marker(
                 [41.684789786, -87.6633151],
                 {}
-            ).addTo(marker_cluster_bf124d87444a4cfc8425a6ee1ff7bf62);
+            ).addTo(marker_cluster_28200da47a354627914062df25d28609);
         
     
-            marker_74bf9e02aabc439cab47a426cca34017.bindTooltip(
+            marker_9311709c8b5845d5a0394b9075679080.bindTooltip(
                 `<div>
                      <style>    #date {        font-size: 0.8em;        font-variant: small-caps;    }    #head_hr {        margin: 10px 0;    }    #body {        width: 225px;        white-space: normal !important;    }</style><span id="date">September 17</span><hr id="head_hr"><p id="body">At 03:30:AM, a person was carjacked in the    1600 Block of W 115th St.</p>
                  </div>`,
@@ -1266,13 +1168,13 @@
             );
         
     
-            var marker_1342031749534c7697c0b9b3e70da9fc = L.marker(
+            var marker_12daf9ac16c548979ca3f2721c3b58e9 = L.marker(
                 [41.854838353, -87.682084156],
                 {}
-            ).addTo(marker_cluster_bf124d87444a4cfc8425a6ee1ff7bf62);
+            ).addTo(marker_cluster_28200da47a354627914062df25d28609);
         
     
-            marker_1342031749534c7697c0b9b3e70da9fc.bindTooltip(
+            marker_12daf9ac16c548979ca3f2721c3b58e9.bindTooltip(
                 `<div>
                      <style>    #date {        font-size: 0.8em;        font-variant: small-caps;    }    #head_hr {        margin: 10px 0;    }    #body {        width: 225px;        white-space: normal !important;    }</style><span id="date">September 17</span><hr id="head_hr"><p id="body">At 11:20:PM, a person was carjacked in the    2200 Block of W Cullerton St.</p>
                  </div>`,
@@ -1280,13 +1182,13 @@
             );
         
     
-            var marker_f3e77aafe0b743eca345fff81794d797 = L.marker(
+            var marker_d2795583c235453abd5d309a2d019ba4 = L.marker(
                 [41.935243198, -87.644238626],
                 {}
-            ).addTo(marker_cluster_bf124d87444a4cfc8425a6ee1ff7bf62);
+            ).addTo(marker_cluster_28200da47a354627914062df25d28609);
         
     
-            marker_f3e77aafe0b743eca345fff81794d797.bindTooltip(
+            marker_d2795583c235453abd5d309a2d019ba4.bindTooltip(
                 `<div>
                      <style>    #date {        font-size: 0.8em;        font-variant: small-caps;    }    #head_hr {        margin: 10px 0;    }    #body {        width: 225px;        white-space: normal !important;    }</style><span id="date">September 17</span><hr id="head_hr"><p id="body">At 07:00:PM, a person was carjacked in the    2900 Block of N Broadway.</p>
                  </div>`,
@@ -1294,13 +1196,13 @@
             );
         
     
-            var marker_d403e0f1018d40019f63691b1317d9d1 = L.marker(
+            var marker_196a067dc3fb439fba5c899c50547765 = L.marker(
                 [41.908900526, -87.648221468],
                 {}
-            ).addTo(marker_cluster_bf124d87444a4cfc8425a6ee1ff7bf62);
+            ).addTo(marker_cluster_28200da47a354627914062df25d28609);
         
     
-            marker_d403e0f1018d40019f63691b1317d9d1.bindTooltip(
+            marker_196a067dc3fb439fba5c899c50547765.bindTooltip(
                 `<div>
                      <style>    #date {        font-size: 0.8em;        font-variant: small-caps;    }    #head_hr {        margin: 10px 0;    }    #body {        width: 225px;        white-space: normal !important;    }</style><span id="date">September 17</span><hr id="head_hr"><p id="body">At 12:10:AM, a person was carjacked in the    1500 Block of N Halsted St.</p>
                  </div>`,
@@ -1308,13 +1210,13 @@
             );
         
     
-            var marker_25444c63fa19456d89f09df02335d000 = L.marker(
+            var marker_379688de26f6478ba43b377d104306e1 = L.marker(
                 [41.880321047, -87.759156379],
                 {}
-            ).addTo(marker_cluster_bf124d87444a4cfc8425a6ee1ff7bf62);
+            ).addTo(marker_cluster_28200da47a354627914062df25d28609);
         
     
-            marker_25444c63fa19456d89f09df02335d000.bindTooltip(
+            marker_379688de26f6478ba43b377d104306e1.bindTooltip(
                 `<div>
                      <style>    #date {        font-size: 0.8em;        font-variant: small-caps;    }    #head_hr {        margin: 10px 0;    }    #body {        width: 225px;        white-space: normal !important;    }</style><span id="date">September 17</span><hr id="head_hr"><p id="body">At 12:00:AM, a person was carjacked in the    5300 Block of W Madison St.</p>
                  </div>`,
@@ -1322,13 +1224,13 @@
             );
         
     
-            var marker_bc88617b038f4a3faf44b94e8e8e4887 = L.marker(
+            var marker_fa98676f20024056a2795c818f9f1403 = L.marker(
                 [41.879897533, -87.683302276],
                 {}
-            ).addTo(marker_cluster_bf124d87444a4cfc8425a6ee1ff7bf62);
+            ).addTo(marker_cluster_28200da47a354627914062df25d28609);
         
     
-            marker_bc88617b038f4a3faf44b94e8e8e4887.bindTooltip(
+            marker_fa98676f20024056a2795c818f9f1403.bindTooltip(
                 `<div>
                      <style>    #date {        font-size: 0.8em;        font-variant: small-caps;    }    #head_hr {        margin: 10px 0;    }    #body {        width: 225px;        white-space: normal !important;    }</style><span id="date">September 18</span><hr id="head_hr"><p id="body">At 06:00:PM, a person was carjacked in the    2200 Block of W Monroe St.</p>
                  </div>`,
@@ -1336,13 +1238,13 @@
             );
         
     
-            var marker_f11c52831115474a9ff702aa6c1c6f99 = L.marker(
+            var marker_699a66b6c63c49d2a021f7aa0584e908 = L.marker(
                 [41.877369643, -87.701415852],
                 {}
-            ).addTo(marker_cluster_bf124d87444a4cfc8425a6ee1ff7bf62);
+            ).addTo(marker_cluster_28200da47a354627914062df25d28609);
         
     
-            marker_f11c52831115474a9ff702aa6c1c6f99.bindTooltip(
+            marker_699a66b6c63c49d2a021f7aa0584e908.bindTooltip(
                 `<div>
                      <style>    #date {        font-size: 0.8em;        font-variant: small-caps;    }    #head_hr {        margin: 10px 0;    }    #body {        width: 225px;        white-space: normal !important;    }</style><span id="date">September 12</span><hr id="head_hr"><p id="body">At 07:00:PM, a person was carjacked in the    3000 Block of W Jackson BLVD.</p>
                  </div>`,
@@ -1350,13 +1252,13 @@
             );
         
     
-            var marker_96f7f9e7eec74d8096bd3dfda3a73ff2 = L.marker(
+            var marker_8441955ca789492eb1e03b9228bdbde2 = L.marker(
                 [41.864961152, -87.692683058],
                 {}
-            ).addTo(marker_cluster_bf124d87444a4cfc8425a6ee1ff7bf62);
+            ).addTo(marker_cluster_28200da47a354627914062df25d28609);
         
     
-            marker_96f7f9e7eec74d8096bd3dfda3a73ff2.bindTooltip(
+            marker_8441955ca789492eb1e03b9228bdbde2.bindTooltip(
                 `<div>
                      <style>    #date {        font-size: 0.8em;        font-variant: small-caps;    }    #head_hr {        margin: 10px 0;    }    #body {        width: 225px;        white-space: normal !important;    }</style><span id="date">September 18</span><hr id="head_hr"><p id="body">At 09:40:PM, a person was carjacked in the    2600 Block of W 13th St.</p>
                  </div>`,
@@ -1364,13 +1266,13 @@
             );
         
     
-            var marker_a27681f1001b45fe96ca61be95129069 = L.marker(
+            var marker_058b3cfef6124480a694aaf67915306c = L.marker(
                 [41.747359051, -87.588238686],
                 {}
-            ).addTo(marker_cluster_bf124d87444a4cfc8425a6ee1ff7bf62);
+            ).addTo(marker_cluster_28200da47a354627914062df25d28609);
         
     
-            marker_a27681f1001b45fe96ca61be95129069.bindTooltip(
+            marker_058b3cfef6124480a694aaf67915306c.bindTooltip(
                 `<div>
                      <style>    #date {        font-size: 0.8em;        font-variant: small-caps;    }    #head_hr {        margin: 10px 0;    }    #body {        width: 225px;        white-space: normal !important;    }</style><span id="date">September 18</span><hr id="head_hr"><p id="body">At 04:25:PM, a person was carjacked in the    8100 Block of S Blackstone Ave.</p>
                  </div>`,
@@ -1378,13 +1280,13 @@
             );
         
     
-            var marker_d3d93bad5acf42ada881d75416d9a770 = L.marker(
+            var marker_eccb2017abd74ef191e4ffce26f8fdca = L.marker(
                 [41.876792581, -87.723093119],
                 {}
-            ).addTo(marker_cluster_bf124d87444a4cfc8425a6ee1ff7bf62);
+            ).addTo(marker_cluster_28200da47a354627914062df25d28609);
         
     
-            marker_d3d93bad5acf42ada881d75416d9a770.bindTooltip(
+            marker_eccb2017abd74ef191e4ffce26f8fdca.bindTooltip(
                 `<div>
                      <style>    #date {        font-size: 0.8em;        font-variant: small-caps;    }    #head_hr {        margin: 10px 0;    }    #body {        width: 225px;        white-space: normal !important;    }</style><span id="date">September 18</span><hr id="head_hr"><p id="body">At 03:55:PM, a person was carjacked in the    300 Block of S Springfield Ave.</p>
                  </div>`,
@@ -1392,13 +1294,13 @@
             );
         
     
-            var marker_b6d77a9bd5ea486cbf97636afef0c3d7 = L.marker(
+            var marker_46685908d7004db4afb26c21c37e2588 = L.marker(
                 [41.854903613, -87.704129423],
                 {}
-            ).addTo(marker_cluster_bf124d87444a4cfc8425a6ee1ff7bf62);
+            ).addTo(marker_cluster_28200da47a354627914062df25d28609);
         
     
-            marker_b6d77a9bd5ea486cbf97636afef0c3d7.bindTooltip(
+            marker_46685908d7004db4afb26c21c37e2588.bindTooltip(
                 `<div>
                      <style>    #date {        font-size: 0.8em;        font-variant: small-caps;    }    #head_hr {        margin: 10px 0;    }    #body {        width: 225px;        white-space: normal !important;    }</style><span id="date">September 18</span><hr id="head_hr"><p id="body">At 11:00:AM, a person was carjacked in the    1900 Block of S Troy St.</p>
                  </div>`,
@@ -1406,13 +1308,13 @@
             );
         
     
-            var marker_af1273b9465644ab9282810ba0d0d091 = L.marker(
+            var marker_b2434065917c475cbef1ddafc70f52ae = L.marker(
                 [41.910643177, -87.66688431],
                 {}
-            ).addTo(marker_cluster_bf124d87444a4cfc8425a6ee1ff7bf62);
+            ).addTo(marker_cluster_28200da47a354627914062df25d28609);
         
     
-            marker_af1273b9465644ab9282810ba0d0d091.bindTooltip(
+            marker_b2434065917c475cbef1ddafc70f52ae.bindTooltip(
                 `<div>
                      <style>    #date {        font-size: 0.8em;        font-variant: small-caps;    }    #head_hr {        margin: 10px 0;    }    #body {        width: 225px;        white-space: normal !important;    }</style><span id="date">September 18</span><hr id="head_hr"><p id="body">At 02:45:AM, a person was carjacked in the    1500 Block of W North Ave.</p>
                  </div>`,
@@ -1420,13 +1322,13 @@
             );
         
     
-            var marker_661a90acd29246ae9d8d591eb1ee6d99 = L.marker(
+            var marker_d0790f62dcb94de495109e061c8ff05a = L.marker(
                 [41.782305334, -87.693480841],
                 {}
-            ).addTo(marker_cluster_bf124d87444a4cfc8425a6ee1ff7bf62);
+            ).addTo(marker_cluster_28200da47a354627914062df25d28609);
         
     
-            marker_661a90acd29246ae9d8d591eb1ee6d99.bindTooltip(
+            marker_d0790f62dcb94de495109e061c8ff05a.bindTooltip(
                 `<div>
                      <style>    #date {        font-size: 0.8em;        font-variant: small-caps;    }    #head_hr {        margin: 10px 0;    }    #body {        width: 225px;        white-space: normal !important;    }</style><span id="date">September 18</span><hr id="head_hr"><p id="body">At 07:45:PM, a person was carjacked in the    6100 Block of S California Ave.</p>
                  </div>`,
@@ -1434,13 +1336,13 @@
             );
         
     
-            var marker_76758cbf46de443da6813053446243a6 = L.marker(
+            var marker_7879782e34484a9d9ef85542763a946d = L.marker(
                 [41.775885302, -87.631711565],
                 {}
-            ).addTo(marker_cluster_bf124d87444a4cfc8425a6ee1ff7bf62);
+            ).addTo(marker_cluster_28200da47a354627914062df25d28609);
         
     
-            marker_76758cbf46de443da6813053446243a6.bindTooltip(
+            marker_7879782e34484a9d9ef85542763a946d.bindTooltip(
                 `<div>
                      <style>    #date {        font-size: 0.8em;        font-variant: small-caps;    }    #head_hr {        margin: 10px 0;    }    #body {        width: 225px;        white-space: normal !important;    }</style><span id="date">September 19</span><hr id="head_hr"><p id="body">At 08:00:PM, a person was carjacked in the    6500 Block of S Yale Ave.</p>
                  </div>`,
@@ -1448,13 +1350,13 @@
             );
         
     
-            var marker_2ef0fa3ae5bb42c2b8508960b7c641db = L.marker(
+            var marker_7d6d918cd407451a8224714a73414dcd = L.marker(
                 [41.936799488, -87.644291704],
                 {}
-            ).addTo(marker_cluster_bf124d87444a4cfc8425a6ee1ff7bf62);
+            ).addTo(marker_cluster_28200da47a354627914062df25d28609);
         
     
-            marker_2ef0fa3ae5bb42c2b8508960b7c641db.bindTooltip(
+            marker_7d6d918cd407451a8224714a73414dcd.bindTooltip(
                 `<div>
                      <style>    #date {        font-size: 0.8em;        font-variant: small-caps;    }    #head_hr {        margin: 10px 0;    }    #body {        width: 225px;        white-space: normal !important;    }</style><span id="date">September 19</span><hr id="head_hr"><p id="body">At 12:30:AM, a person was carjacked in the    3000 Block of N Broadway.</p>
                  </div>`,
@@ -1462,13 +1364,13 @@
             );
         
     
-            var marker_56de1185059f49708c71ccccb3021501 = L.marker(
+            var marker_60a9b42e97b24d918c1cd47851669525 = L.marker(
                 [41.723012906, -87.622235439],
                 {}
-            ).addTo(marker_cluster_bf124d87444a4cfc8425a6ee1ff7bf62);
+            ).addTo(marker_cluster_28200da47a354627914062df25d28609);
         
     
-            marker_56de1185059f49708c71ccccb3021501.bindTooltip(
+            marker_60a9b42e97b24d918c1cd47851669525.bindTooltip(
                 `<div>
                      <style>    #date {        font-size: 0.8em;        font-variant: small-caps;    }    #head_hr {        margin: 10px 0;    }    #body {        width: 225px;        white-space: normal !important;    }</style><span id="date">September 19</span><hr id="head_hr"><p id="body">At 07:00:PM, a person was carjacked in the    9400 Block of S Wabash Ave.</p>
                  </div>`,
@@ -1476,13 +1378,13 @@
             );
         
     
-            var marker_8485191f8b83420594cca675b98be201 = L.marker(
+            var marker_5fe9e1973b364d12b208692908623c4d = L.marker(
                 [41.881854367, -87.724388981],
                 {}
-            ).addTo(marker_cluster_bf124d87444a4cfc8425a6ee1ff7bf62);
+            ).addTo(marker_cluster_28200da47a354627914062df25d28609);
         
     
-            marker_8485191f8b83420594cca675b98be201.bindTooltip(
+            marker_5fe9e1973b364d12b208692908623c4d.bindTooltip(
                 `<div>
                      <style>    #date {        font-size: 0.8em;        font-variant: small-caps;    }    #head_hr {        margin: 10px 0;    }    #body {        width: 225px;        white-space: normal !important;    }</style><span id="date">September 19</span><hr id="head_hr"><p id="body">At 09:40:AM, a person was carjacked in the    3900 Block of W Washington BLVD.</p>
                  </div>`,
@@ -1490,13 +1392,13 @@
             );
         
     
-            var marker_cd32a5b2fb2b45c8a8cfb2077e8b39a5 = L.marker(
+            var marker_83479d7ca2a9401fb8b73603d5d40cd6 = L.marker(
                 [41.711234201, -87.6003832],
                 {}
-            ).addTo(marker_cluster_bf124d87444a4cfc8425a6ee1ff7bf62);
+            ).addTo(marker_cluster_28200da47a354627914062df25d28609);
         
     
-            marker_cd32a5b2fb2b45c8a8cfb2077e8b39a5.bindTooltip(
+            marker_83479d7ca2a9401fb8b73603d5d40cd6.bindTooltip(
                 `<div>
                      <style>    #date {        font-size: 0.8em;        font-variant: small-caps;    }    #head_hr {        margin: 10px 0;    }    #body {        width: 225px;        white-space: normal !important;    }</style><span id="date">September 19</span><hr id="head_hr"><p id="body">At 06:39:PM, a person was carjacked in the    900 Block of E 100th Pl.</p>
                  </div>`,
@@ -1504,13 +1406,13 @@
             );
         
     
-            var marker_3f546fc1f1df4193b10ca6615358c18d = L.marker(
+            var marker_133b8a8d7dbb4519bd72d1b402fbfa37 = L.marker(
                 [41.80042095, -87.598197793],
                 {}
-            ).addTo(marker_cluster_bf124d87444a4cfc8425a6ee1ff7bf62);
+            ).addTo(marker_cluster_28200da47a354627914062df25d28609);
         
     
-            marker_3f546fc1f1df4193b10ca6615358c18d.bindTooltip(
+            marker_133b8a8d7dbb4519bd72d1b402fbfa37.bindTooltip(
                 `<div>
                      <style>    #date {        font-size: 0.8em;        font-variant: small-caps;    }    #head_hr {        margin: 10px 0;    }    #body {        width: 225px;        white-space: normal !important;    }</style><span id="date">September 19</span><hr id="head_hr"><p id="body">At 02:30:AM, a person was carjacked in the    5200 Block of S University Ave.</p>
                  </div>`,
@@ -1518,13 +1420,13 @@
             );
         
     
-            var marker_9d02fa2f5d1440e89b6752d50273f3da = L.marker(
+            var marker_3cca1bf5ab584e12be7b282e40175e0c = L.marker(
                 [41.937996798, -87.660160258],
                 {}
-            ).addTo(marker_cluster_bf124d87444a4cfc8425a6ee1ff7bf62);
+            ).addTo(marker_cluster_28200da47a354627914062df25d28609);
         
     
-            marker_9d02fa2f5d1440e89b6752d50273f3da.bindTooltip(
+            marker_3cca1bf5ab584e12be7b282e40175e0c.bindTooltip(
                 `<div>
                      <style>    #date {        font-size: 0.8em;        font-variant: small-caps;    }    #head_hr {        margin: 10px 0;    }    #body {        width: 225px;        white-space: normal !important;    }</style><span id="date">September 19</span><hr id="head_hr"><p id="body">At 01:09:AM, a person was carjacked in the    1200 Block of W Barry Ave.</p>
                  </div>`,
@@ -1532,13 +1434,13 @@
             );
         
     
-            var marker_6744dccc2bda44188d30f7c8cd235333 = L.marker(
+            var marker_d76608d5a08f4bedb53c7794621c02c5 = L.marker(
                 [41.997301916, -87.662997364],
                 {}
-            ).addTo(marker_cluster_bf124d87444a4cfc8425a6ee1ff7bf62);
+            ).addTo(marker_cluster_28200da47a354627914062df25d28609);
         
     
-            marker_6744dccc2bda44188d30f7c8cd235333.bindTooltip(
+            marker_d76608d5a08f4bedb53c7794621c02c5.bindTooltip(
                 `<div>
                      <style>    #date {        font-size: 0.8em;        font-variant: small-caps;    }    #head_hr {        margin: 10px 0;    }    #body {        width: 225px;        white-space: normal !important;    }</style><span id="date">September 19</span><hr id="head_hr"><p id="body">At 07:45:PM, a person was carjacked in the    6300 Block of N Lakewood Ave.</p>
                  </div>`,
@@ -1546,13 +1448,13 @@
             );
         
     
-            var marker_facdd9cda2b74526ae494137f9db32e7 = L.marker(
+            var marker_0a0e063718a14c8ea073c0914b109297 = L.marker(
                 [41.863919757, -87.722664867],
                 {}
-            ).addTo(marker_cluster_bf124d87444a4cfc8425a6ee1ff7bf62);
+            ).addTo(marker_cluster_28200da47a354627914062df25d28609);
         
     
-            marker_facdd9cda2b74526ae494137f9db32e7.bindTooltip(
+            marker_0a0e063718a14c8ea073c0914b109297.bindTooltip(
                 `<div>
                      <style>    #date {        font-size: 0.8em;        font-variant: small-caps;    }    #head_hr {        margin: 10px 0;    }    #body {        width: 225px;        white-space: normal !important;    }</style><span id="date">September 19</span><hr id="head_hr"><p id="body">At 06:35:PM, a person was carjacked in the    1300 Block of S Springfield Ave.</p>
                  </div>`,
@@ -1560,13 +1462,13 @@
             );
         
     
-            var marker_a5cd900fd80049478b151cd6f6e3fac4 = L.marker(
+            var marker_ecc99888577d4aaf97ead8eb3e5789b0 = L.marker(
                 [41.94743352, -87.715189271],
                 {}
-            ).addTo(marker_cluster_bf124d87444a4cfc8425a6ee1ff7bf62);
+            ).addTo(marker_cluster_28200da47a354627914062df25d28609);
         
     
-            marker_a5cd900fd80049478b151cd6f6e3fac4.bindTooltip(
+            marker_ecc99888577d4aaf97ead8eb3e5789b0.bindTooltip(
                 `<div>
                      <style>    #date {        font-size: 0.8em;        font-variant: small-caps;    }    #head_hr {        margin: 10px 0;    }    #body {        width: 225px;        white-space: normal !important;    }</style><span id="date">September 19</span><hr id="head_hr"><p id="body">At 08:15:AM, a person was carjacked in the    3600 Block of N St Louis Ave.</p>
                  </div>`,
@@ -1574,13 +1476,13 @@
             );
         
     
-            var marker_b3d21dcf76b34fa988e77b34d80598fb = L.marker(
+            var marker_95fddfeb0e3043b591f2d69bacfec2ab = L.marker(
                 [41.921328467, -87.759751597],
                 {}
-            ).addTo(marker_cluster_bf124d87444a4cfc8425a6ee1ff7bf62);
+            ).addTo(marker_cluster_28200da47a354627914062df25d28609);
         
     
-            marker_b3d21dcf76b34fa988e77b34d80598fb.bindTooltip(
+            marker_95fddfeb0e3043b591f2d69bacfec2ab.bindTooltip(
                 `<div>
                      <style>    #date {        font-size: 0.8em;        font-variant: small-caps;    }    #head_hr {        margin: 10px 0;    }    #body {        width: 225px;        white-space: normal !important;    }</style><span id="date">September 19</span><hr id="head_hr"><p id="body">At 09:30:PM, a person was carjacked in the    2200 Block of N Lorel Ave.</p>
                  </div>`,
@@ -1588,13 +1490,13 @@
             );
         
     
-            var marker_478f17ba348e42d7880b80c2264699a9 = L.marker(
+            var marker_fa27754b655245968bf849ddc3faca02 = L.marker(
                 [41.908779843, -87.674971212],
                 {}
-            ).addTo(marker_cluster_bf124d87444a4cfc8425a6ee1ff7bf62);
+            ).addTo(marker_cluster_28200da47a354627914062df25d28609);
         
     
-            marker_478f17ba348e42d7880b80c2264699a9.bindTooltip(
+            marker_fa27754b655245968bf849ddc3faca02.bindTooltip(
                 `<div>
                      <style>    #date {        font-size: 0.8em;        font-variant: small-caps;    }    #head_hr {        margin: 10px 0;    }    #body {        width: 225px;        white-space: normal !important;    }</style><span id="date">September 19</span><hr id="head_hr"><p id="body">At 09:41:PM, a person was carjacked in the    1400 Block of N Milwaukee Ave.</p>
                  </div>`,
@@ -1602,13 +1504,13 @@
             );
         
     
-            var marker_2772a8548ad243b78549f4321ad577d2 = L.marker(
+            var marker_a874e5f896a74fe294e2156ece0b8568 = L.marker(
                 [41.881687801, -87.703679439],
                 {}
-            ).addTo(marker_cluster_bf124d87444a4cfc8425a6ee1ff7bf62);
+            ).addTo(marker_cluster_28200da47a354627914062df25d28609);
         
     
-            marker_2772a8548ad243b78549f4321ad577d2.bindTooltip(
+            marker_a874e5f896a74fe294e2156ece0b8568.bindTooltip(
                 `<div>
                      <style>    #date {        font-size: 0.8em;        font-variant: small-caps;    }    #head_hr {        margin: 10px 0;    }    #body {        width: 225px;        white-space: normal !important;    }</style><span id="date">September 19</span><hr id="head_hr"><p id="body">At 01:45:PM, a person was carjacked in the    0x N Albany Ave.</p>
                  </div>`,
@@ -1616,13 +1518,13 @@
             );
         
     
-            var marker_424546c7b4644b3c910026182f78679e = L.marker(
+            var marker_5cf4ff9499df42e88786fc330add1d94 = L.marker(
                 [41.766383603, -87.579987289],
                 {}
-            ).addTo(marker_cluster_bf124d87444a4cfc8425a6ee1ff7bf62);
+            ).addTo(marker_cluster_28200da47a354627914062df25d28609);
         
     
-            marker_424546c7b4644b3c910026182f78679e.bindTooltip(
+            marker_5cf4ff9499df42e88786fc330add1d94.bindTooltip(
                 `<div>
                      <style>    #date {        font-size: 0.8em;        font-variant: small-caps;    }    #head_hr {        margin: 10px 0;    }    #body {        width: 225px;        white-space: normal !important;    }</style><span id="date">September 19</span><hr id="head_hr"><p id="body">At 05:05:AM, a person was carjacked in the    7000 Block of S Constance Ave.</p>
                  </div>`,
@@ -1630,13 +1532,13 @@
             );
         
     
-            var marker_88be186ec88f4be880e478148653bdc7 = L.marker(
+            var marker_c45a628281d4459ba9e5646132c3bb51 = L.marker(
                 [41.996411252, -87.656653476],
                 {}
-            ).addTo(marker_cluster_bf124d87444a4cfc8425a6ee1ff7bf62);
+            ).addTo(marker_cluster_28200da47a354627914062df25d28609);
         
     
-            marker_88be186ec88f4be880e478148653bdc7.bindTooltip(
+            marker_c45a628281d4459ba9e5646132c3bb51.bindTooltip(
                 `<div>
                      <style>    #date {        font-size: 0.8em;        font-variant: small-caps;    }    #head_hr {        margin: 10px 0;    }    #body {        width: 225px;        white-space: normal !important;    }</style><span id="date">September 20</span><hr id="head_hr"><p id="body">At 02:40:AM, a person was carjacked in the    1000 Block of W Rosemont Ave.</p>
                  </div>`,
@@ -1644,13 +1546,13 @@
             );
         
     
-            var marker_f3ec7ca6b4454530a542083490c62f10 = L.marker(
+            var marker_3feba81bc92c43dbb991fc4ad00dcae8 = L.marker(
                 [41.877896435, -87.624310435],
                 {}
-            ).addTo(marker_cluster_bf124d87444a4cfc8425a6ee1ff7bf62);
+            ).addTo(marker_cluster_28200da47a354627914062df25d28609);
         
     
-            marker_f3ec7ca6b4454530a542083490c62f10.bindTooltip(
+            marker_3feba81bc92c43dbb991fc4ad00dcae8.bindTooltip(
                 `<div>
                      <style>    #date {        font-size: 0.8em;        font-variant: small-caps;    }    #head_hr {        margin: 10px 0;    }    #body {        width: 225px;        white-space: normal !important;    }</style><span id="date">September 20</span><hr id="head_hr"><p id="body">At 08:54:PM, a person was carjacked in the    300 Block of S Michigan Ave.</p>
                  </div>`,
@@ -1658,13 +1560,13 @@
             );
         
     
-            var marker_ca18058cc19d407a8cd73d504a9956b2 = L.marker(
+            var marker_42a7e9739580439bbd03aab14ae1c4a6 = L.marker(
                 [41.75655591, -87.572434991],
                 {}
-            ).addTo(marker_cluster_bf124d87444a4cfc8425a6ee1ff7bf62);
+            ).addTo(marker_cluster_28200da47a354627914062df25d28609);
         
     
-            marker_ca18058cc19d407a8cd73d504a9956b2.bindTooltip(
+            marker_42a7e9739580439bbd03aab14ae1c4a6.bindTooltip(
                 `<div>
                      <style>    #date {        font-size: 0.8em;        font-variant: small-caps;    }    #head_hr {        margin: 10px 0;    }    #body {        width: 225px;        white-space: normal !important;    }</style><span id="date">September 20</span><hr id="head_hr"><p id="body">At 04:20:PM, a person was carjacked in the    7600 Block of S Merrill Ave.</p>
                  </div>`,
@@ -1672,13 +1574,13 @@
             );
         
     
-            var marker_88c70c744cb14133b14dae66757345c6 = L.marker(
+            var marker_83b62f0bb18f44b0be9bb4b889a49ee5 = L.marker(
                 [41.850650375, -87.639399454],
                 {}
-            ).addTo(marker_cluster_bf124d87444a4cfc8425a6ee1ff7bf62);
+            ).addTo(marker_cluster_28200da47a354627914062df25d28609);
         
     
-            marker_88c70c744cb14133b14dae66757345c6.bindTooltip(
+            marker_83b62f0bb18f44b0be9bb4b889a49ee5.bindTooltip(
                 `<div>
                      <style>    #date {        font-size: 0.8em;        font-variant: small-caps;    }    #head_hr {        margin: 10px 0;    }    #body {        width: 225px;        white-space: normal !important;    }</style><span id="date">September 20</span><hr id="head_hr"><p id="body">At 09:38:PM, a person was carjacked in the    2300 Block of S Archer Ave.</p>
                  </div>`,
@@ -1686,13 +1588,13 @@
             );
         
     
-            var marker_2ed086b333c041e790edea994ebb9b37 = L.marker(
+            var marker_dd0fb2433116469ebcb346d30db9d01a = L.marker(
                 [41.756259091, -87.624719943],
                 {}
-            ).addTo(marker_cluster_bf124d87444a4cfc8425a6ee1ff7bf62);
+            ).addTo(marker_cluster_28200da47a354627914062df25d28609);
         
     
-            marker_2ed086b333c041e790edea994ebb9b37.bindTooltip(
+            marker_dd0fb2433116469ebcb346d30db9d01a.bindTooltip(
                 `<div>
                      <style>    #date {        font-size: 0.8em;        font-variant: small-caps;    }    #head_hr {        margin: 10px 0;    }    #body {        width: 225px;        white-space: normal !important;    }</style><span id="date">September 20</span><hr id="head_hr"><p id="body">At 04:30:AM, a person was carjacked in the    7600 Block of S State St.</p>
                  </div>`,
@@ -1700,13 +1602,13 @@
             );
         
     
-            var marker_166d939c2d9c41bf88809bfcf8c0cbc4 = L.marker(
+            var marker_920f910ae8624314a3b09bd3e22f68e5 = L.marker(
                 [41.932013304, -87.709020735],
                 {}
-            ).addTo(marker_cluster_bf124d87444a4cfc8425a6ee1ff7bf62);
+            ).addTo(marker_cluster_28200da47a354627914062df25d28609);
         
     
-            marker_166d939c2d9c41bf88809bfcf8c0cbc4.bindTooltip(
+            marker_920f910ae8624314a3b09bd3e22f68e5.bindTooltip(
                 `<div>
                      <style>    #date {        font-size: 0.8em;        font-variant: small-caps;    }    #head_hr {        margin: 10px 0;    }    #body {        width: 225px;        white-space: normal !important;    }</style><span id="date">September 20</span><hr id="head_hr"><p id="body">At 02:00:AM, a person was carjacked in the    3200 Block of W Diversey Ave.</p>
                  </div>`,
@@ -1714,13 +1616,13 @@
             );
         
     
-            var marker_9eb4324fa385420ea649a4802dce27c1 = L.marker(
+            var marker_d5ca1bb76e2345acaa941c9846175f79 = L.marker(
                 [41.86791795, -87.683621906],
                 {}
-            ).addTo(marker_cluster_bf124d87444a4cfc8425a6ee1ff7bf62);
+            ).addTo(marker_cluster_28200da47a354627914062df25d28609);
         
     
-            marker_9eb4324fa385420ea649a4802dce27c1.bindTooltip(
+            marker_d5ca1bb76e2345acaa941c9846175f79.bindTooltip(
                 `<div>
                      <style>    #date {        font-size: 0.8em;        font-variant: small-caps;    }    #head_hr {        margin: 10px 0;    }    #body {        width: 225px;        white-space: normal !important;    }</style><span id="date">September 20</span><hr id="head_hr"><p id="body">At 09:00:PM, a person was carjacked in the    1000 Block of S Oakley BLVD.</p>
                  </div>`,
@@ -1728,13 +1630,13 @@
             );
         
     
-            var marker_253b786871be4233a95f3408d60763cb = L.marker(
+            var marker_f76c3e8912414862a9520a3c2433f45a = L.marker(
                 [41.885280845, -87.686545515],
                 {}
-            ).addTo(marker_cluster_bf124d87444a4cfc8425a6ee1ff7bf62);
+            ).addTo(marker_cluster_28200da47a354627914062df25d28609);
         
     
-            marker_253b786871be4233a95f3408d60763cb.bindTooltip(
+            marker_f76c3e8912414862a9520a3c2433f45a.bindTooltip(
                 `<div>
                      <style>    #date {        font-size: 0.8em;        font-variant: small-caps;    }    #head_hr {        margin: 10px 0;    }    #body {        width: 225px;        white-space: normal !important;    }</style><span id="date">September 20</span><hr id="head_hr"><p id="body">At 05:18:PM, a person was carjacked in the    200 Block of N Western Ave.</p>
                  </div>`,
@@ -1742,13 +1644,13 @@
             );
         
     
-            var marker_f51f88b8f64b46ccbbcc0de9ea5109ac = L.marker(
+            var marker_441236c2ea5f437b8f4f2ee5ccd8ce59 = L.marker(
                 [41.735238284, -87.655752822],
                 {}
-            ).addTo(marker_cluster_bf124d87444a4cfc8425a6ee1ff7bf62);
+            ).addTo(marker_cluster_28200da47a354627914062df25d28609);
         
     
-            marker_f51f88b8f64b46ccbbcc0de9ea5109ac.bindTooltip(
+            marker_441236c2ea5f437b8f4f2ee5ccd8ce59.bindTooltip(
                 `<div>
                      <style>    #date {        font-size: 0.8em;        font-variant: small-caps;    }    #head_hr {        margin: 10px 0;    }    #body {        width: 225px;        white-space: normal !important;    }</style><span id="date">September 20</span><hr id="head_hr"><p id="body">At 09:50:AM, a person was carjacked in the    8700 Block of S Throop St.</p>
                  </div>`,
@@ -1756,13 +1658,13 @@
             );
         
     
-            var marker_1fc5dc79fc624438b4075e6442680e7d = L.marker(
+            var marker_8fd7fce09c1c4b218023b4ebc61b80d8 = L.marker(
                 [41.769177267, -87.623954615],
                 {}
-            ).addTo(marker_cluster_bf124d87444a4cfc8425a6ee1ff7bf62);
+            ).addTo(marker_cluster_28200da47a354627914062df25d28609);
         
     
-            marker_1fc5dc79fc624438b4075e6442680e7d.bindTooltip(
+            marker_8fd7fce09c1c4b218023b4ebc61b80d8.bindTooltip(
                 `<div>
                      <style>    #date {        font-size: 0.8em;        font-variant: small-caps;    }    #head_hr {        margin: 10px 0;    }    #body {        width: 225px;        white-space: normal !important;    }</style><span id="date">September 20</span><hr id="head_hr"><p id="body">At 03:30:AM, a person was carjacked in the    0x E 69th St.</p>
                  </div>`,
@@ -1770,13 +1672,13 @@
             );
         
     
-            var marker_1e6700ef70344e47b60a2efac10f9d2f = L.marker(
+            var marker_28bc9a5859cd4bce9e0904b0b9f4046b = L.marker(
                 [41.810413383, -87.601718641],
                 {}
-            ).addTo(marker_cluster_bf124d87444a4cfc8425a6ee1ff7bf62);
+            ).addTo(marker_cluster_28200da47a354627914062df25d28609);
         
     
-            marker_1e6700ef70344e47b60a2efac10f9d2f.bindTooltip(
+            marker_28bc9a5859cd4bce9e0904b0b9f4046b.bindTooltip(
                 `<div>
                      <style>    #date {        font-size: 0.8em;        font-variant: small-caps;    }    #head_hr {        margin: 10px 0;    }    #body {        width: 225px;        white-space: normal !important;    }</style><span id="date">September 20</span><hr id="head_hr"><p id="body">At 05:43:PM, a person was carjacked in the    4600 Block of S Ellis Ave.</p>
                  </div>`,
@@ -1784,13 +1686,13 @@
             );
         
     
-            var marker_a1b65607080647a08b967e568fd4c71c = L.marker(
+            var marker_74e405a3d96245f1b324b9842284b62d = L.marker(
                 [41.863841923, -87.721446781],
                 {}
-            ).addTo(marker_cluster_bf124d87444a4cfc8425a6ee1ff7bf62);
+            ).addTo(marker_cluster_28200da47a354627914062df25d28609);
         
     
-            marker_a1b65607080647a08b967e568fd4c71c.bindTooltip(
+            marker_74e405a3d96245f1b324b9842284b62d.bindTooltip(
                 `<div>
                      <style>    #date {        font-size: 0.8em;        font-variant: small-caps;    }    #head_hr {        margin: 10px 0;    }    #body {        width: 225px;        white-space: normal !important;    }</style><span id="date">September 20</span><hr id="head_hr"><p id="body">At 10:33:AM, a person was carjacked in the    1300 Block of S Avers Ave.</p>
                  </div>`,
@@ -1798,13 +1700,13 @@
             );
         
     
-            var marker_19a7ce8f826b40c48839d0316e30efb7 = L.marker(
+            var marker_0b6fef1988174f6bb1749e76acca733d = L.marker(
                 [41.8774751, -87.692712309],
                 {}
-            ).addTo(marker_cluster_bf124d87444a4cfc8425a6ee1ff7bf62);
+            ).addTo(marker_cluster_28200da47a354627914062df25d28609);
         
     
-            marker_19a7ce8f826b40c48839d0316e30efb7.bindTooltip(
+            marker_0b6fef1988174f6bb1749e76acca733d.bindTooltip(
                 `<div>
                      <style>    #date {        font-size: 0.8em;        font-variant: small-caps;    }    #head_hr {        margin: 10px 0;    }    #body {        width: 225px;        white-space: normal !important;    }</style><span id="date">September 21</span><hr id="head_hr"><p id="body">At 03:05:PM, a person was carjacked in the    2600 Block of W Jackson BLVD.</p>
                  </div>`,
@@ -1812,13 +1714,13 @@
             );
         
     
-            var marker_8545385cb2294f6fb9d1de297be44729 = L.marker(
+            var marker_e496cf0a90004e2a959232366173708b = L.marker(
                 [41.894351454, -87.660901589],
                 {}
-            ).addTo(marker_cluster_bf124d87444a4cfc8425a6ee1ff7bf62);
+            ).addTo(marker_cluster_28200da47a354627914062df25d28609);
         
     
-            marker_8545385cb2294f6fb9d1de297be44729.bindTooltip(
+            marker_e496cf0a90004e2a959232366173708b.bindTooltip(
                 `<div>
                      <style>    #date {        font-size: 0.8em;        font-variant: small-caps;    }    #head_hr {        margin: 10px 0;    }    #body {        width: 225px;        white-space: normal !important;    }</style><span id="date">September 21</span><hr id="head_hr"><p id="body">At 02:45:PM, a person was carjacked in the    1300 Block of W Huron St.</p>
                  </div>`,
@@ -1826,13 +1728,13 @@
             );
         
     
-            var marker_3b3f9d45ff474143b109d4849e2aef55 = L.marker(
+            var marker_41943524a56f4848b0cb2e57a7f389e4 = L.marker(
                 [42.009074401, -87.668646912],
                 {}
-            ).addTo(marker_cluster_bf124d87444a4cfc8425a6ee1ff7bf62);
+            ).addTo(marker_cluster_28200da47a354627914062df25d28609);
         
     
-            marker_3b3f9d45ff474143b109d4849e2aef55.bindTooltip(
+            marker_41943524a56f4848b0cb2e57a7f389e4.bindTooltip(
                 `<div>
                      <style>    #date {        font-size: 0.8em;        font-variant: small-caps;    }    #head_hr {        margin: 10px 0;    }    #body {        width: 225px;        white-space: normal !important;    }</style><span id="date">September 21</span><hr id="head_hr"><p id="body">At 07:51:PM, a person was carjacked in the    1500 Block of W Lunt Ave.</p>
                  </div>`,
@@ -1840,13 +1742,13 @@
             );
         
     
-            var marker_bf7e7f37bcda4a1cbc8ec5ec62d857c7 = L.marker(
+            var marker_e3bf19d057d04dd9a5bf75c97c6a4b0d = L.marker(
                 [41.692780068, -87.600611049],
                 {}
-            ).addTo(marker_cluster_bf124d87444a4cfc8425a6ee1ff7bf62);
+            ).addTo(marker_cluster_28200da47a354627914062df25d28609);
         
     
-            marker_bf7e7f37bcda4a1cbc8ec5ec62d857c7.bindTooltip(
+            marker_e3bf19d057d04dd9a5bf75c97c6a4b0d.bindTooltip(
                 `<div>
                      <style>    #date {        font-size: 0.8em;        font-variant: small-caps;    }    #head_hr {        margin: 10px 0;    }    #body {        width: 225px;        white-space: normal !important;    }</style><span id="date">September 21</span><hr id="head_hr"><p id="body">At 05:00:PM, a person was carjacked in the    11100 Block of S Corliss Ave.</p>
                  </div>`,
@@ -1854,13 +1756,13 @@
             );
         
     
-            var marker_3987a91f920340799e1fb5699e2fbd1b = L.marker(
+            var marker_8d7020ad7c5047a3b54641eb95cbe7a5 = L.marker(
                 [41.932180948, -87.644745673],
                 {}
-            ).addTo(marker_cluster_bf124d87444a4cfc8425a6ee1ff7bf62);
+            ).addTo(marker_cluster_28200da47a354627914062df25d28609);
         
     
-            marker_3987a91f920340799e1fb5699e2fbd1b.bindTooltip(
+            marker_8d7020ad7c5047a3b54641eb95cbe7a5.bindTooltip(
                 `<div>
                      <style>    #date {        font-size: 0.8em;        font-variant: small-caps;    }    #head_hr {        margin: 10px 0;    }    #body {        width: 225px;        white-space: normal !important;    }</style><span id="date">September 21</span><hr id="head_hr"><p id="body">At 07:15:PM, a person was carjacked in the    2700 Block of N Clark St.</p>
                  </div>`,
@@ -1868,13 +1770,13 @@
             );
         
     
-            var marker_074afb15ed9b4927b0d47c723c588513 = L.marker(
+            var marker_40d14924fec945a1a2e5a882aec178fc = L.marker(
                 [41.943989133, -87.824105974],
                 {}
-            ).addTo(marker_cluster_bf124d87444a4cfc8425a6ee1ff7bf62);
+            ).addTo(marker_cluster_28200da47a354627914062df25d28609);
         
     
-            marker_074afb15ed9b4927b0d47c723c588513.bindTooltip(
+            marker_40d14924fec945a1a2e5a882aec178fc.bindTooltip(
                 `<div>
                      <style>    #date {        font-size: 0.8em;        font-variant: small-caps;    }    #head_hr {        margin: 10px 0;    }    #body {        width: 225px;        white-space: normal !important;    }</style><span id="date">September 21</span><hr id="head_hr"><p id="body">At 09:44:PM, a person was carjacked in the    3500 Block of N Orange Ave.</p>
                  </div>`,
@@ -1882,13 +1784,13 @@
             );
         
     
-            var marker_df6a9b31a39f4b0694ccb918370259b3 = L.marker(
+            var marker_726786548efd49729be8d022ac8c1f7d = L.marker(
                 [41.872901198, -87.660219564],
                 {}
-            ).addTo(marker_cluster_bf124d87444a4cfc8425a6ee1ff7bf62);
+            ).addTo(marker_cluster_28200da47a354627914062df25d28609);
         
     
-            marker_df6a9b31a39f4b0694ccb918370259b3.bindTooltip(
+            marker_726786548efd49729be8d022ac8c1f7d.bindTooltip(
                 `<div>
                      <style>    #date {        font-size: 0.8em;        font-variant: small-caps;    }    #head_hr {        margin: 10px 0;    }    #body {        width: 225px;        white-space: normal !important;    }</style><span id="date">September 22</span><hr id="head_hr"><p id="body">At 06:45:PM, a person was carjacked in the    700 Block of S Ada St.</p>
                  </div>`,
@@ -1896,13 +1798,13 @@
             );
         
     
-            var marker_b909bb7155c44202b8a5f4db3942e812 = L.marker(
+            var marker_ca80e4a78eaf4349902ed74061eecdc5 = L.marker(
                 [41.867586991, -87.737466011],
                 {}
-            ).addTo(marker_cluster_bf124d87444a4cfc8425a6ee1ff7bf62);
+            ).addTo(marker_cluster_28200da47a354627914062df25d28609);
         
     
-            marker_b909bb7155c44202b8a5f4db3942e812.bindTooltip(
+            marker_ca80e4a78eaf4349902ed74061eecdc5.bindTooltip(
                 `<div>
                      <style>    #date {        font-size: 0.8em;        font-variant: small-caps;    }    #head_hr {        margin: 10px 0;    }    #body {        width: 225px;        white-space: normal !important;    }</style><span id="date">September 22</span><hr id="head_hr"><p id="body">At 09:00:PM, a person was carjacked in the    1100 Block of S Kilbourn Ave.</p>
                  </div>`,
@@ -1910,13 +1812,13 @@
             );
         
     
-            var marker_eedc1d3d898648339f2457bbacfdfce9 = L.marker(
+            var marker_0f7eb34bd9f143329bddd6e8187e2b90 = L.marker(
                 [41.879916906, -87.682362027],
                 {}
-            ).addTo(marker_cluster_bf124d87444a4cfc8425a6ee1ff7bf62);
+            ).addTo(marker_cluster_28200da47a354627914062df25d28609);
         
     
-            marker_eedc1d3d898648339f2457bbacfdfce9.bindTooltip(
+            marker_0f7eb34bd9f143329bddd6e8187e2b90.bindTooltip(
                 `<div>
                      <style>    #date {        font-size: 0.8em;        font-variant: small-caps;    }    #head_hr {        margin: 10px 0;    }    #body {        width: 225px;        white-space: normal !important;    }</style><span id="date">September 22</span><hr id="head_hr"><p id="body">At 07:30:PM, a person was carjacked in the    2200 Block of W Monroe St.</p>
                  </div>`,
@@ -1924,13 +1826,13 @@
             );
         
     
-            var marker_5bd105fc97ac4db08b77c6648fe9f0ed = L.marker(
+            var marker_526ea8eea8074bc1bf640887993aaa73 = L.marker(
                 [41.746685097, -87.605110373],
                 {}
-            ).addTo(marker_cluster_bf124d87444a4cfc8425a6ee1ff7bf62);
+            ).addTo(marker_cluster_28200da47a354627914062df25d28609);
         
     
-            marker_5bd105fc97ac4db08b77c6648fe9f0ed.bindTooltip(
+            marker_526ea8eea8074bc1bf640887993aaa73.bindTooltip(
                 `<div>
                      <style>    #date {        font-size: 0.8em;        font-variant: small-caps;    }    #head_hr {        margin: 10px 0;    }    #body {        width: 225px;        white-space: normal !important;    }</style><span id="date">September 22</span><hr id="head_hr"><p id="body">At 07:50:PM, a person was carjacked in the    8100 Block of S Cottage Grove Ave.</p>
                  </div>`,
@@ -1938,13 +1840,13 @@
             );
         
     
-            var marker_1dbd2421dee34f8eb5e58911205aa9e6 = L.marker(
+            var marker_495d70a164ef4f5980ca1a5fd98ad08b = L.marker(
                 [41.823621211, -87.633369949],
                 {}
-            ).addTo(marker_cluster_bf124d87444a4cfc8425a6ee1ff7bf62);
+            ).addTo(marker_cluster_28200da47a354627914062df25d28609);
         
     
-            marker_1dbd2421dee34f8eb5e58911205aa9e6.bindTooltip(
+            marker_495d70a164ef4f5980ca1a5fd98ad08b.bindTooltip(
                 `<div>
                      <style>    #date {        font-size: 0.8em;        font-variant: small-caps;    }    #head_hr {        margin: 10px 0;    }    #body {        width: 225px;        white-space: normal !important;    }</style><span id="date">September 22</span><hr id="head_hr"><p id="body">At 11:30:AM, a person was carjacked in the    300 Block of W Pershing Rd.</p>
                  </div>`,
@@ -1952,13 +1854,13 @@
             );
         
     
-            var marker_4e95e34384bc49c0b4219d9fe50d174d = L.marker(
+            var marker_b2ae631078bb436fbfe9b01bd9742474 = L.marker(
                 [41.892290812, -87.74439841],
                 {}
-            ).addTo(marker_cluster_bf124d87444a4cfc8425a6ee1ff7bf62);
+            ).addTo(marker_cluster_28200da47a354627914062df25d28609);
         
     
-            marker_4e95e34384bc49c0b4219d9fe50d174d.bindTooltip(
+            marker_b2ae631078bb436fbfe9b01bd9742474.bindTooltip(
                 `<div>
                      <style>    #date {        font-size: 0.8em;        font-variant: small-caps;    }    #head_hr {        margin: 10px 0;    }    #body {        width: 225px;        white-space: normal !important;    }</style><span id="date">September 22</span><hr id="head_hr"><p id="body">At 11:41:PM, a person was carjacked in the    4700 Block of W Erie St.</p>
                  </div>`,
@@ -1966,13 +1868,13 @@
             );
         
     
-            var marker_a3eb7b147c0e4f30a829202e270b0053 = L.marker(
+            var marker_223abe9eba2a4db184544602804773c6 = L.marker(
                 [41.84905989, -87.639141371],
                 {}
-            ).addTo(marker_cluster_bf124d87444a4cfc8425a6ee1ff7bf62);
+            ).addTo(marker_cluster_28200da47a354627914062df25d28609);
         
     
-            marker_a3eb7b147c0e4f30a829202e270b0053.bindTooltip(
+            marker_223abe9eba2a4db184544602804773c6.bindTooltip(
                 `<div>
                      <style>    #date {        font-size: 0.8em;        font-variant: small-caps;    }    #head_hr {        margin: 10px 0;    }    #body {        width: 225px;        white-space: normal !important;    }</style><span id="date">September 23</span><hr id="head_hr"><p id="body">At 04:30:AM, a person was carjacked in the    400 Block of W 24th St.</p>
                  </div>`,
@@ -1980,13 +1882,13 @@
             );
         
     
-            var marker_c97e41a498314f21a04d9604873a4d07 = L.marker(
+            var marker_fe16ca04e4a842b99bcc1e06a3ec612b = L.marker(
                 [41.941851236, -87.706484153],
                 {}
-            ).addTo(marker_cluster_bf124d87444a4cfc8425a6ee1ff7bf62);
+            ).addTo(marker_cluster_28200da47a354627914062df25d28609);
         
     
-            marker_c97e41a498314f21a04d9604873a4d07.bindTooltip(
+            marker_fe16ca04e4a842b99bcc1e06a3ec612b.bindTooltip(
                 `<div>
                      <style>    #date {        font-size: 0.8em;        font-variant: small-caps;    }    #head_hr {        margin: 10px 0;    }    #body {        width: 225px;        white-space: normal !important;    }</style><span id="date">September 23</span><hr id="head_hr"><p id="body">At 11:14:PM, a person was carjacked in the    3300 Block of N Troy St.</p>
                  </div>`,
@@ -1994,13 +1896,13 @@
             );
         
     
-            var marker_3710347fc16341beb87ce9892b6a51e9 = L.marker(
+            var marker_d182942f22f34b63909b6c2a4a515708 = L.marker(
                 [41.894436285, -87.71506148],
                 {}
-            ).addTo(marker_cluster_bf124d87444a4cfc8425a6ee1ff7bf62);
+            ).addTo(marker_cluster_28200da47a354627914062df25d28609);
         
     
-            marker_3710347fc16341beb87ce9892b6a51e9.bindTooltip(
+            marker_d182942f22f34b63909b6c2a4a515708.bindTooltip(
                 `<div>
                      <style>    #date {        font-size: 0.8em;        font-variant: small-caps;    }    #head_hr {        margin: 10px 0;    }    #body {        width: 225px;        white-space: normal !important;    }</style><span id="date">September 24</span><hr id="head_hr"><p id="body">At 05:40:PM, a person was carjacked in the    700 Block of N Drake Ave.</p>
                  </div>`,
@@ -2008,13 +1910,13 @@
             );
         
     
-            var marker_a3d7883ab91c4f8f92cfd9f2ab48a53f = L.marker(
+            var marker_0b6d14581536467d962ab9426422d8e8 = L.marker(
                 [41.778138848, -87.69336461],
                 {}
-            ).addTo(marker_cluster_bf124d87444a4cfc8425a6ee1ff7bf62);
+            ).addTo(marker_cluster_28200da47a354627914062df25d28609);
         
     
-            marker_a3d7883ab91c4f8f92cfd9f2ab48a53f.bindTooltip(
+            marker_0b6d14581536467d962ab9426422d8e8.bindTooltip(
                 `<div>
                      <style>    #date {        font-size: 0.8em;        font-variant: small-caps;    }    #head_hr {        margin: 10px 0;    }    #body {        width: 225px;        white-space: normal !important;    }</style><span id="date">September 24</span><hr id="head_hr"><p id="body">At 12:50:PM, a person was carjacked in the    6300 Block of S California Ave.</p>
                  </div>`,
@@ -2022,13 +1924,13 @@
             );
         
     
-            var marker_3a8e932cff5a44e89b09f0965e933994 = L.marker(
+            var marker_7a8261180d724180a11a4a0702ef5791 = L.marker(
                 [41.904498249, -87.674868262],
                 {}
-            ).addTo(marker_cluster_bf124d87444a4cfc8425a6ee1ff7bf62);
+            ).addTo(marker_cluster_28200da47a354627914062df25d28609);
         
     
-            marker_3a8e932cff5a44e89b09f0965e933994.bindTooltip(
+            marker_7a8261180d724180a11a4a0702ef5791.bindTooltip(
                 `<div>
                      <style>    #date {        font-size: 0.8em;        font-variant: small-caps;    }    #head_hr {        margin: 10px 0;    }    #body {        width: 225px;        white-space: normal !important;    }</style><span id="date">September 24</span><hr id="head_hr"><p id="body">At 01:45:PM, a person was carjacked in the    1200 Block of N Wolcott Ave.</p>
                  </div>`,
@@ -2036,13 +1938,13 @@
             );
         
     
-            var marker_2fca76ac54a842b4808b53b42a214456 = L.marker(
+            var marker_73354cba60a84462915cf668c8290960 = L.marker(
                 [41.863939033, -87.704371248],
                 {}
-            ).addTo(marker_cluster_bf124d87444a4cfc8425a6ee1ff7bf62);
+            ).addTo(marker_cluster_28200da47a354627914062df25d28609);
         
     
-            marker_2fca76ac54a842b4808b53b42a214456.bindTooltip(
+            marker_73354cba60a84462915cf668c8290960.bindTooltip(
                 `<div>
                      <style>    #date {        font-size: 0.8em;        font-variant: small-caps;    }    #head_hr {        margin: 10px 0;    }    #body {        width: 225px;        white-space: normal !important;    }</style><span id="date">September 24</span><hr id="head_hr"><p id="body">At 06:30:AM, a person was carjacked in the    1300 Block of S Troy St.</p>
                  </div>`,
@@ -2050,13 +1952,13 @@
             );
         
     
-            var marker_c2a6af9eee19475c9c5667b4b5a2f377 = L.marker(
+            var marker_869f928ce93c432c92c53e1fcb46e94f = L.marker(
                 [41.81210059, -87.621287622],
                 {}
-            ).addTo(marker_cluster_bf124d87444a4cfc8425a6ee1ff7bf62);
+            ).addTo(marker_cluster_28200da47a354627914062df25d28609);
         
     
-            marker_c2a6af9eee19475c9c5667b4b5a2f377.bindTooltip(
+            marker_869f928ce93c432c92c53e1fcb46e94f.bindTooltip(
                 `<div>
                      <style>    #date {        font-size: 0.8em;        font-variant: small-caps;    }    #head_hr {        margin: 10px 0;    }    #body {        width: 225px;        white-space: normal !important;    }</style><span id="date">September 24</span><hr id="head_hr"><p id="body">At 03:20:AM, a person was carjacked in the    4500 Block of S Indiana Ave.</p>
                  </div>`,
@@ -2064,13 +1966,13 @@
             );
         
     
-            var marker_6f025dfc9c004b94af6720ddadb0f725 = L.marker(
+            var marker_f8b9df259eb64205b94dcb7ddd68025f = L.marker(
                 [41.804937384, -87.73207202],
                 {}
-            ).addTo(marker_cluster_bf124d87444a4cfc8425a6ee1ff7bf62);
+            ).addTo(marker_cluster_28200da47a354627914062df25d28609);
         
     
-            marker_6f025dfc9c004b94af6720ddadb0f725.bindTooltip(
+            marker_f8b9df259eb64205b94dcb7ddd68025f.bindTooltip(
                 `<div>
                      <style>    #date {        font-size: 0.8em;        font-variant: small-caps;    }    #head_hr {        margin: 10px 0;    }    #body {        width: 225px;        white-space: normal !important;    }</style><span id="date">September 24</span><hr id="head_hr"><p id="body">At 02:12:AM, a person was carjacked in the    4800 Block of S Kolin Ave.</p>
                  </div>`,
@@ -2078,13 +1980,13 @@
             );
         
     
-            var marker_99f5b2f223304087983ef1cb403fb547 = L.marker(
+            var marker_fb3c0e191a10451c9399c705f4c7bc03 = L.marker(
                 [41.938967852, -87.644363923],
                 {}
-            ).addTo(marker_cluster_bf124d87444a4cfc8425a6ee1ff7bf62);
+            ).addTo(marker_cluster_28200da47a354627914062df25d28609);
         
     
-            marker_99f5b2f223304087983ef1cb403fb547.bindTooltip(
+            marker_fb3c0e191a10451c9399c705f4c7bc03.bindTooltip(
                 `<div>
                      <style>    #date {        font-size: 0.8em;        font-variant: small-caps;    }    #head_hr {        margin: 10px 0;    }    #body {        width: 225px;        white-space: normal !important;    }</style><span id="date">September 24</span><hr id="head_hr"><p id="body">At 05:30:PM, a person was carjacked in the    3100 Block of N Broadway.</p>
                  </div>`,
@@ -2092,13 +1994,13 @@
             );
         
     
-            var marker_d73b8eb6f7544cfabe083fceadbb4d65 = L.marker(
+            var marker_d8758903bd2841ddba05c6b19b35c2a7 = L.marker(
                 [41.887748749, -87.729015487],
                 {}
-            ).addTo(marker_cluster_bf124d87444a4cfc8425a6ee1ff7bf62);
+            ).addTo(marker_cluster_28200da47a354627914062df25d28609);
         
     
-            marker_d73b8eb6f7544cfabe083fceadbb4d65.bindTooltip(
+            marker_d8758903bd2841ddba05c6b19b35c2a7.bindTooltip(
                 `<div>
                      <style>    #date {        font-size: 0.8em;        font-variant: small-caps;    }    #head_hr {        margin: 10px 0;    }    #body {        width: 225px;        white-space: normal !important;    }</style><span id="date">September 25</span><hr id="head_hr"><p id="body">At 10:19:AM, a person was carjacked in the    4100 Block of W Kinzie St.</p>
                  </div>`,
@@ -2106,13 +2008,13 @@
             );
         
     
-            var marker_6e285574f077466d930e2e619742d807 = L.marker(
+            var marker_762e2592bd91486cae784991b6c8111d = L.marker(
                 [41.916246686, -87.686523201],
                 {}
-            ).addTo(marker_cluster_bf124d87444a4cfc8425a6ee1ff7bf62);
+            ).addTo(marker_cluster_28200da47a354627914062df25d28609);
         
     
-            marker_6e285574f077466d930e2e619742d807.bindTooltip(
+            marker_762e2592bd91486cae784991b6c8111d.bindTooltip(
                 `<div>
                      <style>    #date {        font-size: 0.8em;        font-variant: small-caps;    }    #head_hr {        margin: 10px 0;    }    #body {        width: 225px;        white-space: normal !important;    }</style><span id="date">September 25</span><hr id="head_hr"><p id="body">At 05:00:AM, a person was carjacked in the    1900 Block of N Milwaukee Ave.</p>
                  </div>`,
@@ -2120,13 +2022,13 @@
             );
         
     
-            var marker_140077cc261a4bd1ba90446cd5175f69 = L.marker(
+            var marker_a742afe9cf2847af86b204927ef07a42 = L.marker(
                 [41.852576091, -87.713647867],
                 {}
-            ).addTo(marker_cluster_bf124d87444a4cfc8425a6ee1ff7bf62);
+            ).addTo(marker_cluster_28200da47a354627914062df25d28609);
         
     
-            marker_140077cc261a4bd1ba90446cd5175f69.bindTooltip(
+            marker_a742afe9cf2847af86b204927ef07a42.bindTooltip(
                 `<div>
                      <style>    #date {        font-size: 0.8em;        font-variant: small-caps;    }    #head_hr {        margin: 10px 0;    }    #body {        width: 225px;        white-space: normal !important;    }</style><span id="date">September 25</span><hr id="head_hr"><p id="body">At 04:11:AM, a person was carjacked in the    2100 Block of S Drake Ave.</p>
                  </div>`,
@@ -2134,13 +2036,13 @@
             );
         
     
-            var marker_ede5a7d8e91f4beba3bd73cac7296ac8 = L.marker(
+            var marker_045ab25165c3472185c6548c89b56abf = L.marker(
                 [41.810997728, -87.728596637],
                 {}
-            ).addTo(marker_cluster_bf124d87444a4cfc8425a6ee1ff7bf62);
+            ).addTo(marker_cluster_28200da47a354627914062df25d28609);
         
     
-            marker_ede5a7d8e91f4beba3bd73cac7296ac8.bindTooltip(
+            marker_045ab25165c3472185c6548c89b56abf.bindTooltip(
                 `<div>
                      <style>    #date {        font-size: 0.8em;        font-variant: small-caps;    }    #head_hr {        margin: 10px 0;    }    #body {        width: 225px;        white-space: normal !important;    }</style><span id="date">September 25</span><hr id="head_hr"><p id="body">At 02:47:PM, a person was carjacked in the    4500 Block of S Keeler Ave.</p>
                  </div>`,
@@ -2148,13 +2050,13 @@
             );
         
     
-            var marker_8715f069b86a4e28940ab0db60809651 = L.marker(
+            var marker_90bc0f5e8f084444b706307a2a82c8ff = L.marker(
                 [41.869401039, -87.657671565],
                 {}
-            ).addTo(marker_cluster_bf124d87444a4cfc8425a6ee1ff7bf62);
+            ).addTo(marker_cluster_28200da47a354627914062df25d28609);
         
     
-            marker_8715f069b86a4e28940ab0db60809651.bindTooltip(
+            marker_90bc0f5e8f084444b706307a2a82c8ff.bindTooltip(
                 `<div>
                      <style>    #date {        font-size: 0.8em;        font-variant: small-caps;    }    #head_hr {        margin: 10px 0;    }    #body {        width: 225px;        white-space: normal !important;    }</style><span id="date">September 25</span><hr id="head_hr"><p id="body">At 11:34:AM, a person was carjacked in the    1200 Block of W Taylor St.</p>
                  </div>`,
@@ -2162,13 +2064,13 @@
             );
         
     
-            var marker_3b41e8097cf34889a5df35309f74bf05 = L.marker(
+            var marker_9570c87ef55245f1817323a701023cdd = L.marker(
                 [41.852878684, -87.635770908],
                 {}
-            ).addTo(marker_cluster_bf124d87444a4cfc8425a6ee1ff7bf62);
+            ).addTo(marker_cluster_28200da47a354627914062df25d28609);
         
     
-            marker_3b41e8097cf34889a5df35309f74bf05.bindTooltip(
+            marker_9570c87ef55245f1817323a701023cdd.bindTooltip(
                 `<div>
                      <style>    #date {        font-size: 0.8em;        font-variant: small-caps;    }    #head_hr {        margin: 10px 0;    }    #body {        width: 225px;        white-space: normal !important;    }</style><span id="date">September 25</span><hr id="head_hr"><p id="body">At 06:00:PM, a person was carjacked in the    300 Block of W Cermak Rd.</p>
                  </div>`,
@@ -2176,13 +2078,13 @@
             );
         
     
-            var marker_8f28cdcbcdab43e39c0ff4e10cf35112 = L.marker(
+            var marker_e50111cde06b4dd9b6f396186aaf926e = L.marker(
                 [41.673207966, -87.617674109],
                 {}
-            ).addTo(marker_cluster_bf124d87444a4cfc8425a6ee1ff7bf62);
+            ).addTo(marker_cluster_28200da47a354627914062df25d28609);
         
     
-            marker_8f28cdcbcdab43e39c0ff4e10cf35112.bindTooltip(
+            marker_e50111cde06b4dd9b6f396186aaf926e.bindTooltip(
                 `<div>
                      <style>    #date {        font-size: 0.8em;        font-variant: small-caps;    }    #head_hr {        margin: 10px 0;    }    #body {        width: 225px;        white-space: normal !important;    }</style><span id="date">September 25</span><hr id="head_hr"><p id="body">At 02:00:AM, a person was carjacked in the    12100 Block of S Indiana Ave.</p>
                  </div>`,
@@ -2190,13 +2092,13 @@
             );
         
     
-            var marker_afe0d51f518f4adeb1f05eca65a2896d = L.marker(
+            var marker_7b26f6279ea44028ab2663825d0895ae = L.marker(
                 [41.90532698, -87.757040503],
                 {}
-            ).addTo(marker_cluster_bf124d87444a4cfc8425a6ee1ff7bf62);
+            ).addTo(marker_cluster_28200da47a354627914062df25d28609);
         
     
-            marker_afe0d51f518f4adeb1f05eca65a2896d.bindTooltip(
+            marker_7b26f6279ea44028ab2663825d0895ae.bindTooltip(
                 `<div>
                      <style>    #date {        font-size: 0.8em;        font-variant: small-caps;    }    #head_hr {        margin: 10px 0;    }    #body {        width: 225px;        white-space: normal !important;    }</style><span id="date">September 25</span><hr id="head_hr"><p id="body">At 07:40:PM, a person was carjacked in the    1300 Block of N Latrobe Ave.</p>
                  </div>`,
@@ -2204,13 +2106,13 @@
             );
         
     
-            var marker_395e0c332d544006bce2862363b0e9af = L.marker(
+            var marker_f506da8ffe6e4f5ca22cec3b46c64afe = L.marker(
                 [41.963027538, -87.706339132],
                 {}
-            ).addTo(marker_cluster_bf124d87444a4cfc8425a6ee1ff7bf62);
+            ).addTo(marker_cluster_28200da47a354627914062df25d28609);
         
     
-            marker_395e0c332d544006bce2862363b0e9af.bindTooltip(
+            marker_f506da8ffe6e4f5ca22cec3b46c64afe.bindTooltip(
                 `<div>
                      <style>    #date {        font-size: 0.8em;        font-variant: small-caps;    }    #head_hr {        margin: 10px 0;    }    #body {        width: 225px;        white-space: normal !important;    }</style><span id="date">September 25</span><hr id="head_hr"><p id="body">At 10:30:PM, a person was carjacked in the    3100 Block of W Sunnyside Ave.</p>
                  </div>`,
@@ -2218,13 +2120,13 @@
             );
         
     
-            var marker_88f8ad34b2844d9d8abbc983abd0fccc = L.marker(
+            var marker_763d5ee43a1840579d8e3a66c9630ec2 = L.marker(
                 [41.8032982, -87.653195042],
                 {}
-            ).addTo(marker_cluster_bf124d87444a4cfc8425a6ee1ff7bf62);
+            ).addTo(marker_cluster_28200da47a354627914062df25d28609);
         
     
-            marker_88f8ad34b2844d9d8abbc983abd0fccc.bindTooltip(
+            marker_763d5ee43a1840579d8e3a66c9630ec2.bindTooltip(
                 `<div>
                      <style>    #date {        font-size: 0.8em;        font-variant: small-caps;    }    #head_hr {        margin: 10px 0;    }    #body {        width: 225px;        white-space: normal !important;    }</style><span id="date">September 25</span><hr id="head_hr"><p id="body">At 02:07:PM, a person was carjacked in the    1100 Block of W 50th St.</p>
                  </div>`,
@@ -2232,13 +2134,13 @@
             );
         
     
-            var marker_05ce26f5490a402a86d44dc19c1a1e36 = L.marker(
+            var marker_5fba58e87f3041ef99c697556f4ff7bd = L.marker(
                 [41.781323344, -87.741165491],
                 {}
-            ).addTo(marker_cluster_bf124d87444a4cfc8425a6ee1ff7bf62);
+            ).addTo(marker_cluster_28200da47a354627914062df25d28609);
         
     
-            marker_05ce26f5490a402a86d44dc19c1a1e36.bindTooltip(
+            marker_5fba58e87f3041ef99c697556f4ff7bd.bindTooltip(
                 `<div>
                      <style>    #date {        font-size: 0.8em;        font-variant: small-caps;    }    #head_hr {        margin: 10px 0;    }    #body {        width: 225px;        white-space: normal !important;    }</style><span id="date">September 25</span><hr id="head_hr"><p id="body">At 08:10:PM, a person was carjacked in the    6100 Block of S Keating Ave.</p>
                  </div>`,
@@ -2246,13 +2148,13 @@
             );
         
     
-            var marker_5f7c3f90f73f4517ab47c3d48fa9bc11 = L.marker(
+            var marker_33319c85c0094e01abefbc954eb257ba = L.marker(
                 [41.720926289, -87.618987377],
                 {}
-            ).addTo(marker_cluster_bf124d87444a4cfc8425a6ee1ff7bf62);
+            ).addTo(marker_cluster_28200da47a354627914062df25d28609);
         
     
-            marker_5f7c3f90f73f4517ab47c3d48fa9bc11.bindTooltip(
+            marker_33319c85c0094e01abefbc954eb257ba.bindTooltip(
                 `<div>
                      <style>    #date {        font-size: 0.8em;        font-variant: small-caps;    }    #head_hr {        margin: 10px 0;    }    #body {        width: 225px;        white-space: normal !important;    }</style><span id="date">September 26</span><hr id="head_hr"><p id="body">At 03:15:AM, a person was carjacked in the    9500 Block of S Indiana Ave.</p>
                  </div>`,
@@ -2260,13 +2162,13 @@
             );
         
     
-            var marker_5d9fce01e9694fd59d4af7922eaf433f = L.marker(
+            var marker_77c10d56a4344a05bdaea1dec526800b = L.marker(
                 [41.859849192, -87.644883491],
                 {}
-            ).addTo(marker_cluster_bf124d87444a4cfc8425a6ee1ff7bf62);
+            ).addTo(marker_cluster_28200da47a354627914062df25d28609);
         
     
-            marker_5d9fce01e9694fd59d4af7922eaf433f.bindTooltip(
+            marker_77c10d56a4344a05bdaea1dec526800b.bindTooltip(
                 `<div>
                      <style>    #date {        font-size: 0.8em;        font-variant: small-caps;    }    #head_hr {        margin: 10px 0;    }    #body {        width: 225px;        white-space: normal !important;    }</style><span id="date">September 26</span><hr id="head_hr"><p id="body">At 04:18:AM, a person was carjacked in the    1600 Block of S Union Ave.</p>
                  </div>`,
@@ -2274,13 +2176,13 @@
             );
         
     
-            var marker_08053bb9666a432fb5fdb72ca7c7ea53 = L.marker(
+            var marker_63cf2855c119443b84b17b78e7e06207 = L.marker(
                 [41.758998333, -87.633295638],
                 {}
-            ).addTo(marker_cluster_bf124d87444a4cfc8425a6ee1ff7bf62);
+            ).addTo(marker_cluster_28200da47a354627914062df25d28609);
         
     
-            marker_08053bb9666a432fb5fdb72ca7c7ea53.bindTooltip(
+            marker_63cf2855c119443b84b17b78e7e06207.bindTooltip(
                 `<div>
                      <style>    #date {        font-size: 0.8em;        font-variant: small-caps;    }    #head_hr {        margin: 10px 0;    }    #body {        width: 225px;        white-space: normal !important;    }</style><span id="date">September 26</span><hr id="head_hr"><p id="body">At 08:11:PM, a person was carjacked in the    7400 Block of S Harvard Ave.</p>
                  </div>`,
@@ -2288,13 +2190,13 @@
             );
         
     
-            var marker_0a4e96c0a67646a3b005580af3dc217b = L.marker(
+            var marker_0963545e880844e2af975188a55bab19 = L.marker(
                 [41.794801134, -87.589743088],
                 {}
-            ).addTo(marker_cluster_bf124d87444a4cfc8425a6ee1ff7bf62);
+            ).addTo(marker_cluster_28200da47a354627914062df25d28609);
         
     
-            marker_0a4e96c0a67646a3b005580af3dc217b.bindTooltip(
+            marker_0963545e880844e2af975188a55bab19.bindTooltip(
                 `<div>
                      <style>    #date {        font-size: 0.8em;        font-variant: small-caps;    }    #head_hr {        margin: 10px 0;    }    #body {        width: 225px;        white-space: normal !important;    }</style><span id="date">September 26</span><hr id="head_hr"><p id="body">At 11:35:PM, a person was carjacked in the    1400 Block of E 55th Pl.</p>
                  </div>`,
@@ -2302,13 +2204,13 @@
             );
         
     
-            var marker_c028c8a2c8fd4fa2893be31c7b1d1a0f = L.marker(
+            var marker_d655a4b8253b40b89a85ced99dfac621 = L.marker(
                 [41.893646656, -87.631177143],
                 {}
-            ).addTo(marker_cluster_bf124d87444a4cfc8425a6ee1ff7bf62);
+            ).addTo(marker_cluster_28200da47a354627914062df25d28609);
         
     
-            marker_c028c8a2c8fd4fa2893be31c7b1d1a0f.bindTooltip(
+            marker_d655a4b8253b40b89a85ced99dfac621.bindTooltip(
                 `<div>
                      <style>    #date {        font-size: 0.8em;        font-variant: small-caps;    }    #head_hr {        margin: 10px 0;    }    #body {        width: 225px;        white-space: normal !important;    }</style><span id="date">September 26</span><hr id="head_hr"><p id="body">At 02:10:AM, a person was carjacked in the    600 Block of N Clark St.</p>
                  </div>`,
@@ -2316,13 +2218,13 @@
             );
         
     
-            var marker_f9e7b5cde47e4aefa3aa934474177c25 = L.marker(
+            var marker_6d3ede0de778401c95d8b2a4ca4a60bc = L.marker(
                 [41.815952419, -87.614058525],
                 {}
-            ).addTo(marker_cluster_bf124d87444a4cfc8425a6ee1ff7bf62);
+            ).addTo(marker_cluster_28200da47a354627914062df25d28609);
         
     
-            marker_f9e7b5cde47e4aefa3aa934474177c25.bindTooltip(
+            marker_6d3ede0de778401c95d8b2a4ca4a60bc.bindTooltip(
                 `<div>
                      <style>    #date {        font-size: 0.8em;        font-variant: small-caps;    }    #head_hr {        margin: 10px 0;    }    #body {        width: 225px;        white-space: normal !important;    }</style><span id="date">September 26</span><hr id="head_hr"><p id="body">At 08:12:PM, a person was carjacked in the    4300 Block of S Vincennes Ave.</p>
                  </div>`,
@@ -2330,13 +2232,13 @@
             );
         
     
-            var marker_4c84cdc8d480491496a8c2988c095ece = L.marker(
+            var marker_88dc6ddb71a640b384e25354da6f7024 = L.marker(
                 [41.876233799, -87.774519379],
                 {}
-            ).addTo(marker_cluster_bf124d87444a4cfc8425a6ee1ff7bf62);
+            ).addTo(marker_cluster_28200da47a354627914062df25d28609);
         
     
-            marker_4c84cdc8d480491496a8c2988c095ece.bindTooltip(
+            marker_88dc6ddb71a640b384e25354da6f7024.bindTooltip(
                 `<div>
                      <style>    #date {        font-size: 0.8em;        font-variant: small-caps;    }    #head_hr {        margin: 10px 0;    }    #body {        width: 225px;        white-space: normal !important;    }</style><span id="date">September 26</span><hr id="head_hr"><p id="body">At 03:30:AM, a person was carjacked in the    300 Block of S Austin BLVD.</p>
                  </div>`,
@@ -2344,13 +2246,13 @@
             );
         
     
-            var marker_e2eace457be741169d3957714ca417b4 = L.marker(
+            var marker_0a4c57ba2d95434d9e4c101b5a75c819 = L.marker(
                 [41.903934942, -87.673305484],
                 {}
-            ).addTo(marker_cluster_bf124d87444a4cfc8425a6ee1ff7bf62);
+            ).addTo(marker_cluster_28200da47a354627914062df25d28609);
         
     
-            marker_e2eace457be741169d3957714ca417b4.bindTooltip(
+            marker_0a4c57ba2d95434d9e4c101b5a75c819.bindTooltip(
                 `<div>
                      <style>    #date {        font-size: 0.8em;        font-variant: small-caps;    }    #head_hr {        margin: 10px 0;    }    #body {        width: 225px;        white-space: normal !important;    }</style><span id="date">September 26</span><hr id="head_hr"><p id="body">At 05:50:AM, a person was carjacked in the    1200 Block of N Honore St.</p>
                  </div>`,
@@ -2358,13 +2260,13 @@
             );
         
     
-            var marker_987189f2e4e043708e55ff019fe160c8 = L.marker(
+            var marker_1fc5be2ae1124ef7965e96dcdef6cc84 = L.marker(
                 [41.877361575, -87.70194469],
                 {}
-            ).addTo(marker_cluster_bf124d87444a4cfc8425a6ee1ff7bf62);
+            ).addTo(marker_cluster_28200da47a354627914062df25d28609);
         
     
-            marker_987189f2e4e043708e55ff019fe160c8.bindTooltip(
+            marker_1fc5be2ae1124ef7965e96dcdef6cc84.bindTooltip(
                 `<div>
                      <style>    #date {        font-size: 0.8em;        font-variant: small-caps;    }    #head_hr {        margin: 10px 0;    }    #body {        width: 225px;        white-space: normal !important;    }</style><span id="date">September 26</span><hr id="head_hr"><p id="body">At 01:15:AM, a person was carjacked in the    3000 Block of W Jackson BLVD.</p>
                  </div>`,
@@ -2372,13 +2274,13 @@
             );
         
     
-            var marker_adc62cea1de844d181194a854b9ecd4d = L.marker(
+            var marker_948d7d5538e245d7afeccbd413fad1f6 = L.marker(
                 [41.766978356, -87.582806527],
                 {}
-            ).addTo(marker_cluster_bf124d87444a4cfc8425a6ee1ff7bf62);
+            ).addTo(marker_cluster_28200da47a354627914062df25d28609);
         
     
-            marker_adc62cea1de844d181194a854b9ecd4d.bindTooltip(
+            marker_948d7d5538e245d7afeccbd413fad1f6.bindTooltip(
                 `<div>
                      <style>    #date {        font-size: 0.8em;        font-variant: small-caps;    }    #head_hr {        margin: 10px 0;    }    #body {        width: 225px;        white-space: normal !important;    }</style><span id="date">September 26</span><hr id="head_hr"><p id="body">At 02:42:PM, a person was carjacked in the    7000 Block of S East End Ave.</p>
                  </div>`,
@@ -2386,13 +2288,13 @@
             );
         
     
-            var marker_31a9e17dec744540bcd5ce3644bd68bf = L.marker(
+            var marker_9ae2bbab329543afad98f7f7b21bc592 = L.marker(
                 [41.751375148, -87.55895132],
                 {}
-            ).addTo(marker_cluster_bf124d87444a4cfc8425a6ee1ff7bf62);
+            ).addTo(marker_cluster_28200da47a354627914062df25d28609);
         
     
-            marker_31a9e17dec744540bcd5ce3644bd68bf.bindTooltip(
+            marker_9ae2bbab329543afad98f7f7b21bc592.bindTooltip(
                 `<div>
                      <style>    #date {        font-size: 0.8em;        font-variant: small-caps;    }    #head_hr {        margin: 10px 0;    }    #body {        width: 225px;        white-space: normal !important;    }</style><span id="date">September 27</span><hr id="head_hr"><p id="body">At 10:00:PM, a person was carjacked in the    7900 Block of S Marquette Ave.</p>
                  </div>`,
@@ -2400,13 +2302,13 @@
             );
         
     
-            var marker_46c64eabe9404a4d84ad67f7818ecfd4 = L.marker(
+            var marker_72e6963562584c38b7209c640b1888e0 = L.marker(
                 [41.873030296, -87.685530815],
                 {}
-            ).addTo(marker_cluster_bf124d87444a4cfc8425a6ee1ff7bf62);
+            ).addTo(marker_cluster_28200da47a354627914062df25d28609);
         
     
-            marker_46c64eabe9404a4d84ad67f7818ecfd4.bindTooltip(
+            marker_72e6963562584c38b7209c640b1888e0.bindTooltip(
                 `<div>
                      <style>    #date {        font-size: 0.8em;        font-variant: small-caps;    }    #head_hr {        margin: 10px 0;    }    #body {        width: 225px;        white-space: normal !important;    }</style><span id="date">September 27</span><hr id="head_hr"><p id="body">At 11:08:AM, a person was carjacked in the    2300 Block of W Flournoy St.</p>
                  </div>`,
@@ -2414,13 +2316,13 @@
             );
         
     
-            var marker_fa0ba5a00fc647d091fa990de5a2498f = L.marker(
+            var marker_5600701d66794278964e9453bf83385e = L.marker(
                 [41.886012942, -87.771988324],
                 {}
-            ).addTo(marker_cluster_bf124d87444a4cfc8425a6ee1ff7bf62);
+            ).addTo(marker_cluster_28200da47a354627914062df25d28609);
         
     
-            marker_fa0ba5a00fc647d091fa990de5a2498f.bindTooltip(
+            marker_5600701d66794278964e9453bf83385e.bindTooltip(
                 `<div>
                      <style>    #date {        font-size: 0.8em;        font-variant: small-caps;    }    #head_hr {        margin: 10px 0;    }    #body {        width: 225px;        white-space: normal !important;    }</style><span id="date">September 28</span><hr id="head_hr"><p id="body">At 04:01:PM, a person was carjacked in the    300 Block of N Mayfield Ave.</p>
                  </div>`,
@@ -2428,13 +2330,13 @@
             );
         
     
-            var marker_22a9c2c4e1a84e79b55a3053aae6f49e = L.marker(
+            var marker_0dbe006a73df4570b92a7e927d718085 = L.marker(
                 [41.895900684, -87.71998754],
                 {}
-            ).addTo(marker_cluster_bf124d87444a4cfc8425a6ee1ff7bf62);
+            ).addTo(marker_cluster_28200da47a354627914062df25d28609);
         
     
-            marker_22a9c2c4e1a84e79b55a3053aae6f49e.bindTooltip(
+            marker_0dbe006a73df4570b92a7e927d718085.bindTooltip(
                 `<div>
                      <style>    #date {        font-size: 0.8em;        font-variant: small-caps;    }    #head_hr {        margin: 10px 0;    }    #body {        width: 225px;        white-space: normal !important;    }</style><span id="date">September 28</span><hr id="head_hr"><p id="body">At 04:45:AM, a person was carjacked in the    800 Block of N Ridgeway Ave.</p>
                  </div>`,
@@ -2442,13 +2344,13 @@
             );
         
     
-            var marker_e7b8802d4a60408c948594705a996c3d = L.marker(
+            var marker_373ae2bab53b412cb8ef587bc3393310 = L.marker(
                 [41.671775999, -87.650240324],
                 {}
-            ).addTo(marker_cluster_bf124d87444a4cfc8425a6ee1ff7bf62);
+            ).addTo(marker_cluster_28200da47a354627914062df25d28609);
         
     
-            marker_e7b8802d4a60408c948594705a996c3d.bindTooltip(
+            marker_373ae2bab53b412cb8ef587bc3393310.bindTooltip(
                 `<div>
                      <style>    #date {        font-size: 0.8em;        font-variant: small-caps;    }    #head_hr {        margin: 10px 0;    }    #body {        width: 225px;        white-space: normal !important;    }</style><span id="date">September 28</span><hr id="head_hr"><p id="body">At 09:20:PM, a person was carjacked in the    12200 Block of S May St.</p>
                  </div>`,
@@ -2456,13 +2358,13 @@
             );
         
     
-            var marker_dfdc2a83a23d48ec9c285187d0799ad7 = L.marker(
+            var marker_129c6cdf99374f5ab39e2286418930e1 = L.marker(
                 [41.752521575, -87.639596188],
                 {}
-            ).addTo(marker_cluster_bf124d87444a4cfc8425a6ee1ff7bf62);
+            ).addTo(marker_cluster_28200da47a354627914062df25d28609);
         
     
-            marker_dfdc2a83a23d48ec9c285187d0799ad7.bindTooltip(
+            marker_129c6cdf99374f5ab39e2286418930e1.bindTooltip(
                 `<div>
                      <style>    #date {        font-size: 0.8em;        font-variant: small-caps;    }    #head_hr {        margin: 10px 0;    }    #body {        width: 225px;        white-space: normal !important;    }</style><span id="date">September 28</span><hr id="head_hr"><p id="body">At 04:50:PM, a person was carjacked in the    600 Block of W 78th St.</p>
                  </div>`,
@@ -2470,13 +2372,13 @@
             );
         
     
-            var marker_da9f66e270c347a3be692a367c3509df = L.marker(
+            var marker_a6f99bc4e84748d3819b5a182c7d674a = L.marker(
                 [41.873510659, -87.720554136],
                 {}
-            ).addTo(marker_cluster_bf124d87444a4cfc8425a6ee1ff7bf62);
+            ).addTo(marker_cluster_28200da47a354627914062df25d28609);
         
     
-            marker_da9f66e270c347a3be692a367c3509df.bindTooltip(
+            marker_a6f99bc4e84748d3819b5a182c7d674a.bindTooltip(
                 `<div>
                      <style>    #date {        font-size: 0.8em;        font-variant: small-caps;    }    #head_hr {        margin: 10px 0;    }    #body {        width: 225px;        white-space: normal !important;    }</style><span id="date">September 29</span><hr id="head_hr"><p id="body">At 02:40:AM, a person was carjacked in the    3800 Block of W Harrison St.</p>
                  </div>`,
@@ -2484,13 +2386,13 @@
             );
         
     
-            var marker_69c24e9849594dcca8ffd29ae5a80c60 = L.marker(
+            var marker_4cbf51a76b3c42f78f5e449c730c07e7 = L.marker(
                 [41.740124927, -87.580638708],
                 {}
-            ).addTo(marker_cluster_bf124d87444a4cfc8425a6ee1ff7bf62);
+            ).addTo(marker_cluster_28200da47a354627914062df25d28609);
         
     
-            marker_69c24e9849594dcca8ffd29ae5a80c60.bindTooltip(
+            marker_4cbf51a76b3c42f78f5e449c730c07e7.bindTooltip(
                 `<div>
                      <style>    #date {        font-size: 0.8em;        font-variant: small-caps;    }    #head_hr {        margin: 10px 0;    }    #body {        width: 225px;        white-space: normal !important;    }</style><span id="date">September 29</span><hr id="head_hr"><p id="body">At 02:50:PM, a person was carjacked in the    8500 Block of S Cregier Ave.</p>
                  </div>`,
@@ -2498,13 +2400,13 @@
             );
         
     
-            var marker_d5785234de57441a84dbdaecb5d56548 = L.marker(
+            var marker_13bf0dc53ad54b1f9f22384353c1364a = L.marker(
                 [41.881787275, -87.646810962],
                 {}
-            ).addTo(marker_cluster_bf124d87444a4cfc8425a6ee1ff7bf62);
+            ).addTo(marker_cluster_28200da47a354627914062df25d28609);
         
     
-            marker_d5785234de57441a84dbdaecb5d56548.bindTooltip(
+            marker_13bf0dc53ad54b1f9f22384353c1364a.bindTooltip(
                 `<div>
                      <style>    #date {        font-size: 0.8em;        font-variant: small-caps;    }    #head_hr {        margin: 10px 0;    }    #body {        width: 225px;        white-space: normal !important;    }</style><span id="date">September 29</span><hr id="head_hr"><p id="body">At 02:41:AM, a person was carjacked in the    700 Block of W Madison St.</p>
                  </div>`,
@@ -2512,13 +2414,13 @@
             );
         
     
-            var marker_ea4ee1e11eba4f38ac2afcf031046aaa = L.marker(
+            var marker_3cedacef095347499bd2d422100e5cd3 = L.marker(
                 [41.903165497, -87.629236154],
                 {}
-            ).addTo(marker_cluster_bf124d87444a4cfc8425a6ee1ff7bf62);
+            ).addTo(marker_cluster_28200da47a354627914062df25d28609);
         
     
-            marker_ea4ee1e11eba4f38ac2afcf031046aaa.bindTooltip(
+            marker_3cedacef095347499bd2d422100e5cd3.bindTooltip(
                 `<div>
                      <style>    #date {        font-size: 0.8em;        font-variant: small-caps;    }    #head_hr {        margin: 10px 0;    }    #body {        width: 225px;        white-space: normal !important;    }</style><span id="date">September 29</span><hr id="head_hr"><p id="body">At 03:25:AM, a person was carjacked in the    0x W Elm St.</p>
                  </div>`,
@@ -2526,13 +2428,13 @@
             );
         
     
-            var marker_acdc1c5297894396b97f8e55d73cc674 = L.marker(
+            var marker_52eeef1b4fd9485181d83c6482b2efa0 = L.marker(
                 [41.837713633, -87.7219306],
                 {}
-            ).addTo(marker_cluster_bf124d87444a4cfc8425a6ee1ff7bf62);
+            ).addTo(marker_cluster_28200da47a354627914062df25d28609);
         
     
-            marker_acdc1c5297894396b97f8e55d73cc674.bindTooltip(
+            marker_52eeef1b4fd9485181d83c6482b2efa0.bindTooltip(
                 `<div>
                      <style>    #date {        font-size: 0.8em;        font-variant: small-caps;    }    #head_hr {        margin: 10px 0;    }    #body {        width: 225px;        white-space: normal !important;    }</style><span id="date">September 30</span><hr id="head_hr"><p id="body">At 03:54:AM, a person was carjacked in the    3000 Block of S Springfield Ave.</p>
                  </div>`,
@@ -2540,13 +2442,13 @@
             );
         
     
-            var marker_88a4eaa795f940449ed65b0f8ecfa761 = L.marker(
+            var marker_63d2fe68e47b4263a0180480c4a3d18f = L.marker(
                 [41.77263768, -87.731142002],
                 {}
-            ).addTo(marker_cluster_bf124d87444a4cfc8425a6ee1ff7bf62);
+            ).addTo(marker_cluster_28200da47a354627914062df25d28609);
         
     
-            marker_88a4eaa795f940449ed65b0f8ecfa761.bindTooltip(
+            marker_63d2fe68e47b4263a0180480c4a3d18f.bindTooltip(
                 `<div>
                      <style>    #date {        font-size: 0.8em;        font-variant: small-caps;    }    #head_hr {        margin: 10px 0;    }    #body {        width: 225px;        white-space: normal !important;    }</style><span id="date">September 30</span><hr id="head_hr"><p id="body">At 07:15:PM, a person was carjacked in the    6600 Block of S Kolin Ave.</p>
                  </div>`,
@@ -2554,13 +2456,13 @@
             );
         
     
-            var marker_460ecc8adde34583945665f3a27b8d2f = L.marker(
+            var marker_36bf05f4eefc4dfd98e8678fa8124b09 = L.marker(
                 [41.855036295, -87.667311425],
                 {}
-            ).addTo(marker_cluster_bf124d87444a4cfc8425a6ee1ff7bf62);
+            ).addTo(marker_cluster_28200da47a354627914062df25d28609);
         
     
-            marker_460ecc8adde34583945665f3a27b8d2f.bindTooltip(
+            marker_36bf05f4eefc4dfd98e8678fa8124b09.bindTooltip(
                 `<div>
                      <style>    #date {        font-size: 0.8em;        font-variant: small-caps;    }    #head_hr {        margin: 10px 0;    }    #body {        width: 225px;        white-space: normal !important;    }</style><span id="date">September 30</span><hr id="head_hr"><p id="body">At 02:55:AM, a person was carjacked in the    1600 Block of W Cullerton St.</p>
                  </div>`,
@@ -2568,13 +2470,13 @@
             );
         
     
-            var marker_263f55755f0e4e38a63e43e73c53ed0a = L.marker(
+            var marker_cc442a369ef347b2ac72414f860e88e7 = L.marker(
                 [41.880779076, -87.721377025],
                 {}
-            ).addTo(marker_cluster_bf124d87444a4cfc8425a6ee1ff7bf62);
+            ).addTo(marker_cluster_28200da47a354627914062df25d28609);
         
     
-            marker_263f55755f0e4e38a63e43e73c53ed0a.bindTooltip(
+            marker_cc442a369ef347b2ac72414f860e88e7.bindTooltip(
                 `<div>
                      <style>    #date {        font-size: 0.8em;        font-variant: small-caps;    }    #head_hr {        margin: 10px 0;    }    #body {        width: 225px;        white-space: normal !important;    }</style><span id="date">September 30</span><hr id="head_hr"><p id="body">At 06:45:AM, a person was carjacked in the    3800 Block of W Madison St.</p>
                  </div>`,
@@ -2582,15 +2484,127 @@
             );
         
     
-            var marker_2d0c6db46e274a0384262adfc184e425 = L.marker(
+            var marker_9f1a0e7cedea44a0be5107a5c827b330 = L.marker(
                 [41.750832464, -87.605224746],
                 {}
-            ).addTo(marker_cluster_bf124d87444a4cfc8425a6ee1ff7bf62);
+            ).addTo(marker_cluster_28200da47a354627914062df25d28609);
         
     
-            marker_2d0c6db46e274a0384262adfc184e425.bindTooltip(
+            marker_9f1a0e7cedea44a0be5107a5c827b330.bindTooltip(
                 `<div>
                      <style>    #date {        font-size: 0.8em;        font-variant: small-caps;    }    #head_hr {        margin: 10px 0;    }    #body {        width: 225px;        white-space: normal !important;    }</style><span id="date">September 30</span><hr id="head_hr"><p id="body">At 09:00:AM, a person was carjacked in the    7900 Block of S Cottage Grove Ave.</p>
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_48e29e123a9340c18ddfffbc3cab687a = L.marker(
+                [41.870972499, -87.704361047],
+                {}
+            ).addTo(marker_cluster_28200da47a354627914062df25d28609);
+        
+    
+            marker_48e29e123a9340c18ddfffbc3cab687a.bindTooltip(
+                `<div>
+                     <style>    #date {        font-size: 0.8em;        font-variant: small-caps;    }    #head_hr {        margin: 10px 0;    }    #body {        width: 225px;        white-space: normal !important;    }</style><span id="date">October 01</span><hr id="head_hr"><p id="body">At 12:35:AM, a person was carjacked in the    3100 Block of W Polk St.</p>
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_2a0b3eb49f1a43d8b654fd8972c6642b = L.marker(
+                [41.870949349, -87.707155338],
+                {}
+            ).addTo(marker_cluster_28200da47a354627914062df25d28609);
+        
+    
+            marker_2a0b3eb49f1a43d8b654fd8972c6642b.bindTooltip(
+                `<div>
+                     <style>    #date {        font-size: 0.8em;        font-variant: small-caps;    }    #head_hr {        margin: 10px 0;    }    #body {        width: 225px;        white-space: normal !important;    }</style><span id="date">October 01</span><hr id="head_hr"><p id="body">At 01:00:PM, a person was carjacked in the    3200 Block of W Polk St.</p>
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_9442cb66496f4779a683d1e5eded887a = L.marker(
+                [41.911893017, -87.710609256],
+                {}
+            ).addTo(marker_cluster_28200da47a354627914062df25d28609);
+        
+    
+            marker_9442cb66496f4779a683d1e5eded887a.bindTooltip(
+                `<div>
+                     <style>    #date {        font-size: 0.8em;        font-variant: small-caps;    }    #head_hr {        margin: 10px 0;    }    #body {        width: 225px;        white-space: normal !important;    }</style><span id="date">October 01</span><hr id="head_hr"><p id="body">At 08:24:AM, a person was carjacked in the    3300 Block of W Wabansia Ave.</p>
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_d8fb4068bb31452086c2d8cb3ef5c884 = L.marker(
+                [41.894004398, -87.653691681],
+                {}
+            ).addTo(marker_cluster_28200da47a354627914062df25d28609);
+        
+    
+            marker_d8fb4068bb31452086c2d8cb3ef5c884.bindTooltip(
+                `<div>
+                     <style>    #date {        font-size: 0.8em;        font-variant: small-caps;    }    #head_hr {        margin: 10px 0;    }    #body {        width: 225px;        white-space: normal !important;    }</style><span id="date">October 01</span><hr id="head_hr"><p id="body">At 10:15:PM, a person was carjacked in the    1000 Block of W Ancona St.</p>
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_392deecff796467fb5e1df2244d11f47 = L.marker(
+                [41.751929215, -87.64285322],
+                {}
+            ).addTo(marker_cluster_28200da47a354627914062df25d28609);
+        
+    
+            marker_392deecff796467fb5e1df2244d11f47.bindTooltip(
+                `<div>
+                     <style>    #date {        font-size: 0.8em;        font-variant: small-caps;    }    #head_hr {        margin: 10px 0;    }    #body {        width: 225px;        white-space: normal !important;    }</style><span id="date">October 01</span><hr id="head_hr"><p id="body">At 09:24:PM, a person was carjacked in the    7800 Block of S Emerald Ave.</p>
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_0ff0c037e964447b8b799c4b002c3cc7 = L.marker(
+                [41.749291528, -87.564979003],
+                {}
+            ).addTo(marker_cluster_28200da47a354627914062df25d28609);
+        
+    
+            marker_0ff0c037e964447b8b799c4b002c3cc7.bindTooltip(
+                `<div>
+                     <style>    #date {        font-size: 0.8em;        font-variant: small-caps;    }    #head_hr {        margin: 10px 0;    }    #body {        width: 225px;        white-space: normal !important;    }</style><span id="date">October 01</span><hr id="head_hr"><p id="body">At 09:30:PM, a person was carjacked in the    8000 Block of S Phillips Ave.</p>
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_66fdc1bc98824eafa568b2ec332863b8 = L.marker(
+                [41.914703719, -87.678169238],
+                {}
+            ).addTo(marker_cluster_28200da47a354627914062df25d28609);
+        
+    
+            marker_66fdc1bc98824eafa568b2ec332863b8.bindTooltip(
+                `<div>
+                     <style>    #date {        font-size: 0.8em;        font-variant: small-caps;    }    #head_hr {        margin: 10px 0;    }    #body {        width: 225px;        white-space: normal !important;    }</style><span id="date">October 01</span><hr id="head_hr"><p id="body">At 01:15:AM, a person was carjacked in the    2000 Block of W Churchill St.</p>
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_f5e9ea308e4747dc830cadb47fc6b700 = L.marker(
+                [41.786969136, -87.630307356],
+                {}
+            ).addTo(marker_cluster_28200da47a354627914062df25d28609);
+        
+    
+            marker_f5e9ea308e4747dc830cadb47fc6b700.bindTooltip(
+                `<div>
+                     <style>    #date {        font-size: 0.8em;        font-variant: small-caps;    }    #head_hr {        margin: 10px 0;    }    #body {        width: 225px;        white-space: normal !important;    }</style><span id="date">October 01</span><hr id="head_hr"><p id="body">At 01:00:AM, a person was carjacked in the    5900 Block of S Wentworth Ave.</p>
                  </div>`,
                 {"sticky": true}
             );
