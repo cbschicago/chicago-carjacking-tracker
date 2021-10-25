@@ -124,6 +124,11 @@ output/dw-tables/carjacking-last-30-days.csv: \
 
 # EXCEL FILES
 
+output/excel/carjacking-by-neighborhood-yoy-latest.xlsx: \
+		src/excel/carjacking_by_neighborhood_yoy.py \
+		output/carjacking-ytd-latest.csv
+	python $^ $@
+
 output/excel/carjacking-by-month-yoy-latest.xlsx: \
 		src/excel/carjacking_by_month_yoy.py \
 		output/carjacking-ytd-latest.csv
