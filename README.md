@@ -9,7 +9,7 @@ The csv files in `output/` are used to populate graphics hosted at [cbschicago.c
 
 ---
 
-## Data current through November 14, 2021
+## Data current through November 15, 2021
 
 | month                    |   2015 |   2016 |   2017 |   2018 |   2019 |   2020 |   2021 |
 |:-------------------------|-------:|-------:|-------:|-------:|-------:|-------:|-------:|
@@ -23,8 +23,8 @@ The csv files in `output/` are used to populate graphics hosted at [cbschicago.c
 | August                   |     32 |     79 |     86 |     65 |     45 |    163 |    160 |
 | September                |     32 |     48 |     76 |     58 |     73 |    117 |    178 |
 | October                  |     32 |     57 |     83 |     67 |     60 |    156 |    194 |
-| November (through 11-14) |     17 |     35 |     62 |     29 |     23 |     87 |     97 |
-| Total                    |    275 |    521 |    772 |    644 |    505 |   1144 |   1539 |
+| November (through 11-15) |     17 |     35 |     64 |     32 |     25 |     88 |    108 |
+| Total                    |    275 |    521 |    774 |    647 |    507 |   1145 |   1550 |
 
 [![output/img/dw/carjacking-by-month-historical.png](output/img/dw/carjacking-by-month-historical.png)](https://datawrapper.dwcdn.net/Y7rwP/)
 
