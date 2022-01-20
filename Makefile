@@ -173,3 +173,6 @@ update-chart-descriptions: \
 		hand/chart-descriptions.json \
 		output/max_date.txt
 	python src/update_chart_descriptions.py $^
+
+cleanup:
+	find output ! -type d -exec rm '{}' \;
