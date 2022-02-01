@@ -9,23 +9,12 @@ The csv files in `output/` are used to populate graphics hosted at [cbschicago.c
 
 ---
 
-## Data current through December 31, 2021
+## Data current through January 24, 2022
 
-| month                    |   2015 |   2016 |   2017 |   2018 |   2019 |   2020 |   2021 |
-|:-------------------------|-------:|-------:|-------:|-------:|-------:|-------:|-------:|
-| January                  |     26 |     51 |     75 |     86 |     49 |     74 |    217 |
-| February                 |     11 |     36 |     56 |     51 |     30 |     67 |    125 |
-| March                    |     29 |     41 |     58 |     60 |     31 |     57 |     81 |
-| April                    |     23 |     34 |     64 |     49 |     45 |     64 |    100 |
-| May                      |     19 |     47 |     63 |     49 |     49 |     96 |    108 |
-| June                     |     17 |     39 |     74 |     58 |     47 |    114 |    130 |
-| July                     |     37 |     54 |     75 |     72 |     53 |    149 |    149 |
-| August                   |     32 |     79 |     86 |     65 |     45 |    163 |    160 |
-| September                |     32 |     48 |     76 |     58 |     73 |    117 |    177 |
-| October                  |     32 |     57 |     83 |     67 |     60 |    156 |    196 |
-| November                 |     33 |     77 |    111 |     67 |     52 |    207 |    201 |
-| December (through 12-31) |     49 |    100 |    116 |     82 |     69 |    149 |    204 |
-| Total                    |    340 |    663 |    937 |    764 |    603 |   1413 |   1848 |
+| month                   |   2015 |   2016 |   2017 |   2018 |   2019 |   2020 |   2021 |   2022 |
+|:------------------------|-------:|-------:|-------:|-------:|-------:|-------:|-------:|-------:|
+| January (through 01-24) |     24 |     38 |     58 |     73 |     40 |     51 |    188 |    133 |
+| Total                   |     24 |     38 |     58 |     73 |     40 |     51 |    188 |    133 |
 
 [![output/img/dw/carjacking-by-month-historical.png](output/img/dw/carjacking-by-month-historical.png)](https://datawrapper.dwcdn.net/Y7rwP/)
 
