@@ -9,7 +9,7 @@ xt = pd.crosstab(
     index=df.month, columns=df.year, values=df.case_number, aggfunc="nunique"
 )
 max_date = df.date.max()
-xt = xt[xt.index < max_date.month]
+# xt = xt[xt.index < max_date.month]
 xt.index = xt.index.map(
     lambda m: pd.Timestamp(2021, m, 1).strftime("%B")
     # if m != max_date.month

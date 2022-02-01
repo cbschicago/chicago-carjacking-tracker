@@ -16,7 +16,8 @@ IMAGES: \
 
 EXCEL: \
 	output/excel/carjacking-by-month-yoy-latest.xlsx \
-	output/excel/carjacking-by-neighborhood-by-month.xlsx
+	output/excel/carjacking-by-neighborhood-by-month.xlsx \
+	output/excel/carjacking-by-month-yoy-historical.xlsx
 
 DATAWRAPPER_TABLES: \
 	output/dw-tables/carjacking-last-30-days.csv \
@@ -37,6 +38,7 @@ README.md: \
 		src/update_readme.py \
 		hand/readme_header.txt \
 		output/max_date.txt \
+		output/excel/carjacking-by-month-yoy-historical.xlsx \
 		output/excel/carjacking-by-month-yoy-latest.xlsx \
 		output/img/dw/carjacking-by-month-historical.png \
 		output/img/dw/carjacking-by-month-yoy.png \
@@ -90,7 +92,7 @@ output/dw-tables/carjacking-by-neighborhood-yoy-latest.csv: \
 
 output/dw-tables/carjacking-by-month-yoy-latest.csv: \
 		src/dw_tables/carjacking_by_month_yoy.py \
-		output/carjacking-ytd-latest.csv
+		output/carjacking-all-latest.csv
 	python $^ > $@
 
 output/dw-tables/carjacking-by-month-latest.csv: \
@@ -120,6 +122,12 @@ output/excel/carjacking-by-neighborhood-by-month.xlsx: \
 		output/carjacking-ytd-latest.csv
 	python $^ $@
 
+output/excel/carjacking-by-month-yoy-historical.xlsx: \
+		src/excel/carjacking_by_month_yoy.py \
+		output/carjacking-all-latest.csv
+	python $^ $@
+		
+
 # INCIDENT-LEVEL DATA FILES
 
 output/carjacking-ytd-latest.csv: \
@@ -138,10 +146,10 @@ output/max_date.txt: \
 		output/carjacking-all-latest-raw.csv
 	python $^ $@
 
-output/carjacking-all-latest-raw.csv:
-	echo id,case_number,date,block,iucr,primary_type,description,location_description,arrest,domestic,beat,district,ward,community_area,fbi_code,x_coordinate,y_coordinate,year,updated_on,lat,lon,location > $@
-	curl 'https://data.cityofchicago.org/resource/ijzp-q8t2.csv?$$query=SELECT%20*%20WHERE%20(iucr%20LIKE%20%270325%27%20OR%20iucr%20LIKE%20%270326%27)%20AND%20date%20%3E=%272015-01-01%27%20LIMIT%2010000000' | \
-		awk "NR > 1" >> $@
+# output/carjacking-all-latest-raw.csv:
+# 	echo id,case_number,date,block,iucr,primary_type,description,location_description,arrest,domestic,beat,district,ward,community_area,fbi_code,x_coordinate,y_coordinate,year,updated_on,lat,lon,location > $@
+# 	curl 'https://data.cityofchicago.org/resource/ijzp-q8t2.csv?$$query=SELECT%20*%20WHERE%20(iucr%20LIKE%20%270325%27%20OR%20iucr%20LIKE%20%270326%27)%20AND%20date%20%3E=%272015-01-01%27%20LIMIT%2010000000' | \
+# 		awk "NR > 1" >> $@
 
 # DATAWRAPPER SCRIPTS
 
