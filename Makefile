@@ -1,7 +1,6 @@
 all: \
 	LATEST_DATA \
 	DATAWRAPPER_TABLES \
-	FOLIUM_MAPS \
 	EXCEL \
 	IMAGES \
 	README.md \
@@ -17,17 +16,13 @@ IMAGES: \
 
 EXCEL: \
 	output/excel/carjacking-by-month-yoy-latest.xlsx \
-	output/excel/carjacking-by-neighborhood-by-month.xlsx \
-	output/excel/carjacking-arrests-by-month-yoy-latest.xlsx
+	output/excel/carjacking-by-neighborhood-by-month.xlsx
 
 DATAWRAPPER_TABLES: \
 	output/dw-tables/carjacking-last-30-days.csv \
 	output/dw-tables/carjacking-by-month-latest.csv \
 	output/dw-tables/carjacking-by-month-yoy-latest.csv \
 	output/dw-tables/carjacking-by-neighborhood-yoy-latest.csv \
-
-FOLIUM_MAPS: \
-	output/folium/carjacking-last-30-days.html
 	
 LATEST_DATA: \
 	output/max_date.txt \
@@ -37,9 +32,6 @@ LATEST_DATA: \
 .PHONY: \
 	output/carjacking-all-latest-raw.csv \
 	update-chart-descriptions
-
-.INTERMEDIATE: \
-	output/carjacking-all-latest-raw.csv
 
 README.md: \
 		src/update_readme.py \
@@ -52,8 +44,6 @@ README.md: \
 		output/img/dw/carjacking-by-neighborhood.png \
 		hand/datawrapper-files-ids.json
 	python $^ $@
-
-SFTP_DIR=projects/chicago-carjacking-tracker
 
 # IMAGES
 
@@ -91,15 +81,6 @@ output/img/dw/carjacking-by-neighborhood.png: \
 		output/dw-tables/carjacking-by-neighborhood-yoy-latest.csv
 	python $^ EurKU $@
 
-# FOLIUM MAPS
-
-output/folium/carjacking-last-30-days.html: \
-		src/folium/carjacking_last_30_days.py \
-		output/dw-tables/carjacking-last-30-days.csv \
-		hand/tooltip_html_templates/carjacking_last_30_days.html
-	python $^ $@
-	python -m sftp $@ $(SFTP_DIR)/$$(basename $@)
-
 # DATAWRAPPER TABLES
 
 output/dw-tables/carjacking-by-neighborhood-yoy-latest.csv: \
@@ -136,11 +117,6 @@ output/excel/carjacking-by-month-yoy-latest.xlsx: \
 
 output/excel/carjacking-by-neighborhood-by-month.xlsx: \
 		src/excel/carjacking_by_neighborhood_by_month.py \
-		output/carjacking-ytd-latest.csv
-	python $^ $@
-
-output/excel/carjacking-arrests-by-month-yoy-latest.xlsx: \
-		src/excel/carjacking_arrests_by_month_yoy.py \
 		output/carjacking-ytd-latest.csv
 	python $^ $@
 
