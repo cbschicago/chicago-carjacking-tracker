@@ -7,13 +7,15 @@ df["year"] = df.date.dt.year
 xt = pd.crosstab(
     index=df.pri_neigh, columns=df.year, values=df.case_number, aggfunc="nunique"
 ).fillna(0)
+CURRENT_YEAR = pd.Timestamp().today().year
+PREV_YEAR = CURRENT_YEAR - 1
 
 
 def tooltip_comparison_text(row):
-    if row[2021] == row[2020]:
+    if row[CURRENT_YEAR] == row[PREV_YEAR]:
         return ("the same number as", "black")
     else:
-        dif = int(row[2021] - row[2020])
+        dif = int(row[CURRENT_YEAR] - row[PREV_YEAR])
         if dif > 0:
             return (f"{dif} more than", "#cc281d")
         else:
