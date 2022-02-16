@@ -31,6 +31,12 @@ LATEST_DATA: \
 	output/carjacking-ytd-latest.csv
 
 .PHONY: \
+	all \
+	cleanup \
+	IMAGES \
+	EXCEL \
+	DATAWRAPPER_TABLES \
+	LATEST_DATA \
 	output/carjacking-all-latest-raw.csv \
 	update-chart-descriptions
 
@@ -144,7 +150,7 @@ output/carjacking-all-latest.csv: \
 output/max_date.txt: \
 		src/get_max_date.py \
 		output/carjacking-all-latest-raw.csv
-	python $^ $@
+	python $^ $@	
 
 output/carjacking-all-latest-raw.csv:
 	echo id,case_number,date,block,iucr,primary_type,description,location_description,arrest,domestic,beat,district,ward,community_area,fbi_code,x_coordinate,y_coordinate,year,updated_on,lat,lon,location > $@
