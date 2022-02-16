@@ -125,7 +125,7 @@ output/excel/carjacking-by-month-yoy-latest.xlsx: \
 output/excel/carjacking-by-month-yoy-historical.xlsx: \
 		src/excel/carjacking_by_month_yoy.py \
 		output/carjacking-all-latest.csv
-	python $^ $@
+	python $^ $@ --ytd-columns
 
 
 # INCIDENT-LEVEL DATA FILES
