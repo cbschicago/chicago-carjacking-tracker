@@ -7,7 +7,7 @@ df["year"] = df.date.dt.year
 xt = pd.crosstab(
     index=df.pri_neigh, columns=df.year, values=df.case_number, aggfunc="nunique"
 ).fillna(0)
-CURRENT_YEAR = pd.Timestamp().today().year
+CURRENT_YEAR = pd.Timestamp.today().year
 PREV_YEAR = CURRENT_YEAR - 1
 
 
