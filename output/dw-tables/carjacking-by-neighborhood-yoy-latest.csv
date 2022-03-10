@@ -1,18 +1,18 @@
 pri_neigh,2015,2016,2017,2018,2019,2020,2021,2022,tooltip_comparison_text,tooltip_comparison_text_color
-Albany Park,0.0,1.0,2.0,1.0,1.0,0.0,4.0,1.0,3 fewer than,#009c1d
+Albany Park,0.0,1.0,2.0,1.0,2.0,0.0,4.0,1.0,3 fewer than,#009c1d
 Andersonville,0.0,0.0,0.0,0.0,0.0,0.0,1.0,0.0,1 fewer than,#009c1d
 Archer Heights,0.0,1.0,0.0,0.0,0.0,0.0,3.0,4.0,1 more than,#cc281d
 Armour Square,0.0,0.0,0.0,0.0,0.0,1.0,0.0,0.0,the same number as,black
 Ashburn,0.0,1.0,1.0,5.0,0.0,0.0,1.0,1.0,the same number as,black
 Auburn Gresham,2.0,3.0,5.0,3.0,5.0,0.0,9.0,9.0,the same number as,black
-Austin,6.0,4.0,16.0,16.0,7.0,16.0,25.0,18.0,7 fewer than,#009c1d
-Avalon Park,0.0,0.0,1.0,2.0,0.0,1.0,5.0,1.0,4 fewer than,#009c1d
+Austin,6.0,4.0,16.0,16.0,7.0,16.0,26.0,18.0,8 fewer than,#009c1d
+Avalon Park,0.0,0.0,1.0,2.0,0.0,1.0,6.0,1.0,5 fewer than,#009c1d
 Avondale,0.0,0.0,1.0,1.0,0.0,0.0,4.0,2.0,2 fewer than,#009c1d
 Belmont Cragin,2.0,1.0,4.0,3.0,2.0,2.0,2.0,4.0,2 more than,#cc281d
-Bridgeport,0.0,0.0,1.0,0.0,0.0,1.0,3.0,7.0,4 more than,#cc281d
+Bridgeport,0.0,0.0,1.0,1.0,0.0,1.0,3.0,7.0,4 more than,#cc281d
 Brighton Park,0.0,1.0,0.0,0.0,0.0,0.0,3.0,2.0,1 fewer than,#009c1d
 Bucktown,0.0,0.0,1.0,1.0,0.0,0.0,4.0,2.0,2 fewer than,#009c1d
-Calumet Heights,0.0,0.0,2.0,1.0,1.0,0.0,17.0,8.0,9 fewer than,#009c1d
+Calumet Heights,0.0,0.0,2.0,1.0,1.0,0.0,18.0,8.0,10 fewer than,#009c1d
 Chatham,1.0,2.0,0.0,1.0,1.0,7.0,5.0,6.0,1 more than,#cc281d
 Chicago Lawn,1.0,4.0,2.0,6.0,3.0,4.0,7.0,8.0,1 more than,#cc281d
 Chinatown,0.0,0.0,0.0,0.0,0.0,1.0,3.0,11.0,8 more than,#cc281d
@@ -28,7 +28,7 @@ Gage Park,0.0,3.0,2.0,0.0,1.0,2.0,1.0,0.0,1 fewer than,#009c1d
 Garfield Park,2.0,10.0,7.0,10.0,4.0,17.0,21.0,12.0,9 fewer than,#009c1d
 Garfield Ridge,0.0,0.0,1.0,1.0,0.0,1.0,2.0,1.0,1 fewer than,#009c1d
 Gold Coast,0.0,0.0,0.0,1.0,0.0,1.0,1.0,0.0,1 fewer than,#009c1d
-Grand Boulevard,1.0,0.0,0.0,2.0,0.0,1.0,11.0,3.0,8 fewer than,#009c1d
+Grand Boulevard,1.0,0.0,0.0,2.0,0.0,2.0,11.0,3.0,8 fewer than,#009c1d
 Grand Crossing,1.0,3.0,5.0,3.0,4.0,1.0,5.0,7.0,2 more than,#cc281d
 Hegewisch,0.0,0.0,1.0,0.0,0.0,0.0,0.0,0.0,the same number as,black
 Hermosa,0.0,3.0,1.0,0.0,1.0,0.0,0.0,2.0,2 more than,#cc281d
@@ -50,7 +50,7 @@ Mckinley Park,0.0,0.0,0.0,0.0,1.0,0.0,1.0,2.0,1 more than,#cc281d
 Morgan Park,0.0,0.0,4.0,1.0,0.0,1.0,1.0,3.0,2 more than,#cc281d
 Mount Greenwood,0.0,0.0,0.0,0.0,0.0,0.0,1.0,1.0,the same number as,black
 Museum Campus,0.0,0.0,0.0,0.0,0.0,0.0,1.0,0.0,1 fewer than,#009c1d
-Near South Side,0.0,0.0,1.0,0.0,1.0,0.0,2.0,5.0,3 more than,#cc281d
+Near South Side,0.0,0.0,1.0,0.0,1.0,0.0,2.0,6.0,4 more than,#cc281d
 New City,0.0,2.0,2.0,0.0,1.0,2.0,5.0,12.0,7 more than,#cc281d
 North Center,0.0,1.0,0.0,0.0,0.0,0.0,0.0,1.0,1 more than,#cc281d
 North Lawndale,3.0,5.0,5.0,5.0,2.0,10.0,17.0,14.0,3 fewer than,#009c1d
