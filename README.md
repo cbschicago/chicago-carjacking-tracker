@@ -9,14 +9,14 @@ The csv files in `output/` are used to populate graphics hosted at [cbschicago.c
 
 ---
 
-## Data current through April 26, 2022
+## Data current through April 27, 2022
 
-| month     |   2015 |   2016 |   2017 |   2018 |   2019 |   2020 |   2021 |   2022 (through 04-26) |
+| month     |   2015 |   2016 |   2017 |   2018 |   2019 |   2020 |   2021 |   2022 (through 04-27) |
 |:----------|-------:|-------:|-------:|-------:|-------:|-------:|-------:|-----------------------:|
 | January   |     26 |     51 |     75 |     86 |     49 |     74 |    217 |                    161 |
 | February  |     11 |     36 |     56 |     51 |     30 |     67 |    125 |                    141 |
 | March     |     29 |     41 |     58 |     60 |     31 |     57 |     81 |                    133 |
-| April     |     23 |     34 |     64 |     49 |     45 |     64 |    100 |                    108 |
+| April     |     23 |     34 |     64 |     49 |     45 |     64 |    100 |                    109 |
 | May       |     19 |     47 |     63 |     49 |     49 |     96 |    108 |                    nan |
 | June      |     17 |     39 |     74 |     58 |     47 |    114 |    130 |                    nan |
 | July      |     37 |     54 |     75 |     72 |     53 |    149 |    150 |                    nan |
@@ -25,15 +25,15 @@ The csv files in `output/` are used to populate graphics hosted at [cbschicago.c
 | October   |     32 |     57 |     83 |     67 |     60 |    156 |    195 |                    nan |
 | November  |     33 |     77 |    111 |     67 |     52 |    207 |    203 |                    nan |
 | December  |     49 |    100 |    116 |     82 |     69 |    149 |    205 |                    nan |
-| Total     |    340 |    663 |    937 |    764 |    603 |   1413 |   1852 |                    543 |
+| Total     |    340 |    663 |    937 |    764 |    603 |   1413 |   1852 |                    544 |
 
 | month                 |   2015 |   2016 |   2017 |   2018 |   2019 |   2020 |   2021 |   2022 |
 |:----------------------|-------:|-------:|-------:|-------:|-------:|-------:|-------:|-------:|
 | January               |     26 |     51 |     75 |     86 |     49 |     74 |    217 |    161 |
 | February              |     11 |     36 |     56 |     51 |     30 |     67 |    125 |    141 |
 | March                 |     29 |     41 |     58 |     60 |     31 |     57 |     81 |    133 |
-| April (through 04-26) |     17 |     30 |     54 |     46 |     39 |     53 |     90 |    108 |
-| Total                 |     83 |    158 |    243 |    243 |    149 |    251 |    513 |    543 |
+| April (through 04-27) |     20 |     32 |     55 |     46 |     40 |     55 |     93 |    109 |
+| Total                 |     86 |    160 |    244 |    243 |    150 |    253 |    516 |    544 |
 
 [![output/img/dw/carjacking-by-month-historical.png](output/img/dw/carjacking-by-month-historical.png)](https://datawrapper.dwcdn.net/Y7rwP/)
 
