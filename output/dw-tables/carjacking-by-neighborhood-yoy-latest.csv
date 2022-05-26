@@ -1,10 +1,10 @@
 pri_neigh,2015,2016,2017,2018,2019,2020,2021,2022,tooltip_comparison_text,tooltip_comparison_text_color
 Albany Park,0.0,5.0,4.0,4.0,2.0,0.0,4.0,2.0,2 fewer than,#009c1d
 Andersonville,0.0,0.0,1.0,0.0,0.0,0.0,1.0,2.0,1 more than,#cc281d
-Archer Heights,0.0,1.0,0.0,1.0,0.0,0.0,4.0,4.0,the same number as,black
+Archer Heights,0.0,1.0,0.0,1.0,0.0,1.0,4.0,4.0,the same number as,black
 Armour Square,0.0,0.0,0.0,0.0,0.0,2.0,0.0,1.0,1 more than,#cc281d
 Ashburn,1.0,1.0,3.0,7.0,1.0,0.0,4.0,1.0,3 fewer than,#009c1d
-Auburn Gresham,5.0,7.0,8.0,7.0,6.0,4.0,13.0,15.0,2 more than,#cc281d
+Auburn Gresham,5.0,8.0,8.0,7.0,6.0,4.0,13.0,15.0,2 more than,#cc281d
 Austin,12.0,11.0,30.0,26.0,24.0,36.0,46.0,44.0,2 fewer than,#009c1d
 Avalon Park,1.0,0.0,1.0,4.0,0.0,2.0,8.0,3.0,5 fewer than,#009c1d
 Avondale,0.0,1.0,1.0,4.0,3.0,1.0,5.0,3.0,2 fewer than,#009c1d
@@ -17,7 +17,7 @@ Bucktown,0.0,1.0,1.0,2.0,0.0,0.0,4.0,3.0,1 fewer than,#009c1d
 Calumet Heights,1.0,0.0,2.0,2.0,2.0,2.0,21.0,11.0,10 fewer than,#009c1d
 Chatham,2.0,3.0,5.0,3.0,3.0,13.0,13.0,10.0,3 fewer than,#009c1d
 Chicago Lawn,1.0,7.0,3.0,11.0,6.0,5.0,7.0,19.0,12 more than,#cc281d
-Chinatown,0.0,0.0,4.0,0.0,1.0,1.0,3.0,16.0,13 more than,#cc281d
+Chinatown,0.0,0.0,4.0,0.0,1.0,1.0,3.0,17.0,14 more than,#cc281d
 Clearing,1.0,0.0,0.0,0.0,0.0,1.0,3.0,0.0,3 fewer than,#009c1d
 Douglas,0.0,2.0,1.0,6.0,1.0,3.0,8.0,3.0,5 fewer than,#009c1d
 Dunning,0.0,1.0,0.0,1.0,0.0,1.0,0.0,0.0,the same number as,black
@@ -32,11 +32,11 @@ Garfield Park,10.0,19.0,26.0,26.0,12.0,29.0,33.0,27.0,6 fewer than,#009c1d
 Garfield Ridge,0.0,0.0,4.0,1.0,0.0,1.0,2.0,2.0,the same number as,black
 Gold Coast,0.0,0.0,0.0,1.0,0.0,1.0,1.0,0.0,1 fewer than,#009c1d
 Grand Boulevard,2.0,0.0,1.0,3.0,3.0,4.0,13.0,8.0,5 fewer than,#009c1d
-Grand Crossing,2.0,6.0,8.0,7.0,6.0,7.0,14.0,13.0,1 fewer than,#009c1d
+Grand Crossing,2.0,6.0,8.0,7.0,6.0,8.0,15.0,13.0,2 fewer than,#009c1d
 Greektown,0.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0,the same number as,black
-Hegewisch,0.0,0.0,1.0,0.0,0.0,1.0,0.0,0.0,the same number as,black
+Hegewisch,0.0,0.0,1.0,0.0,0.0,1.0,1.0,0.0,1 fewer than,#009c1d
 Hermosa,0.0,3.0,3.0,1.0,2.0,2.0,1.0,2.0,1 more than,#cc281d
-Humboldt Park,5.0,7.0,15.0,18.0,6.0,13.0,21.0,23.0,2 more than,#cc281d
+Humboldt Park,5.0,7.0,16.0,18.0,6.0,13.0,21.0,23.0,2 more than,#cc281d
 Hyde Park,0.0,0.0,4.0,3.0,0.0,4.0,8.0,5.0,3 fewer than,#009c1d
 Irving Park,1.0,1.0,4.0,3.0,2.0,1.0,2.0,2.0,the same number as,black
 Jackson Park,0.0,0.0,3.0,2.0,0.0,0.0,1.0,0.0,1 fewer than,#009c1d
@@ -57,7 +57,7 @@ Morgan Park,0.0,1.0,4.0,1.0,0.0,5.0,2.0,5.0,3 more than,#cc281d
 Mount Greenwood,0.0,0.0,0.0,0.0,0.0,0.0,1.0,2.0,1 more than,#cc281d
 Museum Campus,0.0,0.0,0.0,0.0,0.0,0.0,1.0,0.0,1 fewer than,#009c1d
 Near South Side,0.0,1.0,3.0,0.0,2.0,1.0,3.0,9.0,6 more than,#cc281d
-New City,3.0,6.0,3.0,1.0,1.0,5.0,10.0,19.0,9 more than,#cc281d
+New City,3.0,6.0,3.0,1.0,1.0,5.0,10.0,18.0,8 more than,#cc281d
 North Center,0.0,1.0,1.0,0.0,0.0,0.0,0.0,3.0,3 more than,#cc281d
 North Lawndale,5.0,11.0,16.0,9.0,12.0,12.0,36.0,28.0,8 fewer than,#009c1d
 North Park,0.0,0.0,0.0,3.0,1.0,1.0,1.0,3.0,2 more than,#cc281d
@@ -75,9 +75,9 @@ Roseland,2.0,8.0,13.0,4.0,4.0,11.0,15.0,11.0,4 fewer than,#009c1d
 Rush & Division,0.0,0.0,1.0,1.0,0.0,1.0,0.0,0.0,the same number as,black
 "Sauganash,Forest Glen",0.0,0.0,0.0,0.0,0.0,0.0,2.0,0.0,2 fewer than,#009c1d
 Sheffield & DePaul,0.0,0.0,0.0,1.0,0.0,1.0,1.0,1.0,the same number as,black
-South Chicago,2.0,0.0,5.0,3.0,0.0,5.0,9.0,4.0,5 fewer than,#009c1d
-South Deering,1.0,2.0,1.0,1.0,1.0,1.0,7.0,4.0,3 fewer than,#009c1d
-South Shore,5.0,3.0,12.0,2.0,6.0,8.0,28.0,21.0,7 fewer than,#009c1d
+South Chicago,2.0,0.0,5.0,3.0,0.0,5.0,10.0,4.0,6 fewer than,#009c1d
+South Deering,1.0,2.0,1.0,1.0,2.0,1.0,7.0,4.0,3 fewer than,#009c1d
+South Shore,5.0,3.0,12.0,2.0,6.0,8.0,29.0,21.0,8 fewer than,#009c1d
 Streeterville,0.0,0.0,2.0,1.0,0.0,2.0,2.0,0.0,2 fewer than,#009c1d
 Ukrainian Village,0.0,0.0,2.0,1.0,0.0,2.0,7.0,1.0,6 fewer than,#009c1d
 United Center,0.0,6.0,3.0,4.0,4.0,1.0,10.0,9.0,1 fewer than,#009c1d
@@ -87,10 +87,10 @@ Washington Park,1.0,2.0,3.0,5.0,1.0,3.0,4.0,7.0,3 more than,#cc281d
 West Elsdon,1.0,1.0,1.0,1.0,0.0,0.0,2.0,1.0,1 fewer than,#009c1d
 West Lawn,0.0,2.0,3.0,1.0,0.0,0.0,3.0,9.0,6 more than,#cc281d
 West Loop,0.0,2.0,8.0,4.0,1.0,7.0,4.0,11.0,7 more than,#cc281d
-West Pullman,0.0,7.0,0.0,3.0,2.0,6.0,4.0,5.0,1 more than,#cc281d
+West Pullman,0.0,8.0,0.0,3.0,2.0,6.0,4.0,5.0,1 more than,#cc281d
 West Ridge,2.0,3.0,1.0,3.0,3.0,7.0,6.0,4.0,2 fewer than,#009c1d
-West Town,0.0,0.0,6.0,3.0,3.0,4.0,11.0,11.0,the same number as,black
+West Town,0.0,1.0,6.0,3.0,4.0,4.0,11.0,11.0,the same number as,black
 Wicker Park,1.0,1.0,2.0,0.0,3.0,7.0,11.0,8.0,3 fewer than,#009c1d
-Woodlawn,4.0,1.0,3.0,2.0,0.0,4.0,11.0,10.0,1 fewer than,#009c1d
+Woodlawn,4.0,1.0,4.0,2.0,0.0,4.0,11.0,10.0,1 fewer than,#009c1d
 Wrigleyville,0.0,0.0,1.0,1.0,0.0,0.0,0.0,1.0,1 more than,#cc281d
 
