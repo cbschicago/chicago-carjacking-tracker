@@ -4,8 +4,8 @@ Andersonville,0.0,0.0,1.0,0.0,0.0,0.0,1.0,3.0,2 more than,#cc281d
 Archer Heights,1.0,1.0,0.0,1.0,0.0,2.0,4.0,5.0,1 more than,#cc281d
 Armour Square,0.0,1.0,0.0,0.0,1.0,3.0,1.0,1.0,the same number as,black
 Ashburn,1.0,1.0,4.0,9.0,1.0,0.0,5.0,7.0,2 more than,#cc281d
-Auburn Gresham,8.0,10.0,13.0,10.0,12.0,15.0,16.0,30.0,14 more than,#cc281d
-Austin,18.0,16.0,40.0,43.0,30.0,52.0,74.0,71.0,3 fewer than,#009c1d
+Auburn Gresham,9.0,10.0,13.0,10.0,12.0,15.0,16.0,30.0,14 more than,#cc281d
+Austin,18.0,16.0,40.0,44.0,30.0,52.0,74.0,71.0,3 fewer than,#009c1d
 Avalon Park,1.0,1.0,2.0,5.0,1.0,3.0,9.0,3.0,6 fewer than,#009c1d
 Avondale,0.0,1.0,2.0,6.0,5.0,3.0,8.0,3.0,5 fewer than,#009c1d
 Belmont Cragin,4.0,3.0,10.0,7.0,5.0,6.0,6.0,11.0,5 more than,#cc281d
@@ -22,23 +22,23 @@ Chinatown,1.0,0.0,5.0,0.0,2.0,2.0,4.0,17.0,13 more than,#cc281d
 Clearing,1.0,0.0,0.0,0.0,0.0,1.0,5.0,0.0,5 fewer than,#009c1d
 Douglas,0.0,2.0,5.0,7.0,3.0,7.0,11.0,10.0,1 fewer than,#009c1d
 Dunning,0.0,2.0,0.0,2.0,0.0,1.0,1.0,0.0,1 fewer than,#009c1d
-East Side,0.0,1.0,0.0,1.0,1.0,1.0,1.0,1.0,the same number as,black
+East Side,0.0,1.0,0.0,1.0,1.0,1.0,1.0,2.0,1 more than,#cc281d
 East Village,0.0,0.0,2.0,1.0,1.0,3.0,5.0,5.0,the same number as,black
-Edgewater,0.0,0.0,1.0,3.0,2.0,3.0,6.0,7.0,1 more than,#cc281d
-Englewood,10.0,26.0,10.0,14.0,15.0,34.0,27.0,66.0,39 more than,#cc281d
+Edgewater,0.0,0.0,1.0,3.0,2.0,3.0,7.0,7.0,the same number as,black
+Englewood,10.0,26.0,10.0,14.0,15.0,35.0,27.0,66.0,39 more than,#cc281d
 Fuller Park,1.0,2.0,4.0,1.0,1.0,7.0,2.0,4.0,2 more than,#cc281d
 Gage Park,3.0,4.0,2.0,1.0,3.0,2.0,9.0,3.0,6 fewer than,#009c1d
-Galewood,1.0,0.0,1.0,2.0,0.0,1.0,1.0,2.0,1 more than,#cc281d
-Garfield Park,14.0,33.0,32.0,37.0,21.0,51.0,44.0,45.0,1 more than,#cc281d
+Galewood,1.0,0.0,1.0,2.0,0.0,1.0,1.0,3.0,2 more than,#cc281d
+Garfield Park,14.0,33.0,34.0,37.0,21.0,51.0,44.0,45.0,1 more than,#cc281d
 Garfield Ridge,0.0,3.0,4.0,1.0,1.0,2.0,5.0,4.0,1 fewer than,#009c1d
 Gold Coast,0.0,0.0,0.0,1.0,0.0,1.0,1.0,0.0,1 fewer than,#009c1d
 Grand Boulevard,3.0,3.0,1.0,3.0,4.0,10.0,17.0,13.0,4 fewer than,#009c1d
-Grand Crossing,3.0,13.0,15.0,15.0,8.0,19.0,24.0,25.0,1 more than,#cc281d
+Grand Crossing,3.0,13.0,15.0,15.0,8.0,19.0,25.0,26.0,1 more than,#cc281d
 Grant Park,0.0,0.0,0.0,0.0,0.0,0.0,1.0,0.0,1 fewer than,#009c1d
 Greektown,0.0,0.0,0.0,2.0,0.0,1.0,0.0,0.0,the same number as,black
 Hegewisch,0.0,0.0,2.0,0.0,0.0,1.0,1.0,0.0,1 fewer than,#009c1d
-Hermosa,0.0,4.0,4.0,1.0,3.0,3.0,1.0,2.0,1 more than,#cc281d
-Humboldt Park,8.0,11.0,20.0,26.0,12.0,22.0,33.0,35.0,2 more than,#cc281d
+Hermosa,0.0,4.0,4.0,1.0,3.0,3.0,2.0,3.0,1 more than,#cc281d
+Humboldt Park,8.0,11.0,20.0,26.0,12.0,22.0,33.0,36.0,3 more than,#cc281d
 Hyde Park,0.0,1.0,6.0,5.0,0.0,5.0,11.0,11.0,the same number as,black
 Irving Park,2.0,1.0,4.0,6.0,3.0,4.0,2.0,3.0,1 more than,#cc281d
 Jackson Park,0.0,0.0,3.0,2.0,0.0,1.0,2.0,2.0,the same number as,black
@@ -48,9 +48,9 @@ Lake View,1.0,1.0,2.0,2.0,2.0,5.0,10.0,15.0,5 more than,#cc281d
 Lincoln Park,1.0,0.0,1.0,2.0,6.0,2.0,5.0,17.0,12 more than,#cc281d
 Lincoln Square,1.0,1.0,0.0,1.0,0.0,1.0,5.0,0.0,5 fewer than,#009c1d
 "Little Italy, UIC",6.0,2.0,6.0,8.0,7.0,7.0,14.0,14.0,the same number as,black
-Little Village,3.0,6.0,4.0,8.0,5.0,6.0,18.0,12.0,6 fewer than,#009c1d
+Little Village,3.0,6.0,4.0,8.0,5.0,7.0,18.0,12.0,6 fewer than,#009c1d
 Logan Square,1.0,5.0,8.0,7.0,4.0,2.0,5.0,14.0,9 more than,#cc281d
-Loop,1.0,0.0,4.0,4.0,1.0,7.0,9.0,15.0,6 more than,#cc281d
+Loop,1.0,0.0,4.0,4.0,1.0,7.0,10.0,15.0,5 more than,#cc281d
 Lower West Side,2.0,1.0,2.0,3.0,1.0,1.0,6.0,9.0,3 more than,#cc281d
 Mckinley Park,0.0,0.0,3.0,1.0,2.0,0.0,2.0,5.0,3 more than,#cc281d
 Millenium Park,0.0,0.0,0.0,0.0,0.0,0.0,1.0,1.0,the same number as,black
@@ -61,7 +61,7 @@ Museum Campus,0.0,0.0,0.0,0.0,0.0,0.0,1.0,0.0,1 fewer than,#009c1d
 Near South Side,0.0,1.0,3.0,0.0,4.0,4.0,7.0,12.0,5 more than,#cc281d
 New City,4.0,9.0,7.0,5.0,1.0,7.0,13.0,21.0,8 more than,#cc281d
 North Center,0.0,1.0,1.0,0.0,0.0,1.0,1.0,4.0,3 more than,#cc281d
-North Lawndale,9.0,16.0,19.0,16.0,15.0,35.0,53.0,40.0,13 fewer than,#009c1d
+North Lawndale,9.0,16.0,19.0,16.0,15.0,35.0,54.0,41.0,13 fewer than,#009c1d
 North Park,0.0,0.0,1.0,3.0,1.0,1.0,2.0,3.0,1 more than,#cc281d
 Norwood Park,1.0,0.0,0.0,0.0,0.0,0.0,1.0,1.0,the same number as,black
 O'Hare,0.0,0.0,0.0,1.0,0.0,1.0,0.0,0.0,the same number as,black
@@ -77,22 +77,22 @@ Roseland,2.0,10.0,22.0,7.0,7.0,18.0,19.0,21.0,2 more than,#cc281d
 Rush & Division,0.0,0.0,1.0,1.0,0.0,1.0,2.0,1.0,1 fewer than,#009c1d
 "Sauganash,Forest Glen",0.0,0.0,1.0,0.0,0.0,0.0,2.0,0.0,2 fewer than,#009c1d
 Sheffield & DePaul,0.0,0.0,0.0,1.0,0.0,2.0,1.0,1.0,the same number as,black
-South Chicago,2.0,0.0,8.0,7.0,3.0,11.0,12.0,7.0,5 fewer than,#009c1d
+South Chicago,2.0,0.0,9.0,7.0,3.0,11.0,12.0,7.0,5 fewer than,#009c1d
 South Deering,2.0,4.0,1.0,2.0,3.0,2.0,7.0,7.0,the same number as,black
 South Shore,7.0,4.0,26.0,5.0,16.0,14.0,38.0,30.0,8 fewer than,#009c1d
 Streeterville,0.0,1.0,2.0,1.0,0.0,2.0,3.0,1.0,2 fewer than,#009c1d
 Ukrainian Village,0.0,1.0,3.0,2.0,1.0,2.0,8.0,2.0,6 fewer than,#009c1d
 United Center,0.0,7.0,5.0,6.0,6.0,6.0,12.0,11.0,1 fewer than,#009c1d
 Uptown,1.0,2.0,3.0,3.0,2.0,3.0,9.0,5.0,4 fewer than,#009c1d
-Washington Heights,3.0,10.0,10.0,7.0,3.0,10.0,8.0,17.0,9 more than,#cc281d
-Washington Park,2.0,3.0,5.0,5.0,1.0,4.0,7.0,13.0,6 more than,#cc281d
+Washington Heights,3.0,10.0,10.0,7.0,3.0,11.0,8.0,17.0,9 more than,#cc281d
+Washington Park,2.0,3.0,5.0,5.0,2.0,4.0,7.0,13.0,6 more than,#cc281d
 West Elsdon,1.0,1.0,1.0,1.0,0.0,0.0,4.0,2.0,2 fewer than,#009c1d
-West Lawn,0.0,2.0,3.0,2.0,0.0,1.0,5.0,10.0,5 more than,#cc281d
+West Lawn,0.0,2.0,3.0,2.0,0.0,1.0,5.0,11.0,6 more than,#cc281d
 West Loop,0.0,3.0,14.0,6.0,2.0,8.0,11.0,18.0,7 more than,#cc281d
 West Pullman,0.0,8.0,0.0,3.0,7.0,11.0,7.0,10.0,3 more than,#cc281d
 West Ridge,2.0,3.0,2.0,3.0,3.0,9.0,15.0,4.0,11 fewer than,#009c1d
 West Town,0.0,5.0,10.0,6.0,4.0,7.0,20.0,15.0,5 fewer than,#009c1d
-Wicker Park,1.0,2.0,6.0,4.0,5.0,10.0,14.0,10.0,4 fewer than,#009c1d
-Woodlawn,4.0,2.0,9.0,3.0,1.0,7.0,12.0,14.0,2 more than,#cc281d
+Wicker Park,1.0,2.0,6.0,4.0,5.0,10.0,15.0,10.0,5 fewer than,#009c1d
+Woodlawn,4.0,2.0,9.0,3.0,1.0,8.0,13.0,14.0,1 more than,#cc281d
 Wrigleyville,0.0,0.0,1.0,1.0,0.0,1.0,0.0,2.0,2 more than,#cc281d
 
