@@ -9,9 +9,9 @@ The csv files in `output/` are used to populate graphics hosted at [cbschicago.c
 
 ---
 
-## Data current through August 10, 2022
+## Data current through August 11, 2022
 
-| month     |   2015 |   2016 |   2017 |   2018 |   2019 |   2020 |   2021 |   2022 (through 08-10) |
+| month     |   2015 |   2016 |   2017 |   2018 |   2019 |   2020 |   2021 |   2022 (through 08-11) |
 |:----------|-------:|-------:|-------:|-------:|-------:|-------:|-------:|-----------------------:|
 | January   |     26 |     51 |     75 |     86 |     49 |     74 |    217 |                    161 |
 | February  |     11 |     36 |     56 |     51 |     30 |     67 |    125 |                    140 |
@@ -20,12 +20,12 @@ The csv files in `output/` are used to populate graphics hosted at [cbschicago.c
 | May       |     19 |     47 |     63 |     49 |     49 |     96 |    108 |                    113 |
 | June      |     17 |     39 |     74 |     58 |     47 |    114 |    129 |                    142 |
 | July      |     37 |     54 |     75 |     72 |     53 |    149 |    150 |                    166 |
-| August    |     32 |     79 |     86 |     65 |     45 |    163 |    160 |                     52 |
+| August    |     32 |     79 |     86 |     65 |     45 |    163 |    160 |                     61 |
 | September |     32 |     48 |     76 |     58 |     73 |    117 |    178 |                    nan |
 | October   |     32 |     57 |     83 |     67 |     60 |    156 |    194 |                    nan |
 | November  |     33 |     77 |    111 |     67 |     52 |    207 |    201 |                    nan |
 | December  |     49 |    100 |    116 |     82 |     69 |    149 |    206 |                    nan |
-| Total     |    340 |    663 |    937 |    764 |    603 |   1413 |   1849 |                   1022 |
+| Total     |    340 |    663 |    937 |    764 |    603 |   1413 |   1849 |                   1031 |
 
 | month                  |   2015 |   2016 |   2017 |   2018 |   2019 |   2020 |   2021 |   2022 |
 |:-----------------------|-------:|-------:|-------:|-------:|-------:|-------:|-------:|-------:|
@@ -36,8 +36,8 @@ The csv files in `output/` are used to populate graphics hosted at [cbschicago.c
 | May                    |     19 |     47 |     63 |     49 |     49 |     96 |    108 |    113 |
 | June                   |     17 |     39 |     74 |     58 |     47 |    114 |    129 |    142 |
 | July                   |     37 |     54 |     75 |     72 |     53 |    149 |    150 |    166 |
-| August (through 08-10) |     10 |     19 |     24 |     17 |     13 |     65 |     69 |     52 |
-| Total                  |    172 |    321 |    489 |    442 |    317 |    686 |    979 |   1022 |
+| August (through 08-11) |     11 |     21 |     24 |     18 |     15 |     74 |     72 |     61 |
+| Total                  |    173 |    323 |    489 |    443 |    319 |    695 |    982 |   1031 |
 
 [![output/img/dw/carjacking-by-month-historical.png](output/img/dw/carjacking-by-month-historical.png)](https://datawrapper.dwcdn.net/Y7rwP/)
 
