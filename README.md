@@ -9,9 +9,9 @@ The csv files in `output/` are used to populate graphics hosted at [cbschicago.c
 
 ---
 
-## Data current through October 10, 2022
+## Data current through October 11, 2022
 
-| month     |   2015 |   2016 |   2017 |   2018 |   2019 |   2020 |   2021 |   2022 (through 10-10) |
+| month     |   2015 |   2016 |   2017 |   2018 |   2019 |   2020 |   2021 |   2022 (through 10-11) |
 |:----------|-------:|-------:|-------:|-------:|-------:|-------:|-------:|-----------------------:|
 | January   |     26 |     51 |     75 |     86 |     49 |     74 |    217 |                    161 |
 | February  |     11 |     36 |     56 |     51 |     30 |     67 |    125 |                    140 |
@@ -22,10 +22,10 @@ The csv files in `output/` are used to populate graphics hosted at [cbschicago.c
 | July      |     37 |     54 |     75 |     72 |     53 |    149 |    150 |                    163 |
 | August    |     32 |     79 |     86 |     65 |     45 |    163 |    159 |                    164 |
 | September |     32 |     48 |     76 |     58 |     73 |    117 |    178 |                    146 |
-| October   |     32 |     57 |     83 |     67 |     60 |    156 |    194 |                     35 |
+| October   |     32 |     57 |     83 |     67 |     60 |    156 |    194 |                     37 |
 | November  |     33 |     77 |    111 |     67 |     52 |    207 |    202 |                    nan |
 | December  |     49 |    100 |    116 |     82 |     69 |    149 |    206 |                    nan |
-| Total     |    340 |    663 |    937 |    764 |    603 |   1413 |   1849 |                   1313 |
+| Total     |    340 |    663 |    937 |    764 |    603 |   1413 |   1849 |                   1315 |
 
 | month                   |   2015 |   2016 |   2017 |   2018 |   2019 |   2020 |   2021 |   2022 |
 |:------------------------|-------:|-------:|-------:|-------:|-------:|-------:|-------:|-------:|
@@ -38,8 +38,8 @@ The csv files in `output/` are used to populate graphics hosted at [cbschicago.c
 | July                    |     37 |     54 |     75 |     72 |     53 |    149 |    150 |    163 |
 | August                  |     32 |     79 |     86 |     65 |     45 |    163 |    159 |    164 |
 | September               |     32 |     48 |     76 |     58 |     73 |    117 |    178 |    146 |
-| October (through 10-10) |      8 |     17 |     17 |     25 |     11 |     43 |     67 |     35 |
-| Total                   |    234 |    446 |    644 |    573 |    433 |    944 |   1314 |   1313 |
+| October (through 10-11) |     10 |     18 |     18 |     29 |     11 |     50 |     73 |     37 |
+| Total                   |    236 |    447 |    645 |    577 |    433 |    951 |   1320 |   1315 |
 
 [![output/img/dw/carjacking-by-month-historical.png](output/img/dw/carjacking-by-month-historical.png)](https://datawrapper.dwcdn.net/Y7rwP/)
 
